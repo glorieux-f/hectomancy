@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Calligraphies numériques</title>
+        <style>
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+}
+.win {
+    max-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.row {
+    display: flex;
+}
+#main {
+    width: 100vh;
+    height: 99vh;
+    flex-shrink: 0; 
+}
+#aside {
+    text-align: right;
+    }
+#main .row {
+    height: 33.33%;
+}
+.row img {
+    max-height:100%;
+}
+        </style>
+    </head>
+    <body>
+        <div class="win">
+            <aside id="aside">
+                <form name="choose">
+                    <select name="vue">
+                        <option value="ten">Dizaines</option>
+                        <option value="unit">Unités</option>
+                    </select>
+                    <input name="page" id="page" type="range"  min="1" max="100" step="10" />
+                </form>
+            </aside>
+            <main id="main">
+                <div class="row">
+                    <div>
+                        <img class="hn" id="imgSE" src="hn07.jpg"/>
+                    </div>
+                    <div>
+                        <img class="hn" id="imgS" src="hn03.jpg"/>
+                    </div>
+                    <div>
+                        <img class="hn" id="imgSW" src="hn09.jpg"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <img class="hn" id="imgE" src="hn01.jpg"/>
+                    </div>
+                    <div>
+                        <img class="hn" id="imgC" src="hn05.jpg"/>
+                    </div>
+                    <div>
+                        <img class="hn" id="imgW" src="hn02.jpg"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <img class="hn" id="imgNE" src="hn06.jpg"/>
+                    </div>
+                    <div>
+                        <img class="hn" id="imgN" src="hn04.jpg"/>
+                    </div>
+                    <div>
+                        <img class="hn" id="imgNW" src="hn08.jpg"/>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script>
+(function () {
+const form = document.forms['choose'];
+form.page.focus();
+// create a searche field for each curve param q=…
+const urlPars = new URLSearchParams(window.location.search);
+
+// 
+form.update = function() {
+    const ids = ['imgE', 'imgW', 'imgS', 'imgN', 'imgC', 'imgNE', 'imgSE', 'imgNW', 'imgSW']
+    const vue = form.vue.value;
+    const page = form.page.value;
+    if (vue == "unit") {
+        const start = page % 10;
+        for (let i = 0, len = ids.length; i < len; i++) {
+            const id = ids[i];
+            document.getElementById(id).src = "hn" + ('' + (( (i + 1) *10) + start)).padStart(2, '0') + '.jpg';
+        }
+    }
+    else {
+        const start = 10 * Math.floor(page / 10);
+        for (let i = 0, len = ids.length; i < len; i++) {
+            const id = ids[i];
+            document.getElementById(id).src = "hn" + ('' + (start + i + 1)).padStart(2, '0') + '.jpg';
+        }
+    }
+};
+form.addEventListener("submit", function(event) {
+    form.preventDefault();
+    form.update();
+}, true);
+form.vue.addEventListener("change", function(event) {
+    const vue = form.vue.value;
+    if (vue == "unit") {
+        form.page.value = 0;
+        form.page.min = 0;
+        form.page.max = 9;
+        form.page.step = 1;
+    }
+    else {
+        form.page.value = 1;
+        form.page.min = 1;
+        form.page.max = 99;
+        form.page.step = 10;
+    }
+    form.page.focus();
+    form.update();
+}, true);
+form.page.addEventListener("change", function(event) {
+    form.update();
+}, true);
+
+})();
+        </script>
+    </body>
+</html>
