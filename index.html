@@ -88,14 +88,15 @@ body {
 (function () {
 const form = document.forms['choose'];
 form.page.focus();
-// create a searche field for each curve param q=…
-const urlPars = new URLSearchParams(window.location.search);
 
-// 
 form.update = function() {
     const ids = ['imgE', 'imgW', 'imgS', 'imgN', 'imgC', 'imgNE', 'imgSE', 'imgNW', 'imgSW']
     const vue = form.vue.value;
     const page = form.page.value;
+    const url = new URL(window.location);    
+    url.search = new URLSearchParams(new FormData(form));
+    window.history.pushState({}, '', url);
+
     if (vue == "unit") {
         const start = page % 10;
         for (let i = 0, len = ids.length; i < len; i++) {
@@ -111,6 +112,13 @@ form.update = function() {
         }
     }
 };
+
+// upadate on load
+const urlPars = new URLSearchParams(window.location.search);
+form.vue.value = urlPars.get("vue");
+form.page.value = urlPars.get("page");
+form.update();
+// 
 form.addEventListener("submit", function(event) {
     form.preventDefault();
     form.update();
