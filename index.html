@@ -53,42 +53,153 @@ body {
             </aside>
             <main id="main">
                 <div class="row">
-                    <div>
-                        <img class="hn" id="imgSE" src="hn07.jpg"/>
-                    </div>
-                    <div>
-                        <img class="hn" id="imgS" src="hn03.jpg"/>
-                    </div>
-                    <div>
-                        <img class="hn" id="imgSW" src="hn09.jpg"/>
-                    </div>
+                    <figure id="figSE"class="hn">
+                        <img src="hn07.jpg"/>
+                    </figure>
+                    <figure id="figS" class="hn">
+                        <img src="hn03.jpg"/>
+                    </figure>
+                    <figure id="figSW" class="hn">
+                        <img src="hn09.jpg"/>
+                    </figure>
                 </div>
                 <div class="row">
-                    <div>
-                        <img class="hn" id="imgE" src="hn01.jpg"/>
-                    </div>
-                    <div>
-                        <img class="hn" id="imgC" src="hn05.jpg"/>
-                    </div>
-                    <div>
-                        <img class="hn" id="imgW" src="hn02.jpg"/>
-                    </div>
+                    <figure id="figE" class="hn">
+                        <img src="hn01.jpg"/>
+                    </figure>
+                    <figure id="figC" class="hn">
+                        <img src="hn05.jpg"/>
+                    </figure>
+                    <figure id="figW" class="hn">
+                        <img src="hn02.jpg"/>
+                    </figure>
                 </div>
                 <div class="row">
-                    <div>
-                        <img class="hn" id="imgNE" src="hn06.jpg"/>
-                    </div>
-                    <div>
-                        <img class="hn" id="imgN" src="hn04.jpg"/>
-                    </div>
-                    <div>
-                        <img class="hn" id="imgNW" src="hn08.jpg"/>
-                    </div>
+                    <figure id="figNE" class="hn">
+                        <img src="hn06.jpg"/>
+                    </figure>
+                    <figure id="figN" class="hn">
+                        <img src="hn04.jpg"/>
+                    </figure>
+                    <figure id="figNW" class="hn">
+                        <img src="hn08.jpg"/>
+                    </figure>
                 </div>
             </main>
         </div>
         <script>
 (function () {
+const captions = [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99",
+];
 const form = document.forms['choose'];
 form.page.focus();
 
