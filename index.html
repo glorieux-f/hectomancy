@@ -14,6 +14,8 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: black;
+    color: #fff;
 }
 body {
     font-family: "Open Sans", sans-serif;
@@ -39,20 +41,21 @@ body {
     justify-content: center;
 }
 #aside {
+    padding: 1rem;
     text-align: right;
 }
 
 figure.hn {
     height: 33vh;
-    display: flex;
     margin: 0;
-    padding: 0;
+    padding: 1.5rem 0.5rem 0 0.5rem;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 figure.hn img {
-   height: calc(33vh - 3rem);
+   height: calc(33vh - 5rem);
 }
 figure.hn figcaption {
     text-align: center;
@@ -156,7 +159,7 @@ const captions = [
     "25",                   // 25
     "passion",          // 26
     "27",               // 27
-    "28",               // 28
+    "habitude",         // 28
     "29",               // 29
 
     "30",               // 30
@@ -182,8 +185,8 @@ const captions = [
     "pluie",            // 49
 
     "50",               // 50
-    "51",               // 51
-    "52",               // 52
+    "peuple",               // 51
+    "mœurs",               // 52
     "état",             // 53
     "pays",             // 54
     "société",              // 55
@@ -197,7 +200,7 @@ const captions = [
     "62",               // 62
     "endurance",        // 63
     "64",               // 64
-    "65",                   // 65
+    "santé",                   // 65
     "vitesse",          // 66
     "67",               // 67
     "68",               // 68
@@ -221,7 +224,7 @@ const captions = [
     "84",               // 84
     "85",                  // 85
     "86",               // 86
-    "drogue",           // 87
+    "87",               // 87
     "88",               // 88
     "89",               // 89
 
@@ -230,7 +233,7 @@ const captions = [
     "but",              // 92
     "forme",            // 93
     "matière",          // 94
-    "95",                   // 95
+    "culture",                   // 95
     "médecine",         // 96
     "art",              // 97
     "technique",        // 98
