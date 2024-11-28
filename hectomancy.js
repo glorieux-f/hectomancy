@@ -29,16 +29,16 @@ const captions = [
 
     // 20
 
-    // carré
-    "", // 0
-    "gauche",       // 1
-    "droite",       // 2
-    "haut",         // 3
-    "bas",          // 4
-    "croix",            // 5
-    "droit",        // 6
+    // haut, bas, gauche, droite
+    "point", // 0
+    "cercle",       // 1
+    "ligne",       // 2
+    "angle",         // 3
+    "carré",          // 4
+    "centre",            // 5
+    "",        // 6
     "",             // 7
-    "onde",         // 8
+    "cube",         // 8
     "",             // 9
     
     // 30
