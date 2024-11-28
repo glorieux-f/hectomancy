@@ -20,16 +20,16 @@ const captions = [
     "rouge",        // 2
     "blanc",        // 3
     "noir",         // 4
-    "brun",             // 5
-    "or",           // 6
+    "jaune",           // 5
+    "gris",         // 6
     "vert",         // 7
-    "gris",         // 8
+    "brun",        // 8
     "rose",         // 9
 
 
     // 20
 
-    // haut, bas, gauche, droite
+    // haut, bas, gauche, droite, onde
     "point", // 0
     "cercle",       // 1
     "ligne",       // 2
@@ -72,16 +72,17 @@ const captions = [
 
     // 50
 
+    // travail, rencontre
     "vie",              // 0
     "",                 // 1
-    "rencontre",        // 2
+    "couple",           // 2
     "chance",           // 3
     "maison",           // 4
     "famille",              // 5
     "naissance",        // 6
     "projets",          // 7
-    "travail",          // 8
-    "dette",            // 9
+    "deuil",          // 8
+    "dettes",            // 9
 
     // 60
 
@@ -104,7 +105,7 @@ const captions = [
     "feu",      // 2
     "ciel",     // 3
     "terre",    // 4
-    "45",           // 5
+    "ville",           // 5
     "route",    // 6
     "vent",     // 7
     "mont",     // 8
