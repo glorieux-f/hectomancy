@@ -45,21 +45,43 @@ body {
     text-align: right;
 }
 
-figure.hn {
+figure.hecto {
     height: 33vh;
     margin: 0;
     padding: 1.5rem 0.5rem 0 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #000;
 }
 
-figure.hn img {
-   height: calc(33vh - 5rem);
+figure.hecto img {
+   height: 100%;
 }
-figure.hn figcaption {
+figure.hecto figcaption {
     text-align: center;
     font-size: 2rem;
+}
+
+figure.hecto button {
+    display: none;
+}
+
+figure.hecto.modal button {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+
+figure.hecto.modal {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
 }
 
 @media print {
@@ -88,43 +110,52 @@ figure.hn figcaption {
             </aside>
             <main id="main">
                 <div class="row">
-                    <figure id="figSE"class="hn">
+                    <figure id="figSE"class="hecto">
+                        <button type="button">×</button>
                         <img src="hecto07.jpg"/>
                         <figcaption></figcaption>
                     </figure>
-                    <figure id="figS" class="hn">
+                    <figure id="figS" class="hecto">
+                        <button type="button">×</button>
                         <img src="hecto03.jpg"/>
                         <figcaption></figcaption>
                     </figure>
-                    <figure id="figSW" class="hn">
+                    <figure id="figSW" class="hecto">
+                        <button type="button">×</button>
                         <img src="hecto09.jpg"/>
                         <figcaption></figcaption>
                     </figure>
                 </div>
                 <div class="row">
-                    <figure id="figE" class="hn">
+                    <figure id="figE" class="hecto">
+                        <button type="button">×</button>
                         <img src="hecto01.jpg"/>
                         <figcaption></figcaption>
                     </figure>
-                    <figure id="figC" class="hn">
+                    <figure id="figC" class="hecto">
+                        <button type="button">×</button>
                         <img src="hecto05.jpg"/>
                         <figcaption></figcaption>
                     </figure>
-                    <figure id="figW" class="hn">
+                    <figure id="figW" class="hecto">
+                        <button type="button">×</button>
                         <img src="hecto02.jpg"/>
                         <figcaption></figcaption>
                     </figure>
                 </div>
                 <div class="row">
-                    <figure id="figNE" class="hn">
+                    <figure id="figNE" class="hecto">
+                        <button type="button">×</button>
                         <img src="hecto06.jpg"/>
                         <figcaption></figcaption>
                     </figure>
-                    <figure id="figN" class="hn">
+                    <figure id="figN" class="hecto">
+                        <button type="button">×</button>
                         <img src="hecto04.jpg"/>
                         <figcaption></figcaption>
                     </figure>
-                    <figure id="figNW" class="hn">
+                    <figure id="figNW" class="hecto">
+                        <button type="button">×</button>
                         <img src="hecto08.jpg"/>
                         <figcaption></figcaption>
                     </figure>
@@ -141,12 +172,21 @@ function display(id, no)
     const img = document.querySelector("#" + id + " img");
     img.src = "hecto" + ('' + no).padStart(2, '0') + '.jpg';
     const figcaption = document.querySelector("#" + id + " figcaption");
-    figcaption.innerHTML = captions[no];
+    if (captions[no]) figcaption.innerHTML = captions[no];
+    else figcaption.innerHTML = no;
+}
+
+const ids = ['figW','figE', 'figS', 'figN', 'figC', 'figNE', 'figSE', 'figNW', 'figSW']
+for (let i = 0, len = ids.length; i < len; i++) {
+    const id = ids[i];
+    const figure = document.getElementById(id);
+    figure.addEventListener("click", function(event) {
+        figure.classList.toggle("modal");
+    }, true);
 }
 
 form.update = function() {
     form.page.focus();
-    const ids = ['figE', 'figW', 'figS', 'figN', 'figC', 'figNE', 'figSE', 'figNW', 'figSW']
     const vue = form.vue.value;
     const page = form.page.value;
     const url = new URL(window.location);    
@@ -157,7 +197,6 @@ form.update = function() {
         const start = page % 10;
         for (let i = 0, len = ids.length; i < len; i++) {
             const id = ids[i];
-            document.getElementById(id).src = "hecto" + ('' + (( (i + 1) *10) + start)).padStart(2, '0') + '.jpg';
             display(ids[i], ( (i + 1) *10) + start);
         }
     }

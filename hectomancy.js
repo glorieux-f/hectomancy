@@ -16,15 +16,15 @@ const captions = [
     // 10
 
     "transparent",  // 0
-    "bleu",         // 1
+    "bleu, abysse",         // 1
     "rouge",        // 2
-    "blanc",        // 3
-    "noir",         // 4
+    "blanc, conflit",        // 3
+    "noir, armée",         // 4
     "jaune",           // 5
-    "gris",         // 6
-    "vert",         // 7
-    "brun",        // 8
-    "rose",         // 9
+    "brun",         // 6
+    "rose",         // 7
+    "gris, jeunesse",        // 8
+    "vert",         // 9
 
 
     // 20
@@ -32,43 +32,43 @@ const captions = [
     // haut, bas, gauche, droite, onde
     "point", // 0
     "cercle",       // 1
-    "ligne",       // 2
-    "angle",         // 3
-    "carré",          // 4
+    "ligne, rayon",       // 2
+    "angle, commune",         // 3
+    "carré, occulter",          // 4
     "centre",            // 5
-    "",        // 6
-    "",             // 7
-    "cube",         // 8
-    "",             // 9
+    ", ",        // 6
+    ", ",             // 7
+    "cube, ",         // 8
+    ", clan",             // 9
     
     // 30
 
     // argent, droit, politique
     "",             // 0
-    "cause",        // 1
-    "but",          // 2
-    "religion",     // 3
-    "",             // 4
+    "cause, attente",        // 1
+    "but, fortune",          // 2
+    "religion, créatif",     // 3
+    "paix",             // 4
     "politique",    // 5
-    "médecine",     // 6
+    "médecine, maturité",     // 6
     "art",          // 7
-    "technique",    // 8
-    "science",      // 9
+    "technique, grande réserve",    // 8
+    "science, petit réserve",      // 9
 
 
     // 40
 
     // feuille, verre
-    "matière",  // 0
-    "eau",      // 1
-    "feu",      // 2
-    "air",      // 3
-    "terre",    // 4
+    "verre",  // 0
+    "eau, union",      // 1
+    "feu, progrès",      // 2
+    "air, stagnation",      // 3
+    "réceptif, terre",    // 4
     "chair",        // 5
-    "métal",    // 6
+    "métal, prévoir",    // 6
     "tissu",    // 7
-    "pierre",   // 8
-    "",         // 9
+    "pierre, rayer",   // 8
+    "bois, contempler",         // 9
 
     // 50
 
@@ -87,45 +87,56 @@ const captions = [
     // 60
 
     "corps",            // 0
-    "oreille",          // 1
-    "œil",              // 2
-    "tête",             // 3
-    "ventre",           // 4
+    "oreille, germer",          // 1
+    "œil, mordre",              // 2
+    "tête, innocence",             // 3
+    "ventre, retour",           // 4
     "cœur",                 // 5
     "pied",             // 6
-    "bouche",           // 7
-    "main",             // 8
+    "bouche, poursuivre",           // 7
+    "main, avaler",             // 8
     "nez",              // 9
 
     // 70
 
     // jour, nuit, soleil, nuage, vent, froid, chaud
-    "",         // 0
-    "mer",      // 1
-    "feu",      // 2
-    "ciel",     // 3
-    "terre",    // 4
+    "pays",         // 0
+    "lune",      // 1
+    "soleil, séparer",      // 2
+    "ciel, marcher",     // 3
+    "plaine, approche",    // 4
     "ville",           // 5
-    "route",    // 6
-    "vent",     // 7
+    "foudre",    // 6
+    "lac",     // 7
     "mont",     // 8
-    "pluie",    // 9
+    "vent",    // 9
     
     // 80
 
     // outil, mur, digue, route
     "roue",     // 0
-    "81",       // 1
-    "82",       // 2
-    "83",       // 3
-    "84",       // 4
+    "arc",       // 1
+    "casque",       // 2
+    "83, retraite",       // 3
+    "chaudron, humiler",       // 4
     "moteur",       // 5
-    "sabre",    // 6
-    "aile",     // 7
+    "route",    // 6
+    "aile, influence",     // 7
     "aiguille", // 8
     "voile",    // 9
 
     // 90
+
+    "",                 // 0
+    "peuple",           // 1
+    "mœurs",            // 2
+    "état",             // 3
+    "pays",             // 4
+    "société",              // 5
+    "guerre, persévérer",           // 6
+    "mythe, masse critique",            // 7
+    ", poison",               // 8
+    "59",               // 9
 
 
     // manger, grandir, attaquer, défendre, jeune , vieux, lent, vif
@@ -142,15 +153,16 @@ const captions = [
     "répétition",   // 8
     "idée",         // 9
 
-    "",                 // 0
-    "peuple",           // 1
-    "mœurs",            // 2
-    "état",             // 3
-    "pays",             // 4
-    "société",              // 5
-    "guerre",           // 6
-    "mythe",            // 7
-    "58",               // 8
-    "59",               // 9
-
+    // outil, mur, digue, route
+    "roue",     // 0
+    "81",       // 1
+    "82",       // 2
+    "83",       // 3
+    "84",       // 4
+    "moteur",       // 5
+    "sabre",    // 6
+    "aile",     // 7
+    "aiguille", // 8
+    "voile",    // 9
+    
 ];
