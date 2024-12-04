@@ -17,28 +17,28 @@ const captions = [
 
     "transparent",  // 0
     "bleu, abysse",         // 1
-    "rouge",        // 2
+    "rouge, avant",        // 2
     "blanc, conflit",        // 3
     "noir, armée",         // 4
     "jaune",           // 5
-    "brun",         // 6
-    "rose",         // 7
+    "brun, délivrance",         // 6
+    "rose, confinement",         // 7
     "gris, jeunesse",        // 8
-    "vert",         // 9
+    "vert, dissipation",         // 9
 
 
     // 20
 
     // haut, bas, gauche, droite, onde
     "point", // 0
-    "cercle",       // 1
+    "cercle, après",       // 1
     "ligne, rayon",       // 2
     "angle, commune",         // 3
     "carré, occulter",          // 4
     "centre",            // 5
-    ", ",        // 6
-    ", ",             // 7
-    "cube, ",         // 8
+    ", abondance",        // 6
+    ", mue",             // 7
+    "cube, beauté",         // 8
     ", clan",             // 9
     
     // 30
@@ -48,10 +48,10 @@ const captions = [
     "cause, attente",        // 1
     "but, fortune",          // 2
     "religion, créatif",     // 3
-    "paix",             // 4
+    ", paix",             // 4
     "politique",    // 5
     "médecine, maturité",     // 6
-    "art",          // 7
+    "art, percée",          // 7
     "technique, grande réserve",    // 8
     "science, petit réserve",      // 9
 
@@ -63,10 +63,10 @@ const captions = [
     "eau, union",      // 1
     "feu, progrès",      // 2
     "air, stagnation",      // 3
-    "réceptif, terre",    // 4
+    "terre, réceptif",    // 4
     "chair",        // 5
     "métal, prévoir",    // 6
-    "tissu",    // 7
+    "tissu, rassemblement",    // 7
     "pierre, rayer",   // 8
     "bois, contempler",         // 9
 
@@ -92,51 +92,51 @@ const captions = [
     "tête, innocence",             // 3
     "ventre, retour",           // 4
     "cœur",                 // 5
-    "pied",             // 6
+    "pied, ébranlement",             // 6
     "bouche, poursuivre",           // 7
     "main, avaler",             // 8
-    "nez",              // 9
+    "nez, bénéfice",              // 9
 
     // 70
 
     // jour, nuit, soleil, nuage, vent, froid, chaud
     "pays",         // 0
-    "lune",      // 1
+    "lune, articuler",      // 1
     "soleil, séparer",      // 2
     "ciel, marcher",     // 3
     "plaine, approche",    // 4
     "ville",           // 5
-    "foudre",    // 6
-    "lac",     // 7
-    "mont",     // 8
-    "vent",    // 9
+    "foudre, noce",    // 6
+    "lac, oracle.conversation",     // 7
+    "mont, perte",     // 8
+    "vent, centre",    // 9
     
     // 80
 
     // outil, mur, digue, route
     "roue",     // 0
-    "arc",       // 1
-    "casque",       // 2
-    "83, retraite",       // 3
-    "chaudron, humiler",       // 4
+    "arc, obstacle",       // 1
+    "casque, vagabond",       // 2
+    ", retraite",       // 3
+    "chaudron, humilier",       // 4
     "moteur",       // 5
-    "route",    // 6
+    "route, petit",    // 6
     "aile, influence",     // 7
-    "aiguille", // 8
-    "voile",    // 9
+    "aiguille, stable", // 8
+    "voile, infiltration",    // 9
 
     // 90
 
     "",                 // 0
-    "peuple",           // 1
-    "mœurs",            // 2
-    "état",             // 3
-    "pays",             // 4
+    "peuple, puits",           // 1
+    "mœurs, chaudron",            // 2
+    "état, rencontre",             // 3
+    "pays, ascension",             // 4
     "société",              // 5
     "guerre, persévérer",           // 6
     "mythe, masse critique",            // 7
     ", poison",               // 8
-    "59",               // 9
+    ", obéissant",               // 9
 
 
     // manger, grandir, attaquer, défendre, jeune , vieux, lent, vif
@@ -153,16 +153,15 @@ const captions = [
     "répétition",   // 8
     "idée",         // 9
 
-    // outil, mur, digue, route
-    "roue",     // 0
-    "81",       // 1
-    "82",       // 2
-    "83",       // 3
-    "84",       // 4
-    "moteur",       // 5
-    "sabre",    // 6
-    "aile",     // 7
-    "aiguille", // 8
-    "voile",    // 9
-    
+    "verre",  // 0
+    "eau",      // 1
+    "feu",      // 2
+    "air",      // 3
+    "terre",    // 4
+    "chair",        // 5
+    "métal",    // 6
+    "tissu",    // 7
+    "pierre",   // 8
+    "bois",         // 9
+  
 ];
