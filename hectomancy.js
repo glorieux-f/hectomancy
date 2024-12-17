@@ -121,7 +121,7 @@ const captions = [
     "chaudron, humilier",       // 4
     "moteur",       // 5
     "route, petit",    // 6
-    "aile, influence",     // 7
+    "arbre",     // 7
     "aiguille, stable", // 8
     "voile, infiltration",    // 9
 
