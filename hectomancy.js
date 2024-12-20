@@ -1,7 +1,33 @@
+const deca = [
+    ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    // matières, feuilles, pierre
+    ["verre", "eau", "feu", "air", "terre", "chair", "bois", "tissu", "métal", "bois"]
+    // couleurs
+    ["transparent", "bleu", "rouge", "blanc", "noir", "jaune", "brun", "rose", "gris", "vert" ],
+    // jour, nuit, soleil, nuage, vent, froid, chaud
+    ["pays", "lune", "soleil", "ciel", "plaine", "ville", "foudre", "lac", "mont", "vent", ],
+    // outil, mur, digue, route
+    ["roue", "arc", "casque", ", retraite", "chaudron", "moteur", "route", "arbre", "aiguille", "voile"],
+    // ça, verbe, nom, nous
+    ["", "il", "elle", "quand", "où", "je", "verbe", "vouloir", "nom", "devoir"],
+    // feuille, verre
+    ["verre", "eau", "feu", "air", "terre", "chair", "métal", "tissu", "pierre", "bois"],
+    // haut, bas, gauche, droite, onde
+    ["point", "cercle", "ligne", "angle", "carré", "centre", "", "", "cube", ""],
+    // argent, droit, politique
+    ["", "cause", "but", "religion", "", "politique", "médecine", "art", "technique", "science"],
+        // travail, rencontre
+    ["vie", "", "couple", "chance", "maison", "famille", "naissance", "projets", "deuil", "dettes"],
+    // manger, grandir, attaquer, défendre, jeune , vieux, lent, vif
+    // musique, rythme, harmonie, chant, danse
+    ["", "musique", "spectacle", "inspiration", "", "écrire", "", "rêve", "répétition", "idée"],
+    // politique
+    ["", "peuple", "mœurs", "état", "pays", "société", "guerre", "mythe", "", ""]
+
+];
 const captions = [
     // 00
     
-    // ça, verbe, nom, nous
     "",                 // 0
     "il",               // 1
     "elle",             // 2
@@ -15,60 +41,58 @@ const captions = [
 
     // 10
 
-    "transparent",  // 0
-    "bleu, abysse",         // 1
-    "rouge, avant",        // 2
-    "blanc, conflit",        // 3
-    "noir, armée",         // 4
-    "jaune",           // 5
-    "brun, délivrance",         // 6
-    "rose, confinement",         // 7
-    "gris, jeunesse",        // 8
-    "vert, dissipation",         // 9
+    "",  // 0
+    "abysse",         // 1
+    "avant",        // 2
+    "conflit",        // 3
+    "armée",         // 4
+    "",           // 5
+    "délivrance",         // 6
+    "confinement",         // 7
+    "jeunesse",        // 8
+    "dissipation",         // 9
 
 
     // 20
 
-    // haut, bas, gauche, droite, onde
-    "point", // 0
-    "cercle, après",       // 1
-    "ligne, rayon",       // 2
-    "angle, commune",         // 3
-    "carré, occulter",          // 4
-    "centre",            // 5
-    ", abondance",        // 6
-    ", mue",             // 7
-    "cube, beauté",         // 8
-    ", clan",             // 9
+    "", // 0
+    "après",       // 1
+    "rayon",       // 2
+    "commune",         // 3
+    "occulter",          // 4
+    "",            // 5
+    "abondance",        // 6
+    "mue",             // 7
+    "beauté",         // 8
+    "clan",             // 9
     
     // 30
 
     // argent, droit, politique
     "",             // 0
-    "cause, attente",        // 1
-    "but, fortune",          // 2
-    "religion, créatif",     // 3
-    ", paix",             // 4
-    "politique",    // 5
-    "médecine, maturité",     // 6
-    "art, percée",          // 7
-    "technique, grande réserve",    // 8
-    "science, petit réserve",      // 9
-
+    "attente",        // 1
+    "fortune",          // 2
+    "créatif",     // 3
+    "paix",             // 4
+    "",    // 5
+    "maturité",     // 6
+    "percée",          // 7
+    "grande réserve",    // 8
+    "petit réserve",      // 9
 
     // 40
 
     // feuille, verre
-    "verre",  // 0
-    "eau, union",      // 1
-    "feu, progrès",      // 2
-    "air, stagnation",      // 3
-    "terre, réceptif",    // 4
-    "chair",        // 5
-    "métal, prévoir",    // 6
-    "tissu, rassemblement",    // 7
-    "pierre, rayer",   // 8
-    "bois, contempler",         // 9
+    "",  // 0
+    "union",      // 1
+    "progrès",      // 2
+    "stagnation",      // 3
+    "réceptif",    // 4
+    "",        // 5
+    "prévoir",    // 6
+    "rassemblement",    // 7
+    "rayer",   // 8
+    "contempler",         // 9
 
     // 50
 
@@ -86,82 +110,58 @@ const captions = [
 
     // 60
 
-    "corps",            // 0
-    "oreille, germer",          // 1
-    "œil, mordre",              // 2
-    "tête, innocence",             // 3
-    "ventre, retour",           // 4
-    "cœur",                 // 5
-    "pied, ébranlement",             // 6
-    "bouche, poursuivre",           // 7
-    "main, avaler",             // 8
-    "nez, bénéfice",              // 9
+    "",            // 0
+    "germer",          // 1
+    "mordre",              // 2
+    "innocence",             // 3
+    "retour",           // 4
+    "",                 // 5
+    "ébranlement",             // 6
+    "poursuivre",           // 7
+    "avaler",             // 8
+    "bénéfice",              // 9
 
     // 70
 
     // jour, nuit, soleil, nuage, vent, froid, chaud
-    "pays",         // 0
-    "lune, articuler",      // 1
-    "soleil, séparer",      // 2
-    "ciel, marcher",     // 3
-    "plaine, approche",    // 4
-    "ville",           // 5
-    "foudre, noce",    // 6
-    "lac, oracle.conversation",     // 7
-    "mont, perte",     // 8
-    "vent, centre",    // 9
+    "",         // 0
+    "articuler",      // 1
+    "séparer",      // 2
+    "marcher",     // 3
+    "approche",    // 4
+    "",           // 5
+    "noce",    // 6
+    "oracle, conversation",     // 7
+    "perte",     // 8
+    "centre",    // 9
     
     // 80
 
     // outil, mur, digue, route
-    "roue",     // 0
-    "arc, obstacle",       // 1
-    "casque, vagabond",       // 2
-    ", retraite",       // 3
+    "",     // 0
+    "obstacle",       // 1
+    "vagabond",       // 2
+    "retraite",       // 3
     "chaudron, humilier",       // 4
-    "moteur",       // 5
-    "route, petit",    // 6
-    "arbre",     // 7
-    "aiguille, stable", // 8
-    "voile, infiltration",    // 9
+    "",       // 5
+    "petit",    // 6
+    "",     // 7
+    "stable", // 8
+    "infiltration",    // 9
 
     // 90
 
     "",                 // 0
-    "peuple, puits",           // 1
-    "mœurs, chaudron",            // 2
-    "état, rencontre",             // 3
-    "pays, ascension",             // 4
-    "société",              // 5
-    "guerre, persévérer",           // 6
-    "mythe, masse critique",            // 7
-    ", poison",               // 8
-    ", obéissant",               // 9
+    "puits",           // 1
+    "chaudron",            // 2
+    "rencontre",             // 3
+    "ascension",             // 4
+    "",              // 5
+    "persévérer",           // 6
+    "masse critique",            // 7
+    "poison",               // 8
+    "obéissant",               // 9
 
 
-    // manger, grandir, attaquer, défendre, jeune , vieux, lent, vif
-
-    // musique, rythme, harmonie, chant, danse
-    "",             // 0
-    "musique",      // 1
-    "spectacle",    // 2
-    "inspiration",  // 3
-    "",             // 4
-    "écrire",           // 5
-    "76",           // 6
-    "rêve",         // 7
-    "répétition",   // 8
-    "idée",         // 9
-
-    "verre",  // 0
-    "eau",      // 1
-    "feu",      // 2
-    "air",      // 3
-    "terre",    // 4
-    "chair",        // 5
-    "métal",    // 6
-    "tissu",    // 7
-    "pierre",   // 8
-    "bois",         // 9
   
 ];
