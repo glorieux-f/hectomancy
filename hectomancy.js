@@ -1,7 +1,7 @@
 const deca = [
-    ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
     // matières, feuilles, pierre
-    ["verre", "eau", "feu", "air", "terre", "chair", "bois", "tissu", "métal", "bois"]
+    ["verre", "eau", "feu", "air", "terre", "chair", "bois", "tissu", "métal", "bois"],
     // couleurs
     ["transparent", "bleu", "rouge", "blanc", "noir", "jaune", "brun", "rose", "gris", "vert" ],
     // jour, nuit, soleil, nuage, vent, froid, chaud
@@ -9,9 +9,7 @@ const deca = [
     // outil, mur, digue, route
     ["roue", "arc", "casque", ", retraite", "chaudron", "moteur", "route", "arbre", "aiguille", "voile"],
     // ça, verbe, nom, nous
-    ["", "il", "elle", "quand", "où", "je", "verbe", "vouloir", "nom", "devoir"],
-    // feuille, verre
-    ["verre", "eau", "feu", "air", "terre", "chair", "métal", "tissu", "pierre", "bois"],
+    ["ça", "je", "toi", "quand", "où", "on", "verbe", "vouloir", "nom", "devoir"],
     // haut, bas, gauche, droite, onde
     ["point", "cercle", "ligne", "angle", "carré", "centre", "", "", "cube", ""],
     // argent, droit, politique
