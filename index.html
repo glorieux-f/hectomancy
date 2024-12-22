@@ -20,51 +20,55 @@ body {
 body {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
     font-style: normal;
-}
-.win {
-    height: 99vh;
-    max-width: 100vw;
-    display: flex;
-    justify-content: center;
+    font-size: 12px;
 }
 .row {
     display: flex;
 }
 #main {
-    width: 99vh;
-    height: 99vh;
+    height: 95vh;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-#aside {
-    padding: 1rem;
-    text-align: right;
+
+#main.horizontal img {
+    transform: rotate(-90deg);
 }
 
 figure.hecto {
-    height: 33vh;
+    height: 31vh;
     margin: 0;
     padding: 1.5rem 0.5rem 0 0.5rem;
     display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: #000;
+}
+
+figure.hecto > figcaption {
+    width: 10rem;
+    height: 100%;
+}
+
+figcaption h4 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+figure.hecto div.line {
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 figure.hecto img {
    height: 100%;
 }
-figure.hecto figcaption {
-    text-align: center;
-    height: 3rem;
-    overflow: visible;
-    display: flex;
-    align-items: center;
-}
+
 
 figure.hecto button {
     display: none;
@@ -102,16 +106,14 @@ figure.hecto.modal {
     </head>
     <body>
         <div class="win">
-            <aside id="aside">
-                <form name="choose">
-                    <select name="vue">
-                        <option value="ten">Dizaines</option>
-                        <option value="unit">Unités</option>
-                    </select>
-                    <input name="page" id="page" type="range"  min="0" max="9" step="1" />
-                </form>
-            </aside>
-            <main id="main">
+            <form name="choose">
+                <select name="vue">
+                    <option value="ten">Dizaines</option>
+                    <option value="unit">Unités</option>
+                </select>
+                <input name="page" id="page" type="range"  min="0" max="9" step="1" />
+            </form>
+            <main id="main" class="horizontal">
                 <div class="row">
                     <figure id="figSE"class="hecto">
                         <button type="button">×</button>
@@ -142,7 +144,7 @@ figure.hecto.modal {
                     </figure>
                     <figure id="figW" class="hecto">
                         <button type="button">×</button>
-                        <img src="hecto02.jpg"/>
+                        <img src="hecto01.jpg"/>
                         <figcaption></figcaption>
                     </figure>
                 </div>
@@ -175,8 +177,20 @@ function display(id, no)
     const img = document.querySelector("#" + id + " img");
     img.src = "hecto" + ('' + no).padStart(2, '0') + '.jpg';
     const figcaption = document.querySelector("#" + id + " figcaption");
-    if (captions[no]) figcaption.innerHTML = captions[no];
-    else figcaption.innerHTML = no;
+    let html = "";
+    html += "<h4>";
+    if (captions[no]) html += captions[no];
+    else html += no;
+    html += "</h4>";
+    const ten = Math.floor(no / 10); 
+    const unit = no % 10; 
+    for (let i = 0; i < deca.length; i++) {
+        html += "<div class=\"line\">";
+        html += "<span>" + deca[i][ten] + "</span>";
+        html += "<span>" + deca[i][unit] + "</span>";
+        html += "</div>\n"; 
+    }
+    figcaption.innerHTML = html;
 }
 
 const ids = ['figW','figE', 'figS', 'figN', 'figC', 'figNE', 'figSE', 'figNW', 'figSW']

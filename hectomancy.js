@@ -1,15 +1,18 @@
 const deca = [
     ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+    ["espace", "est", "ouest", "sud", "nord", "centre", "nord-est", "sud-est", "nord-ouest", "sud-ouest"],
+    // nez
+    ["", "oreille", "œil", "tête", "ventre", "cœur", "pied", "bouche", "main", "peau"],
     // matières, feuilles, pierre
-    ["verre", "eau", "feu", "air", "terre", "chair", "bois", "tissu", "métal", "bois"],
+    ["verre", "eau", "feu", "air", "terre", "chair", "bois", "métal", "pierre", "feuille"],
     // couleurs
     ["transparent", "bleu", "rouge", "blanc", "noir", "jaune", "brun", "rose", "gris", "vert" ],
     // jour, nuit, soleil, nuage, vent, froid, chaud
-    ["pays", "lune", "soleil", "ciel", "plaine", "ville", "foudre", "lac", "mont", "vent", ],
-    // outil, mur, digue, route
-    ["roue", "arc", "casque", ", retraite", "chaudron", "moteur", "route", "arbre", "aiguille", "voile"],
-    // ça, verbe, nom, nous
-    ["ça", "je", "toi", "quand", "où", "on", "verbe", "vouloir", "nom", "devoir"],
+    ["pays", "lune", "soleil", "ciel", "plaine", "ville", "foudre", "lac", "mont", "vent"],
+    // outil, mur, digue, route, arme
+    ["roue", "arc", "casque", "", "chaudron", "moteur", "route", "arbre", "nœud", "voile"],
+    // ça, verbe, nom, nous vouloir-devoir ?
+    ["ça", "je", "toi", "quand", "où", "on", "verbe", "", "nom", ""],
     // haut, bas, gauche, droite, onde
     ["point", "cercle", "ligne", "angle", "carré", "centre", "", "", "cube", ""],
     // argent, droit, politique
@@ -18,7 +21,7 @@ const deca = [
     ["vie", "", "couple", "chance", "maison", "famille", "naissance", "projets", "deuil", "dettes"],
     // manger, grandir, attaquer, défendre, jeune , vieux, lent, vif
     // musique, rythme, harmonie, chant, danse
-    ["", "musique", "spectacle", "inspiration", "", "écrire", "", "rêve", "répétition", "idée"],
+    // ["", "musique", "spectacle", "inspiration", "", "écrire", "", "rêve", "répétition", "idée"],
     // politique
     ["", "peuple", "mœurs", "état", "pays", "société", "guerre", "mythe", "", ""]
 
@@ -56,7 +59,7 @@ const captions = [
     "", // 0
     "après",       // 1
     "rayon",       // 2
-    "commune",         // 3
+    "coopération",         // 3
     "occulter",          // 4
     "",            // 5
     "abondance",        // 6
@@ -66,7 +69,6 @@ const captions = [
     
     // 30
 
-    // argent, droit, politique
     "",             // 0
     "attente",        // 1
     "fortune",          // 2
@@ -80,7 +82,6 @@ const captions = [
 
     // 40
 
-    // feuille, verre
     "",  // 0
     "union",      // 1
     "progrès",      // 2
@@ -94,17 +95,16 @@ const captions = [
 
     // 50
 
-    // travail, rencontre
-    "vie",              // 0
+    "",              // 0
     "",                 // 1
-    "couple",           // 2
-    "chance",           // 3
-    "maison",           // 4
-    "famille",              // 5
-    "naissance",        // 6
-    "projets",          // 7
-    "deuil",          // 8
-    "dettes",            // 9
+    "",           // 2
+    "",           // 3
+    "",           // 4
+    "",              // 5
+    "",        // 6
+    "",          // 7
+    "",          // 8
+    "",            // 9
 
     // 60
 
@@ -135,7 +135,6 @@ const captions = [
     
     // 80
 
-    // outil, mur, digue, route
     "",     // 0
     "obstacle",       // 1
     "vagabond",       // 2
@@ -143,7 +142,7 @@ const captions = [
     "chaudron, humilier",       // 4
     "",       // 5
     "petit",    // 6
-    "",     // 7
+    "influence",     // 7
     "stable", // 8
     "infiltration",    // 9
 
