@@ -40,7 +40,7 @@ body {
 }
 
 figure.hecto {
-    height: 31vh;
+    height: 32vh;
     margin: 0;
     padding: 1.5rem 0.5rem 0 0.5rem;
     display: flex;
@@ -48,17 +48,23 @@ figure.hecto {
     background-color: #000;
 }
 
+figure.hecto {
+    flex-direction: column;
+}
+
+/*
 figure.hecto > figcaption {
     width: 10rem;
     height: 100%;
 }
-
+*/
 figcaption h4 {
     font-size: 16px;
     text-align: center;
     margin: 0;
     padding: 0;
 }
+
 
 figure.hecto div.line {
     padding-left: 1rem;
@@ -183,6 +189,7 @@ function display(id, no)
     if (captions[no]) html += captions[no];
     else html += no;
     html += "</h4>";
+    /*
     const ten = Math.floor(no / 10); 
     const unit = no % 10; 
     for (let i = 0; i < deca.length; i++) {
@@ -191,6 +198,7 @@ function display(id, no)
         html += "<span>" + deca[i][unit] + "</span>";
         html += "</div>\n"; 
     }
+    */
     figcaption.innerHTML = html;
 }
 

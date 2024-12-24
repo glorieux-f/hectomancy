@@ -60,7 +60,7 @@ const captions = [
     "succéder",       // 1
     "rayonner",       // 2
     "exalter",         // 3
-    "obscurcir",          // 4
+    "dissimuler",          // 4
     "",            // 5
     "abonder",        // 26, famille à l’intérieur, pb d’éclipse
     "muer",             // 7
@@ -70,10 +70,10 @@ const captions = [
     // 30
 
     "",             // 0
-    "attendre",        // 1
-    "avoir",          // 2
-    "régner",     // 3
-    "honorer",             // 4
+    "attendre",        // 31, avoir faim que le blé pousse
+    "posséder",          // 2
+    "axer",     // 3
+    "distribuer",             // 4
     "vouloir",    // 5
     "pouvoir",     // 6
     "trancher",          // 7
@@ -83,12 +83,12 @@ const captions = [
     // 40
 
     "",  // 0
-    "niveler",      // 1
-    "arriver",      // 2
-    "refuser",      // 3
+    "unifier",      // 41, alliance et nivellement
+    "promouvoir",      // 42, arriver à la lumière
+    "refuser",      // 43
     "accepter",    // 4
-    "",        // 5
-    "prévoir",    // 6
+    "conduire",        // 5
+    "espérer",    // 6
     "rassembler",    // 7
     "dépouiller",   // 8
     "contempler",         // 9
