@@ -50,8 +50,8 @@ const captions = [
     "",           // 5
     "libérer",         // 6
     "enfermer",         // 7
-    "ignorer",        // 18, porc sous l’herbe ? opposé à , chasser le porc, courage
-    "disséminer",         // 9
+    "ignorer",        // 18, porc sous l’herbe ? jeune fou,  opposé à , chasser le porc, courage
+    "imprégner",         // 19
 
 
     // 20
@@ -65,7 +65,7 @@ const captions = [
     "abonder",        // 26, famille à l’intérieur, pb d’éclipse
     "muer",             // 7
     "orner",         // 8
-    "~clan",    // 29, famille , clan
+    "perpétuer",    // 29, famille , clan, sacrifice
     
     // 30
 
@@ -88,9 +88,9 @@ const captions = [
     "refuser",      // 43
     "accepter",    // 4
     "conduire",        // 5
-    "espérer",    // 6
+    "imaginer",    // 6
     "rassembler",    // 7
-    "dépouiller",   // 8
+    "tondre",   // 8
     "contempler",         // 9
 
     // 50
@@ -111,9 +111,9 @@ const captions = [
     "",            // 0
     "germer",          // 1
     "mordre",              // 2
-    "~innocence",             // 63, sans folie
+    "danser",             // 63, sans folie
     "revenir",           // 4
-    "",                 // 5
+    "vivre",                 // 5
     "réveiller",             // 66, ébranlement
     "suivre",           // 7
     "nourrir",             // 68
