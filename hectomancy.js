@@ -26,139 +26,827 @@ const deca = [
     ["", "peuple", "mœurs", "état", "pays", "société", "guerre", "mythe", "loi", ""]
 
 ];
-const captions = [
-    // 00
+const hecto = {
     
-    "",                 // 0
-    "il",               // 1
-    "elle",             // 2
-    "quand",            // 3
-    "où",               // 4
-    "je",                   // 5
-    "verbe",            // 6
-    "vouloir",          // 7
-    "nom",              // 8
-    "devoir",           // 9
+    "00": {
+        "hecto": "00",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "01": {
+        "hecto": "01",
+        "verb": "il",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "02": {
+        "hecto": "02",
+        "verb": "elle",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "03": {
+        "hecto": "03",
+        "verb": "quand",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "04": {
+        "hecto": "04",
+        "verb": "où",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "05": {
+        "hecto": "05",
+        "verb": "je",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "06": {
+        "hecto": "06",
+        "verb": "verbe",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "07": {
+        "hecto": "07",
+        "verb": "vouloir",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "08": {
+        "hecto": "08",
+        "verb": "nom",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "09": {
+        "hecto": "09",
+        "verb": "devoir",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
 
     // 10
 
-    "",  // 0
-    "tomber",         // 1
-    "entreprendre",        // 2
-    "contester",        // 3
-    "commander",  // 14, armée
-    "",           // 5
-    "affranchir",         // 16, libération
-    "empêcher",         // 17, étouffer, opprimer
-    "batifoler",        // 18, porc sous l’herbe ? jeune fou,  opposé à , chasser le porc, courage
-    "diffuser",         // 19
+    "10": {
+        "hecto": "10",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "11": {
+        "hecto": "11",
+        "verb": "tomber",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing": 29,
+    },
+    "12": {
+        "hecto": "12",
+        "verb": "entreprendre",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing": 64,
+    },
+    "13": {
+        "hecto": "13",
+        "verb": "contester",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing": 6
+    },
+    "14": {
+        "hecto": "14",
+        "verb": "commander",
+        "image": "",
+        "maxim": "",
+        "note": "armée",
+        "yijing": 7
+    },
+    "15": {
+        "hecto": "15",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "16": {
+        "hecto": "16",
+        "verb": "affranchir",
+        "image": "Dénouer le joug",
+        "maxim": "",
+        "note": "",
+        "yijing": 40
+    },
+    "17": {
+        "hecto": "17",
+        "verb": "épuiser",
+        "image": "",
+        "maxim": "",
+        "note": "étouffer, opprimer % puits, aménager",
+        "yijing":""
+    },
+    "18": {
+        "hecto": "18",
+        "verb": "jouer",
+        "image": "",
+        "maxim": "",
+        "note": "batifoler, porc sous l’herbe ? jeune fou,  opposé à , chasser le porc, courage",
+        "yijing":""
+    },
+    "19": {
+        "hecto": "19",
+        "verb": "diffuser",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing": 59
+    },
 
 
-    // 20
-
-    "", // 0
-    "succéder",       // 1
-    "rayonner",       // 2
-    "coopérer",         // 23, associer, coopérer
-    "dissimuler",          // 4
-    "",            // 5
-    "foisonner",        // 26, 
-    "abolir",             // 27, muer, cuir
-    "orner",         // 8
-    "perpétuer",    // 29, famille , clan, sacrifice
+    "20": {
+        "hecto": "20",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "21": {
+        "hecto": "21",
+        "verb": "succéder",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "22": {
+        "hecto": "22",
+        "verb": "rayonner",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "23": {
+        "hecto": "23",
+        "verb": "coopérer",
+        "image": "",
+        "maxim": "",
+        "note": "associer, coopérer",
+        "yijing":""
+    },
+    "24": {
+        "hecto": "24",
+        "verb": "dissimuler",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "25": {
+        "hecto": "25",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "26": {
+        "hecto": "26",
+        "verb": "foisonner",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "27": {
+        "hecto": "27",
+        "verb": "abolir",
+        "image": "",
+        "maxim": "",
+        "note": "muer, cuir",
+        "yijing":""
+    },
+    "28": {
+        "hecto": "28",
+        "verb": "orner",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "29": {
+        "hecto": "29",
+        "verb": "hériter",
+        "image": "",
+        "maxim": "",
+        "note": "famille , clan, sacrifice, héritage, perpétuer",
+        "yijing": ""
+    },
     
-    // 30
 
-    "",             // 0
-    "attendre",        // 31, avoir faim que le blé pousse
-    "avoir",          // 32, il y a 
-    "axer",     // 3
-    "distribuer",             // 4
-    "vouloir",    // 5
-    "pouvoir",     // 6
-    "déterminer",          // 7
-    "atteler",    // 8
-    "carresser",      // 9
+    "30": {
+        "hecto": "30",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "31": {
+        "hecto": "31",
+        "verb": "attendre",
+        "image": "",
+        "maxim": "",
+        "note": "avoir faim que le blé pousse",
+        "yijing":""
+    },
+    "32": {
+        "hecto": "32",
+        "verb": "avoir",
+        "image": "",
+        "maxim": "",
+        "note": "il y a",
+        "yijing":""
+    },
+    "33": {
+        "hecto": "33",
+        "verb": "axer",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "34": {
+        "hecto": "34",
+        "verb": "distribuer",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "35": {
+        "hecto": "35",
+        "verb": "vouloir",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "36": {
+        "hecto": "36",
+        "verb": "pouvoir",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "37": {
+        "hecto": "37",
+        "verb": "déterminer",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "38": {
+        "hecto": "38",
+        "verb": "atteler",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "39": {
+        "hecto": "39",
+        "verb": "carresser",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
 
-    // 40
 
-    "",  // 0
-    "unifier",      // 41, alliance et nivellement
-    "promouvoir",      // 42, arriver à la lumière
-    "refuser",      // 43
-    "accepter",    // 4
-    "conduire",        // 5
-    "imaginer",    // 6
-    "rassembler",    // 7
-    "élaguer",   // 8
-    "contempler",         // 9
+    "40": {
+        "hecto": "40",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "41": {
+        "hecto": "41",
+        "verb": "unifier",
+        "image": "",
+        "maxim": "",
+        "note": "alliance et nivellement",
+        "yijing":""
+    },
+    "42": {
+        "hecto": "42",
+        "verb": "promouvoir",
+        "image": "",
+        "maxim": "",
+        "note": "arriver à la lumière",
+        "yijing":""
+    },
+    "43": {
+        "hecto": "43",
+        "verb": "refuser",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "44": {
+        "hecto": "44",
+        "verb": "accepter",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "45": {
+        "hecto": "45",
+        "verb": "conduire",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "46": {
+        "hecto": "46",
+        "verb": "spéculer",
+        "image": "",
+        "maxim": "",
+        "note": "ville?, éléphant-image",
+        "yijing": 16
+    },
+    "47": {
+        "hecto": "47",
+        "verb": "rassembler",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "48": {
+        "hecto": "48",
+        "verb": "élaguer",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "49": {
+        "hecto": "49",
+        "verb": "contempler",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
 
-    // 50
 
-    "",              // 0
-    "",                 // 1
-    "",           // 2
-    "",           // 3
-    "",           // 4
-    "",              // 5
-    "",        // 6
-    "",          // 7
-    "soigner",          // 8
-    "",            // 9
+    "50": {
+        "hecto": "50",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "51": {
+        "hecto": "51",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "52": {
+        "hecto": "52",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "53": {
+        "hecto": "53",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "54": {
+        "hecto": "54",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "55": {
+        "hecto": "55",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "56": {
+        "hecto": "56",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "57": {
+        "hecto": "57",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "58": {
+        "hecto": "58",
+        "verb": "soigner",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "59": {
+        "hecto": "59",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
 
-    // 60
+    "60": {
+        "hecto": "60",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "61": {
+        "hecto": "61",
+        "verb": "germer",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "62": {
+        "hecto": "62",
+        "verb": "manger",
+        "image": "",
+        "maxim": "",
+        "note": "festoyer",
+        "yijing":""
+    },
+    "63": {
+        "hecto": "63",
+        "verb": "danser",
+        "image": "",
+        "maxim": "",
+        "note": "sans folie, innocent",
+        "yijing":""
+    },
+    "64": {
+        "hecto": "64",
+        "verb": "revenir",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "65": {
+        "hecto": "65",
+        "verb": "vivre",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "66": {
+        "hecto": "66",
+        "verb": "impulsion",
+        "image": "",
+        "maxim": "",
+        "note": "ébranlement, réveiller, impulsion initiale",
+        "yijing":""
+    },
+    "67": {
+        "hecto": "67",
+        "verb": "suivre",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "68": {
+        "hecto": "68",
+        "verb": "nourrir",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "69": {
+        "hecto": "69",
+        "verb": "augmenter",
+        "image": "",
+        "maxim": "",
+        "note": "crédit (% débit, 78)",
+        "yijing": 42
+    },
 
-    "",            // 0
-    "germer",          // 1
-    "manger",              // 62
-    "danser",             // 63, sans folie
-    "revenir",           // 4
-    "vivre",                 // 5
-    "réveiller",             // 66, ébranlement
-    "suivre",           // 7
-    "nourrir",             // 68
-    "augmenter",              // 69
 
-    // 70
-
-    // jour, nuit, soleil, nuage, vent, froid, chaud
-    "",         // 0
-    "rythmer",      // 71, ponctuer, 
-    "diverger",      // 72
-    "pratiquer",     // 73, réaliser la parole, mettre en œuvre
-    "approcher",    // 74, condescendre, regarer de petites choses
-    "parler",           // 75
-    "épouser",    // 76 retour de la petite sœur, mariage raté
-    "enjouer",     // 7
-    "diminuer",     // 78
-    "convaincre",    // 79, vérité intérieure
+    "70": {
+        "hecto": "70",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "71": {
+        "hecto": "71",
+        "verb": "rythmer",
+        "image": "",
+        "maxim": "",
+        "note": "ponctuer, mesurer",
+        "yijing": 60
+    },
+    "72": {
+        "hecto": "72",
+        "verb": "diverger",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "73": {
+        "hecto": "73",
+        "verb": "pratiquer",
+        "image": "",
+        "maxim": "",
+        "note": "réaliser la parole, mettre en œuvre",
+        "yijing":""
+    },
+    "74": {
+        "hecto": "74",
+        "verb": "approcher",
+        "image": "",
+        "maxim": "",
+        "note": "condescendre, regarer de petites choses",
+        "yijing":""
+    }, 
+    "75": {
+        "hecto": "75",
+        "verb": "parler",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "76": {
+        "hecto": "76",
+        "verb": "épouser",
+        "image": "",
+        "maxim": "",
+        "note": "retour de la petite sœur, mariage raté",
+        "yijing":""
+    },
+    "77": {
+        "hecto": "77",
+        "verb": "enjouer",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "78": {
+        "hecto": "78",
+        "verb": "diminuer",
+        "image": "",
+        "maxim": "",
+        "note": "débit (% crédit 69)",
+        "yijing": 41
+    },
+    "79": {
+        "hecto": "79",
+        "verb": "croire",
+        "image": "",
+        "maxim": "",
+        "note": "vérité intérieure, juste confiance",
+        "yijing": 61
+    },
     
-    // 80
 
-    "",     // 0
-    "entraver",       // 1
-    "voyager",       // 2
-    "échapper",       // 3
-    "retenir",       // 84, humilité
-    "",       // 5
-    "ciseler",    // 86, petite expérience (aspect)
-    "exciter",     // 87, salé
-    "achever", // 8
-    "progresser",    // 89, graduellement
+    "80": {
+        "hecto": "80",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "81": {
+        "hecto": "81",
+        "verb": "entraver",
+        "image": "",
+        "maxim": "",
+        "note": "entrave, boîter, obstruction",
+        "yijing": 39
+    },
+    "82": {
+        "hecto": "82",
+        "verb": "voyager",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "83": {
+        "hecto": "83",
+        "verb": "échapper",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "84": {
+        "hecto": "84",
+        "verb": "retenir",
+        "image": "",
+        "maxim": "",
+        "note": "humilité, modestie (% 46)",
+        "yijing": 15
+    },
+    "85": {
+        "hecto": "85",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "86": {
+        "hecto": "86",
+        "verb": "perfectionner",
+        "image": "",
+        "maxim": "",
+        "note": "petite expérience (aspect)",
+        "yijing":""
+    },
+    "87": {
+        "hecto": "87",
+        "verb": "exciter",
+        "image": "",
+        "maxim": "",
+        "note": "salé",
+        "yijing":""
+    },
+    "88": {
+        "hecto": "88",
+        "verb": "achever",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "89": {
+        "hecto": "89",
+        "verb": "progresser",
+        "image": "",
+        "maxim": "",
+        "note": "graduellement",
+        "yijing":""
+    },
 
-    // 90
 
-    "",                 // 0
-    "puiser",           // 91, puits
-    "instaurer",            // 92, chaudron, instituer
-    "rencontrer",             // 3
-    "grimper",             // 4
-    "",              // 5
-    "persévérer",           // 96, cœur-lunes
-    "transgresser",            // 97, transgresser outrepasser, grande expérience (aspect)
-    "assainir",               // 98, sorcellerie, désinfecter
-    "adoucir",               // 9
+    "90": {
+        "hecto": "90",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "91": {
+        "hecto": "91",
+        "verb": "aménager",
+        "image": "",
+        "maxim": "",
+        "note": "puits",
+        "yijing":""
+    },
+    "92": {
+        "hecto": "92",
+        "verb": "instaurer",
+        "image": "",
+        "maxim": "",
+        "note": "chaudron, instituer",
+        "yijing":""
+    },
+    "93": {
+        "hecto": "93",
+        "verb": "rencontrer",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "94": {
+        "hecto": "94",
+        "verb": "croître",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "95": {
+        "hecto": "95",
+        "verb": "",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
+    "96": {
+        "hecto": "96",
+        "verb": "endurer",
+        "image": "",
+        "maxim": "",
+        "note": "persévérer cœur-lunes",
+        "yijing":""
+    },
+    "97": {
+        "hecto": "97",
+        "verb": "transgresser",
+        "image": "",
+        "maxim": "",
+        "note": "transgresser outrepasser, grande expérience (aspect)",
+        "yijing":""
+    },
+    "98": {
+        "hecto": "98",
+        "verb": "assainir",
+        "image": "",
+        "maxim": "",
+        "note": "sorcellerie, désinfecter",
+        "yijing":""
+    },
+    "99": {
+        "hecto": "99",
+        "verb": "adoucir",
+        "image": "",
+        "maxim": "",
+        "note": "",
+        "yijing":""
+    },
 
 
   
-];
+};

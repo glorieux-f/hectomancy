@@ -179,14 +179,15 @@ figure.hecto.modal {
 const form = document.forms['choose'];
 form.page.focus();
 
-function display(id, no)
+function display(id, n)
 {
+    const no = ('' + n).padStart(2, '0');
     const img = document.querySelector("#" + id + " img");
-    img.src = "hecto" + ('' + no).padStart(2, '0') + '.jpg';
+    img.src = "hecto" + no + '.jpg';
     const figcaption = document.querySelector("#" + id + " figcaption");
     let html = "";
     html += "<h4>";
-    if (captions[no]) html += captions[no];
+    if (hecto[no]["verb"]) html += hecto[no]["verb"];
     else html += no;
     html += "</h4>";
     /*
