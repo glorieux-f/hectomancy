@@ -46,12 +46,12 @@ const captions = [
     "tomber",         // 1
     "entreprendre",        // 2
     "contester",        // 3
-    "commander",  // 14, sinogramme équivoque
+    "commander",  // 14, armée
     "",           // 5
-    "libérer",         // 6
-    "enfermer",         // 7
-    "ignorer",        // 18, porc sous l’herbe ? jeune fou,  opposé à , chasser le porc, courage
-    "imprégner",         // 19
+    "affranchir",         // 16, libération
+    "empêcher",         // 17, étouffer, opprimer
+    "batifoler",        // 18, porc sous l’herbe ? jeune fou,  opposé à , chasser le porc, courage
+    "diffuser",         // 19
 
 
     // 20
@@ -59,11 +59,11 @@ const captions = [
     "", // 0
     "succéder",       // 1
     "rayonner",       // 2
-    "exalter",         // 3
+    "coopérer",         // 23, associer, coopérer
     "dissimuler",          // 4
     "",            // 5
-    "abonder",        // 26, famille à l’intérieur, pb d’éclipse
-    "muer",             // 7
+    "foisonner",        // 26, 
+    "abolir",             // 27, muer, cuir
     "orner",         // 8
     "perpétuer",    // 29, famille , clan, sacrifice
     
@@ -71,14 +71,14 @@ const captions = [
 
     "",             // 0
     "attendre",        // 31, avoir faim que le blé pousse
-    "posséder",          // 2
+    "avoir",          // 32, il y a 
     "axer",     // 3
     "distribuer",             // 4
     "vouloir",    // 5
     "pouvoir",     // 6
-    "trancher",          // 7
-    "soumettre",    // 8
-    "séduire",      // 9
+    "déterminer",          // 7
+    "atteler",    // 8
+    "carresser",      // 9
 
     // 40
 
@@ -90,7 +90,7 @@ const captions = [
     "conduire",        // 5
     "imaginer",    // 6
     "rassembler",    // 7
-    "tondre",   // 8
+    "élaguer",   // 8
     "contempler",         // 9
 
     // 50
@@ -103,34 +103,34 @@ const captions = [
     "",              // 5
     "",        // 6
     "",          // 7
-    "",          // 8
+    "soigner",          // 8
     "",            // 9
 
     // 60
 
     "",            // 0
     "germer",          // 1
-    "mordre",              // 2
+    "manger",              // 62
     "danser",             // 63, sans folie
     "revenir",           // 4
     "vivre",                 // 5
     "réveiller",             // 66, ébranlement
     "suivre",           // 7
     "nourrir",             // 68
-    "déborder",              // 9
+    "augmenter",              // 69
 
     // 70
 
     // jour, nuit, soleil, nuage, vent, froid, chaud
     "",         // 0
     "rythmer",      // 71, ponctuer, 
-    "opposer",      // 72
-    "réaliser",     // 73, réaliser la parole, mettre en œuvre
-    "détailler",    // 74, regarer de petites choses
+    "diverger",      // 72
+    "pratiquer",     // 73, réaliser la parole, mettre en œuvre
+    "approcher",    // 74, condescendre, regarer de petites choses
     "parler",           // 75
-    "échouer",    // 76 retour de la petite sœur, mariage raté
-    "échanger, diluer",     // 7
-    "blesser",     // 78
+    "épouser",    // 76 retour de la petite sœur, mariage raté
+    "enjouer",     // 7
+    "diminuer",     // 78
     "convaincre",    // 79, vérité intérieure
     
     // 80
@@ -139,25 +139,25 @@ const captions = [
     "entraver",       // 1
     "voyager",       // 2
     "échapper",       // 3
-    "combiner",       // 4
+    "retenir",       // 84, humilité
     "",       // 5
-    "traverser",    // 86, petite expérience (aspect)
-    "accorder",     // 87, pot et hache
-    "finir", // 8
+    "ciseler",    // 86, petite expérience (aspect)
+    "exciter",     // 87, salé
+    "achever", // 8
     "progresser",    // 89, graduellement
 
     // 90
 
     "",                 // 0
     "puiser",           // 91, puits
-    "cuire",            // 92, chaudron
+    "instaurer",            // 92, chaudron, instituer
     "rencontrer",             // 3
     "grimper",             // 4
     "",              // 5
     "persévérer",           // 96, cœur-lunes
-    "subir",            // 97, grande expérience (aspect)
-    "empoisonner",               // 98, sorcellerie
-    "obéir",               // 9
+    "transgresser",            // 97, transgresser outrepasser, grande expérience (aspect)
+    "assainir",               // 98, sorcellerie, désinfecter
+    "adoucir",               // 9
 
 
   
