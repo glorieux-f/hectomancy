@@ -38,7 +38,7 @@ const hecto = {
     },
     "01": {
         "hecto": "01",
-        "verb": "il",
+        "verb": "je",
         "image": "",
         "maxim": "",
         "note": "",
@@ -46,7 +46,7 @@ const hecto = {
     },
     "02": {
         "hecto": "02",
-        "verb": "elle",
+        "verb": "tu",
         "image": "",
         "maxim": "",
         "note": "",
@@ -70,7 +70,7 @@ const hecto = {
     },
     "05": {
         "hecto": "05",
-        "verb": "je",
+        "verb": "être",
         "image": "",
         "maxim": "",
         "note": "",
@@ -78,7 +78,7 @@ const hecto = {
     },
     "06": {
         "hecto": "06",
-        "verb": "verbe",
+        "verb": "",
         "image": "",
         "maxim": "",
         "note": "",
@@ -86,7 +86,7 @@ const hecto = {
     },
     "07": {
         "hecto": "07",
-        "verb": "vouloir",
+        "verb": "",
         "image": "",
         "maxim": "",
         "note": "",
@@ -94,7 +94,7 @@ const hecto = {
     },
     "08": {
         "hecto": "08",
-        "verb": "nom",
+        "verb": "",
         "image": "",
         "maxim": "",
         "note": "",
@@ -102,7 +102,7 @@ const hecto = {
     },
     "09": {
         "hecto": "09",
-        "verb": "devoir",
+        "verb": "passé",
         "image": "",
         "maxim": "",
         "note": "",
@@ -570,7 +570,7 @@ const hecto = {
     },
     "66": {
         "hecto": "66",
-        "verb": "impulsion",
+        "verb": "impulser",
         "image": "",
         "maxim": "",
         "note": "ébranlement, réveiller, impulsion initiale",
@@ -578,11 +578,11 @@ const hecto = {
     },
     "67": {
         "hecto": "67",
-        "verb": "suivre",
+        "verb": "conformer",
         "image": "",
         "maxim": "",
         "note": "",
-        "yijing":""
+        "yijing": 17
     },
     "68": {
         "hecto": "68",
@@ -594,7 +594,7 @@ const hecto = {
     },
     "69": {
         "hecto": "69",
-        "verb": "augmenter",
+        "verb": "croître",
         "image": "",
         "maxim": "",
         "note": "crédit (% débit, 78)",
