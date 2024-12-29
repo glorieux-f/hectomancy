@@ -1,3 +1,4 @@
+const news = ["00", "15", "10"];
 const deca = [
     ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
     ["espace", "est", "ouest", "sud", "nord", "ici", "nord-est", "sud-est", "nord-ouest", "sud-ouest"],
@@ -78,7 +79,7 @@ const hecto = {
     },
     "06": {
         "hecto": "06",
-        "verb": "",
+        "verb": "verbe",
         "image": "",
         "maxim": "",
         "note": "",
@@ -86,7 +87,7 @@ const hecto = {
     },
     "07": {
         "hecto": "07",
-        "verb": "",
+        "verb": "manière",
         "image": "",
         "maxim": "",
         "note": "",
@@ -94,7 +95,7 @@ const hecto = {
     },
     "08": {
         "hecto": "08",
-        "verb": "",
+        "verb": "nom",
         "image": "",
         "maxim": "",
         "note": "",
@@ -102,7 +103,7 @@ const hecto = {
     },
     "09": {
         "hecto": "09",
-        "verb": "passé",
+        "verb": "qualité",
         "image": "",
         "maxim": "",
         "note": "",
@@ -113,18 +114,18 @@ const hecto = {
 
     "10": {
         "hecto": "10",
-        "verb": "",
+        "verb": "répandre",
         "image": "",
         "maxim": "",
         "note": "",
-        "yijing":""
+        "yijing": ""
     },
     "11": {
         "hecto": "11",
-        "verb": "tomber",
+        "verb": "couler",
         "image": "",
         "maxim": "",
-        "note": "",
+        "note": "chute, tomber",
         "yijing": 29,
     },
     "12": {
@@ -140,7 +141,7 @@ const hecto = {
         "verb": "contester",
         "image": "",
         "maxim": "",
-        "note": "",
+        "note": "plaider, accuser",
         "yijing": 6
     },
     "14": {
@@ -153,7 +154,7 @@ const hecto = {
     },
     "15": {
         "hecto": "15",
-        "verb": "",
+        "verb": "isoler",
         "image": "",
         "maxim": "",
         "note": "",
@@ -195,7 +196,7 @@ const hecto = {
 
     "20": {
         "hecto": "20",
-        "verb": "",
+        "verb": "absorber",
         "image": "",
         "maxim": "",
         "note": "",
@@ -211,11 +212,11 @@ const hecto = {
     },
     "22": {
         "hecto": "22",
-        "verb": "rayonner",
+        "verb": "briller",
         "image": "",
         "maxim": "",
-        "note": "",
-        "yijing":""
+        "note": "lumière",
+        "yijing": 30
     },
     "23": {
         "hecto": "23",
@@ -235,7 +236,7 @@ const hecto = {
     },
     "25": {
         "hecto": "25",
-        "verb": "",
+        "verb": "aimer",
         "image": "",
         "maxim": "",
         "note": "",
@@ -277,7 +278,7 @@ const hecto = {
 
     "30": {
         "hecto": "30",
-        "verb": "",
+        "verb": "tourner",
         "image": "",
         "maxim": "",
         "note": "",
@@ -296,8 +297,8 @@ const hecto = {
         "verb": "avoir",
         "image": "",
         "maxim": "",
-        "note": "il y a",
-        "yijing":""
+        "note": "il y a, fortune, grand réalisé",
+        "yijing": 14
     },
     "33": {
         "hecto": "33",
@@ -309,11 +310,11 @@ const hecto = {
     },
     "34": {
         "hecto": "34",
-        "verb": "distribuer",
+        "verb": "redistribuer",
         "image": "",
         "maxim": "",
-        "note": "",
-        "yijing":""
+        "note": "paix, prospérité",
+        "yijing": 11
     },
     "35": {
         "hecto": "35",
@@ -359,7 +360,7 @@ const hecto = {
 
     "40": {
         "hecto": "40",
-        "verb": "",
+        "verb": "gaspiller",
         "image": "",
         "maxim": "",
         "note": "",
@@ -407,7 +408,7 @@ const hecto = {
     },
     "46": {
         "hecto": "46",
-        "verb": "spéculer",
+        "verb": "investir",
         "image": "",
         "maxim": "",
         "note": "ville?, éléphant-image",
@@ -438,10 +439,9 @@ const hecto = {
         "yijing":""
     },
 
-
     "50": {
         "hecto": "50",
-        "verb": "",
+        "verb": "rien",
         "image": "",
         "maxim": "",
         "note": "",
@@ -449,7 +449,7 @@ const hecto = {
     },
     "51": {
         "hecto": "51",
-        "verb": "",
+        "verb": "eau",
         "image": "",
         "maxim": "",
         "note": "",
@@ -457,7 +457,7 @@ const hecto = {
     },
     "52": {
         "hecto": "52",
-        "verb": "",
+        "verb": "feu",
         "image": "",
         "maxim": "",
         "note": "",
@@ -465,7 +465,7 @@ const hecto = {
     },
     "53": {
         "hecto": "53",
-        "verb": "",
+        "verb": "ciel",
         "image": "",
         "maxim": "",
         "note": "",
@@ -473,7 +473,7 @@ const hecto = {
     },
     "54": {
         "hecto": "54",
-        "verb": "",
+        "verb": "terre",
         "image": "",
         "maxim": "",
         "note": "",
@@ -481,7 +481,7 @@ const hecto = {
     },
     "55": {
         "hecto": "55",
-        "verb": "",
+        "verb": "humain",
         "image": "",
         "maxim": "",
         "note": "",
@@ -489,7 +489,7 @@ const hecto = {
     },
     "56": {
         "hecto": "56",
-        "verb": "",
+        "verb": "foudre",
         "image": "",
         "maxim": "",
         "note": "",
@@ -497,7 +497,7 @@ const hecto = {
     },
     "57": {
         "hecto": "57",
-        "verb": "",
+        "verb": "lac",
         "image": "",
         "maxim": "",
         "note": "",
@@ -505,7 +505,7 @@ const hecto = {
     },
     "58": {
         "hecto": "58",
-        "verb": "soigner",
+        "verb": "montagne",
         "image": "",
         "maxim": "",
         "note": "",
@@ -513,7 +513,7 @@ const hecto = {
     },
     "59": {
         "hecto": "59",
-        "verb": "",
+        "verb": "vent",
         "image": "",
         "maxim": "",
         "note": "",
@@ -522,7 +522,7 @@ const hecto = {
 
     "60": {
         "hecto": "60",
-        "verb": "",
+        "verb": "agiter",
         "image": "",
         "maxim": "",
         "note": "",
@@ -604,7 +604,7 @@ const hecto = {
 
     "70": {
         "hecto": "70",
-        "verb": "",
+        "verb": "bredouiller",
         "image": "",
         "maxim": "",
         "note": "",
@@ -686,7 +686,7 @@ const hecto = {
 
     "80": {
         "hecto": "80",
-        "verb": "",
+        "verb": "trembler",
         "image": "",
         "maxim": "",
         "note": "",
@@ -726,7 +726,7 @@ const hecto = {
     },
     "85": {
         "hecto": "85",
-        "verb": "",
+        "verb": "habiter",
         "image": "",
         "maxim": "",
         "note": "",
@@ -742,11 +742,11 @@ const hecto = {
     },
     "87": {
         "hecto": "87",
-        "verb": "exciter",
+        "verb": "inciter",
         "image": "",
         "maxim": "",
         "note": "salé",
-        "yijing":""
+        "yijing": 31
     },
     "88": {
         "hecto": "88",
@@ -758,17 +758,17 @@ const hecto = {
     },
     "89": {
         "hecto": "89",
-        "verb": "progresser",
+        "verb": "imprégner",
         "image": "",
         "maxim": "",
         "note": "graduellement",
-        "yijing":""
+        "yijing": 53
     },
 
 
     "90": {
         "hecto": "90",
-        "verb": "",
+        "verb": "sommeiller",
         "image": "",
         "maxim": "",
         "note": "",
@@ -784,7 +784,7 @@ const hecto = {
     },
     "92": {
         "hecto": "92",
-        "verb": "instaurer",
+        "verb": "instituer",
         "image": "",
         "maxim": "",
         "note": "chaudron, instituer",
@@ -808,7 +808,7 @@ const hecto = {
     },
     "95": {
         "hecto": "95",
-        "verb": "",
+        "verb": "policer",
         "image": "",
         "maxim": "",
         "note": "",

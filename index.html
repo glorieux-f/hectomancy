@@ -23,13 +23,19 @@ body {
     font-style: normal;
     font-size: 12px;
 }
-#main {
+.main {
     height: 95vh;
     flex-shrink: 0;
+}
+
+.page {
+    /*
     display: flex;
     flex-direction: column;
     justify-content: center;
+    */
 }
+
 .row {
     display: flex;
     justify-content: center;
@@ -98,15 +104,82 @@ figure.hecto.modal {
     width: 100%;
 }
 
-@media print {
-  #aside {
+/** card backs */
+#back {
     display: none;
-  }
-  #main {
-    width: 100%;
-    height: auto;
-  }
 }
+
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+@media print {
+    html, body {
+        width: 210mm;
+        height: 297mm;
+    }
+    .page {
+        margin: 0;
+        padding: 1cm 0 0 0;
+        width: 210mm;
+        height: 297mm;
+    }
+    #aside,
+    form {
+        display: none;
+    }
+    #back {
+        display: block;
+    }
+    #main,
+    #back {
+    }
+    figure.back,
+    figure.hecto {
+        height: 3.5in;
+        width: 2.5in;
+        box-sizing: content-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    figure.hecto {
+        border: 1px solid #ccc;
+    }
+
+    figure.hecto img {
+        width: 2.4in;
+        height: 2.4in;
+        margin-top: 5mm;
+    }
+
+    figure.hecto {
+        position: relative;
+    }
+
+    figure.hecto figcaption {
+        position: absolute;
+        bottom: 4mm;
+    }
+
+    figure.hecto figcaption h4 {
+        font-size: 5.5mm;
+        font-weight: 100;
+    }
+    figure.back figcaption {
+        text-align: center;
+        margin-left: -0.07em;
+        font-size: 3.5in;
+        line-height: 100%;
+        font-style: italic;
+        font-weight: 100;
+        font-family: Garamond, serif;
+    }
+}
+
+
 
         </style>
         <script src="hectomancy.js">//</script>
@@ -117,10 +190,11 @@ figure.hecto.modal {
                 <select name="vue">
                     <option value="ten">Dizaines</option>
                     <option value="unit">Unités</option>
+                    <option value=""></option>
                 </select>
                 <input name="page" id="page" type="range"  min="0" max="9" step="1" />
             </form>
-            <main id="main" class="horizontal">
+            <main id="main" class="horizontal page main">
                 <div class="row">
                     <figure id="figSE"class="hecto">
                         <button type="button">×</button>
@@ -173,6 +247,41 @@ figure.hecto.modal {
                     </figure>
                 </div>
             </main>
+            <aside id="back" class="page">
+                <div class="row">
+                    <figure class="back">
+                        <figcaption>h</figcaption>
+                    </figure>
+                    <figure class="back">
+                        <figcaption>h</figcaption>
+                    </figure>
+                    <figure class="back">
+                        <figcaption>h</figcaption>
+                    </figure>
+                </div>
+                <div class="row">
+                    <figure class="back">
+                        <figcaption>h</figcaption>
+                    </figure>
+                    <figure class="back">
+                        <figcaption>h</figcaption>
+                    </figure>
+                    <figure class="back">
+                        <figcaption>h</figcaption>
+                    </figure>
+                </div>
+                <div class="row">
+                    <figure class="back">
+                        <figcaption>h</figcaption>
+                    </figure>
+                    <figure class="back">
+                        <figcaption>h</figcaption>
+                    </figure>
+                    <figure class="back">
+                        <figcaption>h</figcaption>
+                    </figure>
+                </div>
+            </aside>
         </div>
         <script>
 (function () {
@@ -187,8 +296,8 @@ function display(id, n)
     const figcaption = document.querySelector("#" + id + " figcaption");
     let html = "";
     html += "<h4>";
-    if (hecto[no]["verb"]) html += hecto[no]["verb"];
-    else html += no;
+    html += no;
+    if (hecto[no]["verb"]) html += ', ' + hecto[no]["verb"];
     html += "</h4>";
     /*
     const ten = Math.floor(no / 10); 
@@ -220,7 +329,14 @@ form.update = function() {
     url.search = new URLSearchParams(new FormData(form));
     window.history.pushState({}, '', url);
 
-    if (vue == "unit") {
+    if (!vue) {
+        const lim = Math.min(ids.length, news.length);
+        for (let i = 0; i < lim; i++) {
+            const id = ids[i];
+            display(ids[i], news[i]);
+        }
+    }
+    else if (vue == "unit") {
         const start = page % 10;
         for (let i = 0, len = ids.length; i < len; i++) {
             const id = ids[i];
