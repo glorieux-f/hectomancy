@@ -1,4 +1,4 @@
-const news = ["00", "15", "10"];
+const news = ["23", "26", "34", "71", "77", "83", "87", "91", "92"];
 const deca = [
     ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
     ["espace", "est", "ouest", "sud", "nord", "ici", "nord-est", "sud-est", "nord-ouest", "sud-ouest"],
@@ -248,7 +248,7 @@ const hecto = {
         "image": "",
         "maxim": "",
         "note": "",
-        "yijing":""
+        "yijing": 55
     },
     "27": {
         "hecto": "27",
