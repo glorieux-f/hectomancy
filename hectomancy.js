@@ -27,8 +27,7 @@ const deca = [
     ["", "peuple", "mœurs", "état", "pays", "société", "guerre", "mythe", "loi", ""]
 
 ];
-const hecto = {
-    
+const hecto = {    
     "00": {
         "hecto": "00",
         "verb": "",
@@ -178,7 +177,7 @@ const hecto = {
     },
     "18": {
         "hecto": "18",
-        "verb": "jouer",
+        "verb": "instruire",
         "image": "",
         "maxim": "",
         "note": "batifoler, porc sous l’herbe ? jeune fou,  opposé à , chasser le porc, courage",
@@ -192,8 +191,6 @@ const hecto = {
         "note": "",
         "yijing": 59
     },
-
-
     "20": {
         "hecto": "20",
         "verb": "absorber",
