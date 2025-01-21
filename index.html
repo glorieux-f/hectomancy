@@ -48,7 +48,7 @@ body {
 figure.hecto {
     height: 32vh;
     margin: 0;
-    padding: 1.5rem 0.5rem 0 0.5rem;
+    padding: 0 0.5rem 0 0.5rem;
     display: flex;
     align-items: center;
     background-color: #000;
@@ -58,17 +58,15 @@ figure.hecto {
     flex-direction: column;
 }
 
-/*
 figure.hecto > figcaption {
-    width: 10rem;
-    height: 100%;
+    height: 2rem;
 }
-*/
 figcaption h4 {
     font-size: 16px;
     text-align: center;
     margin: 0;
     padding: 0;
+    flex-shrink: 0;
 }
 
 
@@ -79,7 +77,7 @@ figure.hecto div.line {
 }
 
 figure.hecto img {
-   height: 100%;
+   max-height: calc(32vh - 2rem);
 }
 
 
@@ -92,6 +90,11 @@ figure.hecto.modal button {
     position: absolute;
     top: 1rem;
     right: 1rem;
+}
+
+figure.hecto.modal img {
+    max-height: calc(100% - 2rem);
+    max-width: 100%;
 }
 
 
