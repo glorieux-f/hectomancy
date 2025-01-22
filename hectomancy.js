@@ -1,4 +1,4 @@
-const news = ["23", "26", "34", "71", "77", "83", "87", "91", "92"];
+const news = ["11", "22", "33", "44", "55", "66", "77", "88", "99"];
 const deca = [
     ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
     ["espace", "est", "ouest", "sud", "nord", "ici", "nord-est", "sud-est", "nord-ouest", "sud-ouest"],
@@ -113,7 +113,7 @@ const hecto = {
 
     "10": {
         "hecto": "10",
-        "verb": "couler",
+        "verb": "mouiller",
         "image": "",
         "maxim": "",
         "note": "",
@@ -121,7 +121,7 @@ const hecto = {
     },
     "11": {
         "hecto": "11",
-        "verb": "flotter",
+        "verb": "couler",
         "image": "Abîme sur abîme",
         "maxim": "",
         "note": "chute, tomber",
@@ -275,7 +275,7 @@ const hecto = {
 
     "30": {
         "hecto": "30",
-        "verb": "animer",
+        "verb": "orienter",
         "image": "",
         "maxim": "",
         "note": "",
@@ -299,7 +299,7 @@ const hecto = {
     },
     "33": {
         "hecto": "33",
-        "verb": "animer",
+        "verb": "inspirer",
         "image": "",
         "maxim": "",
         "note": "",
@@ -389,7 +389,7 @@ const hecto = {
     },
     "44": {
         "hecto": "44",
-        "verb": "accepter",
+        "verb": "recevoir",
         "image": "",
         "maxim": "",
         "note": "",
@@ -438,7 +438,7 @@ const hecto = {
 
     "50": {
         "hecto": "50",
-        "verb": "",
+        "verb": "humaniser",
         "image": "",
         "maxim": "",
         "note": "",
@@ -478,7 +478,7 @@ const hecto = {
     },
     "55": {
         "hecto": "55",
-        "verb": "humain",
+        "verb": "civiliser",
         "image": "",
         "maxim": "",
         "note": "",
@@ -510,7 +510,7 @@ const hecto = {
     },
     "59": {
         "hecto": "59",
-        "verb": "vent",
+        "verb": "fabriquer",
         "image": "",
         "maxim": "",
         "note": "",
@@ -519,7 +519,7 @@ const hecto = {
 
     "60": {
         "hecto": "60",
-        "verb": "démarrer",
+        "verb": "tonner",
         "image": "",
         "maxim": "",
         "note": "",
@@ -537,7 +537,7 @@ const hecto = {
         "hecto": "62",
         "verb": "manger",
         "image": "",
-        "maxim": "",
+        "maxim": "", 
         "note": "festoyer",
         "yijing": 21
     },
@@ -567,7 +567,7 @@ const hecto = {
     },
     "66": {
         "hecto": "66",
-        "verb": "impulser",
+        "verb": "réveiller",
         "image": "",
         "maxim": "",
         "note": "ébranlement, réveiller, impulsion initiale",
@@ -601,7 +601,7 @@ const hecto = {
 
     "70": {
         "hecto": "70",
-        "verb": "enjouer",
+        "verb": "embrumer",
         "image": "",
         "maxim": "",
         "note": "",
@@ -625,7 +625,7 @@ const hecto = {
     },
     "73": {
         "hecto": "73",
-        "verb": "pratiquer",
+        "verb": "appliquer",
         "image": "",
         "maxim": "",
         "note": "réaliser la parole, mettre en œuvre, marche rituelle",
@@ -657,7 +657,7 @@ const hecto = {
     },
     "77": {
         "hecto": "77",
-        "verb": "exprimer",
+        "verb": "enjouer",
         "image": "",
         "maxim": "",
         "note": "",
@@ -683,7 +683,7 @@ const hecto = {
 
     "80": {
         "hecto": "80",
-        "verb": "tenir",
+        "verb": "stabiliser",
         "image": "",
         "maxim": "",
         "note": "",
