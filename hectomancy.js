@@ -389,11 +389,11 @@ const hecto = {
     },
     "44": {
         "hecto": "44",
-        "verb": "recevoir",
+        "verb": "accepter",
         "image": "",
         "maxim": "",
-        "note": "",
-        "yijing":""
+        "note": "réceptif, terre",
+        "yijing": 2
     },
     "45": {
         "hecto": "45",
@@ -683,7 +683,7 @@ const hecto = {
 
     "80": {
         "hecto": "80",
-        "verb": "stabiliser",
+        "verb": "arrêter",
         "image": "",
         "maxim": "",
         "note": "",
@@ -747,10 +747,10 @@ const hecto = {
     },
     "88": {
         "hecto": "88",
-        "verb": "arrêter",
+        "verb": "enraciner",
         "image": "",
         "maxim": "",
-        "note": "arrêter, bloquer",
+        "note": "arrêter, bloquer, mener à terme et recommencer, porte, chien",
         "yijing": 52
     },
     "89": {
