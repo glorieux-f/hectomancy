@@ -217,7 +217,7 @@ const hecto = {
     },
     "23": {
         "hecto": "23",
-        "verb": "accorder",
+        "verb": "harmoniser",
         "image": "",
         "maxim": "",
         "note": "associer, coopérer, vase ajusté",
@@ -315,7 +315,7 @@ const hecto = {
     },
     "35": {
         "hecto": "35",
-        "verb": "conduire",
+        "verb": "gouverner",
         "image": "",
         "maxim": "",
         "note": "",
@@ -323,7 +323,7 @@ const hecto = {
     },
     "36": {
         "hecto": "36",
-        "verb": "renforcer",
+        "verb": "forcer",
         "image": "",
         "maxim": "",
         "note": "",
@@ -609,10 +609,10 @@ const hecto = {
     },
     "71": {
         "hecto": "71",
-        "verb": "cadencer",
+        "verb": "ponctuer",
         "image": "",
         "maxim": "",
-        "note": "rythmer, ponctuer, mesurer",
+        "note": "rythmer, ponctuer, mesurer, cadencer",
         "yijing": 60
     },
     "72": {
@@ -731,7 +731,7 @@ const hecto = {
     },
     "86": {
         "hecto": "86",
-        "verb": "perfectionner",
+        "verb": "détailler",
         "image": "",
         "maxim": "",
         "note": "excès de petit",
