@@ -1,11 +1,21 @@
-const news = ["11", "22", "33", "44", "55", "66", "77", "88", "99"];
+const news = ["00", "00", "00", "00", "00", "00", "00", "00", "00"];
+
+// 1 : eau, oreille, élastique, tristesse, traversant
+// 2 : tortue, dur, coque, graine, casque, arme
+// 3 : ciel, rond, métal
+// 4 : tissu, marmite, économie
+// 5 : humain
+// 6 : mouvement
+// 7 : embrouiller, casser, chamane
+// 8 : fruit, graine, montagne, sentier, porte, doigt
+// 9 : dispersion, ajustement, vent, cordeau, nez, odeur
 const deca = [
     ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
     ["espace", "est", "ouest", "sud", "nord", "ici", "nord-est", "sud-est", "nord-ouest", "sud-ouest"],
     ["néant", "eau", "feu", "ciel", "terre", "centre", "foudre", "lac", "montagne", "vent"],
     ["transparent", "bleu", "rouge", "blanc", "noir", "jaune", "brun", "rose", "gris", "vert" ],
     // nez
-    ["os", "oreille", "œil", "tête", "ventre", "cœur", "pied", "bouche", "main", "peau"],
+    ["os", "oreille", "œil", "tête", "ventre", "cœur", "pied", "bouche", "main", "nez"],
     // matières, feuilles, pierre
     // ["verre", "eau", "feu", "air", "terre", "chair", "bois", "métal", "pierre", "feuille"],
     // outil, mur, digue, route, arme
@@ -122,7 +132,7 @@ const hecto = {
     "11": {
         "hecto": "11",
         "verb": "couler",
-        "image": "Abîme sur abîme",
+        "image": "abîme (1) approfondi (1)",
         "maxim": "",
         "note": "chute, tomber",
         "yijing": 29,
@@ -130,7 +140,7 @@ const hecto = {
     "12": {
         "hecto": "12",
         "verb": "précéder",
-        "image": "",
+        "image": "oreille (1) brillante (2)",
         "maxim": "",
         "note": "",
         "yijing": 64,
@@ -138,7 +148,7 @@ const hecto = {
     "13": {
         "hecto": "13",
         "verb": "contester",
-        "image": "",
+        "image": "plainte (1) élevée (3)",
         "maxim": "",
         "note": "plaider, accuser",
         "yijing": 6
@@ -146,7 +156,7 @@ const hecto = {
     "14": {
         "hecto": "14",
         "verb": "commander",
-        "image": "",
+        "image": "flot (1) boueux (4)",
         "maxim": "",
         "note": "armée",
         "yijing": 7
@@ -162,7 +172,7 @@ const hecto = {
     "16": {
         "hecto": "16",
         "verb": "affranchir",
-        "image": "Dénouer le joug",
+        "image": "joug (1) secoué (6)",
         "maxim": "",
         "note": "",
         "yijing": 40
@@ -170,9 +180,9 @@ const hecto = {
     "17": {
         "hecto": "17",
         "verb": "oppresser",
-        "image": "",
+        "image": "tige (1) plantée (7)",
         "maxim": "",
-        "note": "épuiser, étouffer, opprimer % 91 puits, aménager",
+        "note": "épuiser, étouffer, opprimer % 91 (puits, aménager)",
         "yijing": 47
     },
     "18": {
@@ -185,8 +195,8 @@ const hecto = {
     },
     "19": {
         "hecto": "19",
-        "verb": "diffuser",
-        "image": "Eaux étales",
+        "verb": "répandre",
+        "image": "eaux (1) étales (9)",
         "maxim": "",
         "note": "",
         "yijing": 59
@@ -202,7 +212,7 @@ const hecto = {
     "21": {
         "hecto": "21",
         "verb": "succéder",
-        "image": "",
+        "image": "œil (2) humide (1)",
         "maxim": "",
         "note": "",
         "yijing": 63
@@ -218,7 +228,7 @@ const hecto = {
     "23": {
         "hecto": "23",
         "verb": "harmoniser",
-        "image": "",
+        "image": "foyer (2) idéal (3)",
         "maxim": "",
         "note": "associer, coopérer, vase ajusté",
         "yijing": 13
@@ -226,7 +236,7 @@ const hecto = {
     "24": {
         "hecto": "24",
         "verb": "occulter",
-        "image": "Lumière blessée",
+        "image": "oiseau (2) tombé (4)",
         "maxim": "",
         "note": "",
         "yijing": 36
@@ -242,7 +252,7 @@ const hecto = {
     "26": {
         "hecto": "26",
         "verb": "foisonner",
-        "image": "",
+        "image": "graine (2) énergique (6)",
         "maxim": "",
         "note": "",
         "yijing": 55
@@ -250,15 +260,15 @@ const hecto = {
     "27": {
         "hecto": "27",
         "verb": "abolir",
-        "image": "",
+        "image": "coquille (2) décortiquée (7)",
         "maxim": "",
-        "note": "muer, cuir",
+        "note": "muer, cuir, décortiquer",
         "yijing": 49
     },
     "28": {
         "hecto": "28",
-        "verb": "parfaire",
-        "image": "",
+        "verb": "orner",
+        "image": "coquille (2) fleurie (8)",
         "maxim": "",
         "note": "beauté, coquillage, ",
         "yijing": 22
@@ -266,7 +276,7 @@ const hecto = {
     "29": {
         "hecto": "29",
         "verb": "perpétuer",
-        "image": "Un feu sous un toit",
+        "image": "feu (2) couvert (9)",
         "maxim": "",
         "note": "famille , clan, sacrifice, héritage, perpétuer",
         "yijing": 37
@@ -284,7 +294,7 @@ const hecto = {
     "31": {
         "hecto": "31",
         "verb": "attendre",
-        "image": "Offrande à la pluie",
+        "image": "ciel (3) nuageux (1)",
         "maxim": "",
         "note": "avoir faim que le blé pousse, offrande à la pluie",
         "yijing": 5
@@ -292,7 +302,7 @@ const hecto = {
     "32": {
         "hecto": "32",
         "verb": "advenir",
-        "image": "L’idéal vient à la lumière",
+        "image": "ciel (3) ensoleillé (2)",
         "maxim": "",
         "note": "il y a, fortune, grand réalisé",
         "yijing": 14
@@ -308,7 +318,7 @@ const hecto = {
     "34": {
         "hecto": "34",
         "verb": "redistribuer",
-        "image": "Le ciel donne en quantité",
+        "image": "ciel (3) généreux (4)",
         "maxim": "",
         "note": "paix, prospérité",
         "yijing": 11
@@ -324,23 +334,23 @@ const hecto = {
     "36": {
         "hecto": "36",
         "verb": "forcer",
-        "image": "",
+        "image": "hache (3) cognée (6) ?",
         "maxim": "",
         "note": "",
         "yijing": 34
     },
     "37": {
         "hecto": "37",
-        "verb": "décider",
-        "image": "L’idée détermine",
+        "verb": "certifier",
+        "image": "bâton (3) fendu (7)",
         "maxim": "",
-        "note": "",
+        "note": "sym-bole, bâton fendu contractuel",
         "yijing": 43
     },
     "38": {
         "hecto": "38",
         "verb": "dompter",
-        "image": "Un cheval harnaché",
+        "image": "cheval (3) harnaché (8)",
         "maxim": "",
         "note": "",
         "yijing": 26
@@ -348,7 +358,7 @@ const hecto = {
     "39": {
         "hecto": "39",
         "verb": "apprivoiser",
-        "image": "Un cheval carressé",
+        "image": "cheval (3) carressé (9)",
         "maxim": "",
         "note": "",
         "yijing": 9
@@ -366,17 +376,17 @@ const hecto = {
     "41": {
         "hecto": "41",
         "verb": "unifier",
-        "image": "",
+        "image": "foule (4) égalisée (1)",
         "maxim": "",
-        "note": "alliance et nivellement",
+        "note": "比 2 humains retournés, comparer ; 从 suivre",
         "yijing": 8
     },
     "42": {
         "hecto": "42",
-        "verb": "promouvoir",
+        "verb": "avancer",
         "image": "",
         "maxim": "",
-        "note": "arriver à la lumière",
+        "note": "arriver à la lumière, course du soleil, un oiseau ne recule pas",
         "yijing": 35
     },
     "43": {
@@ -479,7 +489,7 @@ const hecto = {
     "55": {
         "hecto": "55",
         "verb": "civiliser",
-        "image": "",
+        "image": "humanité (5) redoublée",
         "maxim": "",
         "note": "",
         "yijing":""
@@ -510,7 +520,7 @@ const hecto = {
     },
     "59": {
         "hecto": "59",
-        "verb": "fabriquer",
+        "verb": "juger",
         "image": "",
         "maxim": "",
         "note": "",
@@ -813,10 +823,10 @@ const hecto = {
     },
     "96": {
         "hecto": "96",
-        "verb": "endurer",
-        "image": "",
+        "verb": "persévérer",
+        "image": "règle (9) énergique (6)",
         "maxim": "",
-        "note": "persévérer cœur-lunes",
+        "note": "endurer, persévérer, cœur | course du soleil",
         "yijing": 32
     },
     "97": {
@@ -837,7 +847,7 @@ const hecto = {
     },
     "99": {
         "hecto": "99",
-        "verb": "courber",
+        "verb": "obéïr",
         "image": "",
         "maxim": "",
         "note": "",
