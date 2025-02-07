@@ -58,10 +58,7 @@ figure.hecto {
     flex-direction: column;
 }
 
-figure.hecto > figcaption {
-    height: 2rem;
-}
-figcaption h4 {
+figure.hecto > h4 {
     font-size: 16px;
     text-align: center;
     margin: 0;
@@ -69,15 +66,16 @@ figcaption h4 {
     flex-shrink: 0;
 }
 
-
-figure.hecto div.line {
-    padding-left: 1rem;
-    display: flex;
-    justify-content: space-between;
+figure.hecto > p {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
 }
 
-figure.hecto img {
-   max-height: calc(32vh - 2rem);
+figure.hecto > img {
+   max-height: calc(32vh - 3.5rem);
 }
 
 
@@ -199,54 +197,63 @@ figure.hecto.modal {
             </form>
             <main id="main" class="page main">
                 <div class="row">
-                    <figure id="figSE"class="hecto">
+                    <figure id="figSE" class="hecto">
+                        <h4></h4>
                         <button type="button">×</button>
                         <img src="hecto07.jpg"/>
-                        <figcaption></figcaption>
+                        <p></p>
                     </figure>
                     <figure id="figS" class="hecto">
+                        <h4></h4>
                         <button type="button">×</button>
                         <img src="hecto03.jpg"/>
-                        <figcaption></figcaption>
+                        <p></p>
                     </figure>
                     <figure id="figSW" class="hecto">
+                        <h4></h4>
                         <button type="button">×</button>
                         <img src="hecto09.jpg"/>
-                        <figcaption></figcaption>
+                        <p></p>
                     </figure>
                 </div>
                 <div class="row">
                     <figure id="figE" class="hecto">
+                        <h4></h4>
                         <button type="button">×</button>
                         <img src="hecto01.jpg"/>
-                        <figcaption></figcaption>
+                        <p></p>
                     </figure>
                     <figure id="figC" class="hecto">
+                        <h4></h4>
                         <button type="button">×</button>
                         <img src="hecto05.jpg"/>
-                        <figcaption></figcaption>
+                        <p></p>
                     </figure>
                     <figure id="figW" class="hecto">
+                        <h4></h4>
                         <button type="button">×</button>
                         <img src="hecto01.jpg"/>
-                        <figcaption></figcaption>
+                        <p></p>
                     </figure>
                 </div>
                 <div class="row">
                     <figure id="figNE" class="hecto">
+                        <h4></h4>
                         <button type="button">×</button>
                         <img src="hecto06.jpg"/>
-                        <figcaption></figcaption>
+                        <p></p>
                     </figure>
                     <figure id="figN" class="hecto">
+                        <h4></h4>
                         <button type="button">×</button>
                         <img src="hecto04.jpg"/>
-                        <figcaption></figcaption>
+                        <p></p>
                     </figure>
                     <figure id="figNW" class="hecto">
+                        <h4></h4>
                         <button type="button">×</button>
                         <img src="hecto08.jpg"/>
-                        <figcaption></figcaption>
+                        <p></p>
                     </figure>
                 </div>
             </main>
@@ -296,12 +303,11 @@ function display(id, n)
     const no = ('' + n).padStart(2, '0');
     const img = document.querySelector("#" + id + " img");
     img.src = "hecto" + no + '.jpg';
-    const figcaption = document.querySelector("#" + id + " figcaption");
     let html = "";
-    html += "<h4>";
     html += no;
     if (hecto[no]["verb"]) html += ', ' + hecto[no]["verb"];
-    html += "</h4>";
+    document.querySelector("#" + id + " h4").innerHTML = html;
+    document.querySelector("#" + id + " p").innerHTML = hecto[no]["image"];
     /*
     const ten = Math.floor(no / 10); 
     const unit = no % 10; 
@@ -312,7 +318,6 @@ function display(id, n)
         html += "</div>\n"; 
     }
     */
-    figcaption.innerHTML = html;
 }
 
 const ids = ['figW','figE', 'figS', 'figN', 'figC', 'figNE', 'figSE', 'figNW', 'figSW']
