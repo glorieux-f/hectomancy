@@ -195,8 +195,8 @@ const hecto = {
     },
     "19": {
         "hecto": "19",
-        "verb": "répandre",
-        "image": "eaux (1) étales (9)",
+        "verb": "déborder",
+        "image": "eaux (1) hors de digues (9)",
         "maxim": "",
         "note": "",
         "yijing": 59
@@ -341,16 +341,16 @@ const hecto = {
     },
     "37": {
         "hecto": "37",
-        "verb": "certifier",
-        "image": "bâton (3) fendu (7)",
+        "verb": "formuler",
+        "image": "idée (3) mise en mots (7)",
         "maxim": "",
         "note": "sym-bole, bâton fendu contractuel",
         "yijing": 43
     },
     "38": {
         "hecto": "38",
-        "verb": "dompter",
-        "image": "cheval (3) harnaché (8)",
+        "verb": "domestiquer",
+        "image": "cheval (3) attaché (8)",
         "maxim": "",
         "note": "",
         "yijing": 26
@@ -358,7 +358,7 @@ const hecto = {
     "39": {
         "hecto": "39",
         "verb": "apprivoiser",
-        "image": "cheval (3) carressé (9)",
+        "image": "cheval (3) conduit (9)",
         "maxim": "",
         "note": "",
         "yijing": 9
@@ -440,7 +440,7 @@ const hecto = {
     "49": {
         "hecto": "49",
         "verb": "guetter",
-        "image": "plaine (4) surmontée (9) ",
+        "image": "plaine (4) surmontée d’un portique (9)",
         "maxim": "",
         "note": "porte, temple",
         "yijing": 20
@@ -602,7 +602,7 @@ const hecto = {
     "69": {
         "hecto": "69",
         "verb": "gagner",
-        "image": "",
+        "image": "action (6) instruite (9)",
         "maxim": "",
         "note": "crédit (% débit, 78)",
         "yijing": 42
@@ -620,15 +620,15 @@ const hecto = {
     "71": {
         "hecto": "71",
         "verb": "ponctuer",
-        "image": "",
+        "image": "articuler (7) le flot (1)",
         "maxim": "",
         "note": "rythmer, ponctuer, mesurer, cadencer",
         "yijing": 60
     },
     "72": {
         "hecto": "72",
-        "verb": "diverger",
-        "image": "",
+        "verb": "disputer",
+        "image": "parler (7) avec feu (2)",
         "maxim": "",
         "note": "",
         "yijing": 38
@@ -636,7 +636,7 @@ const hecto = {
     "73": {
         "hecto": "73",
         "verb": "appliquer",
-        "image": "",
+        "image": "parler (7) selon l’idée (3)",
         "maxim": "",
         "note": "réaliser la parole, mettre en œuvre, marche rituelle",
         "yijing": 10
@@ -676,7 +676,7 @@ const hecto = {
     "78": {
         "hecto": "78",
         "verb": "perdre",
-        "image": "",
+        "image": "jouer (7) aux dés (8)",
         "maxim": "",
         "note": "débit (% crédit 69)",
         "yijing": 41
@@ -784,7 +784,7 @@ const hecto = {
     "91": {
         "hecto": "91",
         "verb": "aménager",
-        "image": "encadrer (9) l’eau (1)",
+        "image": "digue (9) contenant l’eau (1)",
         "maxim": "",
         "note": "puits",
         "yijing": 48
@@ -792,7 +792,7 @@ const hecto = {
     "92": {
         "hecto": "92",
         "verb": "instituer",
-        "image": "",
+        "image": "vase (9) contenant un feu (2)",
         "maxim": "",
         "note": "chaudron, instituer",
         "yijing": 50
@@ -802,15 +802,15 @@ const hecto = {
         "verb": "rencontrer",
         "image": "",
         "maxim": "",
-        "note": "",
+        "note": "copuler",
         "yijing": 44
     },
     "94": {
         "hecto": "94",
-        "verb": "pousser",
-        "image": "",
+        "verb": "Récolter",
+        "image": "mesure (9) de grains (4)",
         "maxim": "",
-        "note": "grandir, croître",
+        "note": "grandir, croître, louche",
         "yijing": 46
     },
     "95": {
@@ -824,33 +824,33 @@ const hecto = {
     "96": {
         "hecto": "96",
         "verb": "persévérer",
-        "image": "règle (9) énergique (6)",
+        "image": "mesure (9) énergique (6)",
         "maxim": "",
         "note": "endurer, persévérer, cœur | course du soleil",
         "yijing": 32
     },
     "97": {
         "hecto": "97",
-        "verb": "transgresser",
-        "image": "règle (9) débordée (7)",
+        "verb": "outrepasser",
+        "image": "mesure (9) discutée (7)",
         "maxim": "",
         "note": "transgresser outrepasser, grande expérience (aspect)",
         "yijing": 28
     },
     "98": {
         "hecto": "98",
-        "verb": "assainir",
-        "image": "",
+        "verb": "restaurer",
+        "image": "nettoyer (9) les vieilles affaires (8)",
         "maxim": "",
         "note": "sorcellerie, désinfecter",
         "yijing": 18
     },
     "99": {
         "hecto": "99",
-        "verb": "obéir",
-        "image": "",
+        "verb": "complaire",
+        "image": "gens à table",
         "maxim": "",
-        "note": "",
+        "note": "sceau, table avec commensaux à genoux",
         "yijing": 57
     },
 
