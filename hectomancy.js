@@ -236,7 +236,7 @@ const hecto = {
     "24": {
         "hecto": "24",
         "verb": "occulter",
-        "image": "oiseau (2) tombé (4)",
+        "image": "oiseau (2) à terre (4)",
         "maxim": "",
         "note": "",
         "yijing": 36
@@ -538,7 +538,7 @@ const hecto = {
     "61": {
         "hecto": "61",
         "verb": "germer",
-        "image": "riz (6) innondé (1)",
+        "image": "graine (6) arrosée (1)",
         "maxim": "",
         "note": "",
         "yijing": 3
@@ -784,7 +784,7 @@ const hecto = {
     "91": {
         "hecto": "91",
         "verb": "aménager",
-        "image": "",
+        "image": "encadrer (9) l’eau (1)",
         "maxim": "",
         "note": "puits",
         "yijing": 48
@@ -832,7 +832,7 @@ const hecto = {
     "97": {
         "hecto": "97",
         "verb": "transgresser",
-        "image": "",
+        "image": "règle (9) débordée (7)",
         "maxim": "",
         "note": "transgresser outrepasser, grande expérience (aspect)",
         "yijing": 28
