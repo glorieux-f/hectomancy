@@ -432,7 +432,7 @@ const hecto = {
     "48": {
         "hecto": "48",
         "verb": "user",
-        "image": "poussière (4) ?? (8)",
+        "image": "poussière (4) moulue (8)",
         "maxim": "",
         "note": "user, élaguer, dépouiller",
         "yijing": 23
@@ -440,7 +440,7 @@ const hecto = {
     "49": {
         "hecto": "49",
         "verb": "guetter",
-        "image": "plaine (4) porte (9) ",
+        "image": "plaine (4) surmontée (9) ",
         "maxim": "",
         "note": "porte, temple",
         "yijing": 20
@@ -702,25 +702,25 @@ const hecto = {
     "81": {
         "hecto": "81",
         "verb": "entraver",
-        "image": "",
+        "image": "attache (8) membre (1)",
         "maxim": "",
         "note": "entrave, boîter, obstruction",
         "yijing": 39
     },
     "82": {
         "hecto": "82",
-        "verb": "voyager",
-        "image": "",
+        "verb": "camper",
+        "image": "entre les pierres (8), feu (2)",
         "maxim": "",
         "note": "camp, hôtel",
         "yijing": 56
     },
     "83": {
         "hecto": "83",
-        "verb": "fuir",
-        "image": "",
+        "verb": "disparaître",
+        "image": "rouler (8) air (3)",
         "maxim": "",
-        "note": "fuir, retraite, reculer",
+        "note": "fuir, retraite, reculer ; pied bouclier",
         "yijing": 33
     },
     "84": {
@@ -734,7 +734,7 @@ const hecto = {
     "85": {
         "hecto": "85",
         "verb": "habiter",
-        "image": "",
+        "image": "pierres (8) personnelles (5)",
         "maxim": "",
         "note": "",
         "yijing":""
@@ -765,10 +765,10 @@ const hecto = {
     },
     "89": {
         "hecto": "89",
-        "verb": "imprégner",
-        "image": "",
+        "verb": "progresser",
+        "image": "pierres (8) roulées (9)",
         "maxim": "",
-        "note": "graduellement",
+        "note": "graduellement, arbre sur la montagne",
         "yijing": 53
     },
 
