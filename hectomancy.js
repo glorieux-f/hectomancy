@@ -619,8 +619,8 @@ const hecto = {
     },
     "71": {
         "hecto": "71",
-        "verb": "ponctuer",
-        "image": "articuler (7) le flot (1)",
+        "verb": "rythmer",
+        "image": "articuler (7) le flux (1)",
         "maxim": "",
         "note": "rythmer, ponctuer, mesurer, cadencer",
         "yijing": 60
@@ -628,7 +628,7 @@ const hecto = {
     "72": {
         "hecto": "72",
         "verb": "disputer",
-        "image": "parler (7) avec feu (2)",
+        "image": "parole (7) enflammée (2)",
         "maxim": "",
         "note": "",
         "yijing": 38
@@ -643,8 +643,8 @@ const hecto = {
     },
     "74": {
         "hecto": "74",
-        "verb": "approcher",
-        "image": "",
+        "verb": "condescendre",
+        "image": "parler (7) aux petits (4)",
         "maxim": "",
         "note": "condescendre, regarer de petites choses",
         "yijing": 19
@@ -660,7 +660,7 @@ const hecto = {
     "76": {
         "hecto": "76",
         "verb": "marier",
-        "image": "",
+        "image": "parole (7) forcée (6)",
         "maxim": "",
         "note": "retour de la petite sœur, concubine, mariage raté",
         "yijing": 54
@@ -683,10 +683,10 @@ const hecto = {
     },
     "79": {
         "hecto": "79",
-        "verb": "croire",
-        "image": "",
+        "verb": "centrer",
+        "image": "parler (7) juste (9)",
         "maxim": "",
-        "note": "vérité intérieure, juste confiance",
+        "note": "vérité intérieure, juste confiance, centre, croire?",
         "yijing": 61
     },
     
