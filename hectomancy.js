@@ -48,15 +48,15 @@ const hecto = {
     },
     "01": {
         "hecto": "01",
-        "verb": "entendre",
-        "image": "",
+        "verb": "assourdir",
+        "image": "sans (0) bruit (1)",
         "maxim": "",
         "note": "",
         "yijing":""
     },
     "02": {
         "hecto": "02",
-        "verb": "voir",
+        "verb": "aveugler",
         "image": "",
         "maxim": "",
         "note": "",
@@ -65,7 +65,7 @@ const hecto = {
     "03": {
         "hecto": "03",
         "verb": "penser",
-        "image": "",
+        "image": "sans (0) idée (3)",
         "maxim": "",
         "note": "",
         "yijing":""
@@ -96,24 +96,24 @@ const hecto = {
     },
     "07": {
         "hecto": "07",
-        "verb": "dire",
-        "image": "",
+        "verb": "taire",
+        "image": "sans (0) dire (7)",
         "maxim": "",
         "note": "",
         "yijing":""
     },
     "08": {
         "hecto": "08",
-        "verb": "faire",
-        "image": "",
+        "verb": "défaire",
+        "image": "rien (0) ",
         "maxim": "",
         "note": "",
         "yijing":""
     },
     "09": {
         "hecto": "09",
-        "verb": "savoir",
-        "image": "",
+        "verb": "ignorer",
+        "image": "sans (0) forme (9)",
         "maxim": "",
         "note": "",
         "yijing":""
@@ -775,8 +775,8 @@ const hecto = {
 
     "90": {
         "hecto": "90",
-        "verb": "souffler",
-        "image": "",
+        "verb": "essouffler",
+        "image": "sou",
         "maxim": "",
         "note": "",
         "yijing":""
