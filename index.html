@@ -141,9 +141,12 @@ figure.hecto.modal {
     figure.hecto {
         height: 3.5in;
         width: 2.5in;
-        box-sizing: content-box;
+        box-sizing: content-box; /* size without borders */
         margin: 0;
         padding: 0;
+        display: flexbox;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     figure.hecto {
@@ -153,7 +156,6 @@ figure.hecto.modal {
     figure.hecto img {
         width: 2.3in;
         height: 2.3in;
-        margin-top: 5mm;
     }
 
     figure.hecto {
@@ -165,9 +167,13 @@ figure.hecto.modal {
         bottom: 4mm;
     }
 
-    figure.hecto figcaption h4 {
+    figure.hecto > h4 {
+        padding-top: 0.2in;
         font-size: 5.5mm;
         font-weight: 100;
+    }
+    figure.hecto > p {
+        padding-bottom: 0.1in;
     }
     figure.back figcaption {
         text-align: center;
