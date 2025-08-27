@@ -80,8 +80,8 @@ const hecto = {
     },
     "05": {
         "hecto": "05",
-        "verb": "laisser-vivre",
-        "image": "non (0) humain (5)",
+        "verb": "déserter",
+        "image": "sans (0) humanité (5)",
         "maxim": "",
         "note": "",
         "yijing":""
@@ -96,8 +96,8 @@ const hecto = {
     },
     "07": {
         "hecto": "07",
-        "verb": "taire",
-        "image": "sans (0) dire (7)",
+        "verb": "désoler",
+        "image": "sans (0) joie (7)",
         "maxim": "",
         "note": "",
         "yijing":""
@@ -105,7 +105,7 @@ const hecto = {
     "08": {
         "hecto": "08",
         "verb": "défaire",
-        "image": "sans (0) faire (8)",
+        "image": "sans (0) arrêt (8)",
         "maxim": "",
         "note": "",
         "yijing":""
@@ -123,8 +123,8 @@ const hecto = {
 
     "10": {
         "hecto": "10",
-        "verb": "fuire",
-        "image": "eaux (1) perdues (0)",
+        "verb": "vomir",
+        "image": "plonger (1) au néant (0)",
         "maxim": "",
         "note": "",
         "yijing": ""
@@ -140,7 +140,7 @@ const hecto = {
     "12": {
         "hecto": "12",
         "verb": "précéder",
-        "image": "entendre (1) la lumière (2)",
+        "image": "eau (1) brûlante (2)",
         "maxim": "",
         "note": "",
         "yijing": 64,
@@ -179,18 +179,18 @@ const hecto = {
     },
     "17": {
         "hecto": "17",
-        "verb": "oppresser",
-        "image": "trou (1) clos (7)",
+        "verb": "accabler",
+        "image": "gouffre (1) et bouche (7)",
         "maxim": "",
         "note": "épuiser, étouffer, opprimer % 91 (puits, aménager)",
         "yijing": 47
     },
     "18": {
         "hecto": "18",
-        "verb": "folâtrer",
-        "image": "jaillissent (1) les bourgeons (8)",
+        "verb": "bourgeonner",
+        "image": "fil (1) noué (8)",
         "maxim": "",
-        "note": "bourgeonner, ignorer, batifoler, porc sous l’herbe ? jeune fou,  opposé à , chasser le porc, courage",
+        "note": "bourgeonner, ignorer, batifoler, porc sous l’herbe ? jeune fou,  opposé à , chasser le porc, courage, folâtrer",
         "yijing": 4
     },
     "19": {
@@ -206,7 +206,7 @@ const hecto = {
     "20": {
         "hecto": "20",
         "verb": "incendier",
-        "image": "brûler (2) en vain (0)",
+        "image": "adhérer (2) à rien (0)",
         "maxim": "",
         "note": "",
         "yijing":""
@@ -214,7 +214,7 @@ const hecto = {
     "21": {
         "hecto": "21",
         "verb": "succéder",
-        "image": "œil (2) humide (1)",
+        "image": "feu (2) humide (1)",
         "maxim": "",
         "note": "après",
         "yijing": 63
@@ -261,16 +261,16 @@ const hecto = {
     },
     "27": {
         "hecto": "27",
-        "verb": "changer",
-        "image": "brûler (2) les mots (7)",
+        "verb": "réformer",
+        "image": "brûler (2) les nuances (7)",
         "maxim": "",
         "note": "muer, cuir, décortiquer",
         "yijing": 49
     },
     "28": {
         "hecto": "28",
-        "verb": "orner",
-        "image": "enflammer (2) la pierre (8)",
+        "verb": "composer",
+        "image": "relier (2) les choses (8)",
         "maxim": "",
         "note": "beauté, coquillage, ",
         "yijing": 22
@@ -287,8 +287,8 @@ const hecto = {
 
     "30": {
         "hecto": "30",
-        "verb": "planer",
-        "image": "idée (3) vide (0)",
+        "verb": "ressasser",
+        "image": "commander (3) à vide (0)",
         "maxim": "",
         "note": "",
         "yijing":""
@@ -336,31 +336,31 @@ const hecto = {
     "36": {
         "hecto": "36",
         "verb": "forcer",
-        "image": "hache (3) cognée (6) ?",
+        "image": "pouvoir (3) violent (6)",
         "maxim": "",
         "note": "",
         "yijing": 34
     },
     "37": {
         "hecto": "37",
-        "verb": "décider",
-        "image": "idéal (3) en mots (7)",
+        "verb": "rectifier",
+        "image": "pouvoir (3) nuancé (7)",
         "maxim": "",
         "note": "sym-bole, bâton fendu contractuel",
         "yijing": 43
     },
     "38": {
         "hecto": "38",
-        "verb": "domestiquer",
-        "image": "cheval (3) attaché (8)",
+        "verb": "brider",
+        "image": "pouvoir (3) attaché (8)",
         "maxim": "",
         "note": "",
         "yijing": 26
     },
     "39": {
         "hecto": "39",
-        "verb": "apprivoiser",
-        "image": "cheval (3) conduit (9)",
+        "verb": "éduquer",
+        "image": "pouvoir (3) régulier (9)",
         "maxim": "",
         "note": "",
         "yijing": 9
@@ -369,7 +369,7 @@ const hecto = {
 
     "40": {
         "hecto": "40",
-        "verb": "accumuler",
+        "verb": "peser",
         "image": "masse (4) vaine (0)",
         "maxim": "",
         "note": "",
@@ -401,7 +401,7 @@ const hecto = {
     },
     "44": {
         "hecto": "44",
-        "verb": "accepter",
+        "verb": "accumuler",
         "image": "terre (4) réceptive (4)",
         "maxim": "",
         "note": "réceptif, terre",
@@ -417,8 +417,8 @@ const hecto = {
     },
     "46": {
         "hecto": "46",
-        "verb": "escompter",
-        "image": "argent (4) risqué (6)",
+        "verb": "parier",
+        "image": "argent (4) lancé (6)",
         "maxim": "",
         "note": "ville?, éléphant-image, imaginer, enthousiasme",
         "yijing": 16
@@ -531,8 +531,8 @@ const hecto = {
 
     "60": {
         "hecto": "60",
-        "verb": "rager",
-        "image": "agitation (6) vaine (0)",
+        "verb": "hésiter",
+        "image": "départs (6) ratés (0)",
         "maxim": "",
         "note": "",
         "yijing":""
@@ -540,23 +540,23 @@ const hecto = {
     "61": {
         "hecto": "61",
         "verb": "germer",
-        "image": "force (6) de l’eau (1)",
+        "image": "début (6) du cours (1)",
         "maxim": "",
         "note": "",
         "yijing": 3
     },
     "62": {
         "hecto": "62",
-        "verb": "cuire",
-        "image": "force (6) du feu (2)",
+        "verb": "punir",
+        "image": "intention (6) brûlée (2)",
         "maxim": "", 
-        "note": "festoyer",
+        "note": "festoyer, mordre et unir, peine",
         "yijing": 21
     },
     "63": {
         "hecto": "63",
         "verb": "étonner",
-        "image": "force (6) de l’idée (3)",
+        "image": "début (6) d’idée (3)",
         "maxim": "",
         "note": "sans folie, innocent, inatendu",
         "yijing": 25
@@ -564,7 +564,7 @@ const hecto = {
     "64": {
         "hecto": "64",
         "verb": "revenir",
-        "image": "marche (6) vers le pays (4)",
+        "image": "partir (6) au pays (4)",
         "maxim": "",
         "note": "",
         "yijing": 24
@@ -572,7 +572,7 @@ const hecto = {
     "65": {
         "hecto": "65",
         "verb": "encourager",
-        "image": "force (6) humaine (5)",
+        "image": "impulsion (6) humaine (5)",
         "maxim": "",
         "note": "",
         "yijing":""
@@ -588,7 +588,7 @@ const hecto = {
     "67": {
         "hecto": "67",
         "verb": "suivre",
-        "image": "marche (6) gaie (7)",
+        "image": "impulsion (6) agréable (7)",
         "maxim": "",
         "note": "",
         "yijing": 17
@@ -596,25 +596,25 @@ const hecto = {
     "68": {
         "hecto": "68",
         "verb": "mâcher",
-        "image": "force (6) des meules (8)",
+        "image": "commencer (6) et finir (8)",
         "maxim": "",
         "note": "",
         "yijing": 27
     },
     "69": {
         "hecto": "69",
-        "verb": "gagner",
-        "image": "marche (6) en règle (9)",
+        "verb": "progresser",
+        "image": "vouloir (6) le bien (9)",
         "maxim": "",
-        "note": "crédit (% débit, 78)",
+        "note": "crédit (% débit, 78), augmenter, gagner, donner?",
         "yijing": 42
     },
 
 
     "70": {
         "hecto": "70",
-        "verb": "bavarder",
-        "image": "paroles (7) vaines (0)",
+        "verb": "droguer",
+        "image": "joie (7) fausse (0)",
         "maxim": "",
         "note": "",
         "yijing":""
@@ -622,7 +622,7 @@ const hecto = {
     "71": {
         "hecto": "71",
         "verb": "rythmer",
-        "image": "parole (7) fluide (1)",
+        "image": "cadence (7) fluide (1)",
         "maxim": "",
         "note": "rythmer, ponctuer, mesurer, cadencer",
         "yijing": 60
@@ -637,15 +637,15 @@ const hecto = {
     },
     "73": {
         "hecto": "73",
-        "verb": "chercher",
+        "verb": "signifier",
         "image": "plaire (7) au ciel (3)",
         "maxim": "",
-        "note": "réaliser la parole, mettre en œuvre, marche rituelle",
+        "note": "réaliser la parole, mettre en œuvre, marche rituelle, chercher",
         "yijing": 10
     },
     "74": {
         "hecto": "74",
-        "verb": "condescendre",
+        "verb": "expliquer",
         "image": "parler (7) aux petits (4)",
         "maxim": "",
         "note": "condescendre, regarer de petites choses",
@@ -653,7 +653,7 @@ const hecto = {
     }, 
     "75": {
         "hecto": "75",
-        "verb": "parler",
+        "verb": "communiquer",
         "image": "langue (7) humaine (5)",
         "maxim": "",
         "note": "",
@@ -662,8 +662,8 @@ const hecto = {
     "76": {
         "hecto": "76",
         "verb": "marier",
-        "image": "parole (7) forcée (6)",
-        "maxim": "ne promet que ce que tu veux tenir",
+        "image": "plaisir (7) initial (6)",
+        "maxim": "",
         "note": "retour de la petite sœur, concubine, mariage raté",
         "yijing": 54
     },
@@ -677,10 +677,10 @@ const hecto = {
     },
     "78": {
         "hecto": "78",
-        "verb": "perdre",
-        "image": "jouer (7) aux dés (8)",
+        "verb": "devoir",
+        "image": "parole (7) arrêtée (8)",
         "maxim": "",
-        "note": "débit (% crédit 69)",
+        "note": "débit (% crédit 69), dette, devoir, diminuer",
         "yijing": 41
     },
     "79": {
@@ -696,7 +696,7 @@ const hecto = {
     "80": {
         "hecto": "80",
         "verb": "sidérer",
-        "image": "arrêter (8) sur rien (0)",
+        "image": "arrêté (8) sur rien (0)",
         "maxim": "",
         "note": "",
         "yijing":""
@@ -704,7 +704,7 @@ const hecto = {
     "81": {
         "hecto": "81",
         "verb": "entraver",
-        "image": "attache (8) membre (1)",
+        "image": "barrer (8) la route (1)",
         "maxim": "",
         "note": "entrave, boîter, obstruction",
         "yijing": 39
@@ -751,7 +751,7 @@ const hecto = {
     },
     "87": {
         "hecto": "87",
-        "verb": "émouvoir",
+        "verb": "inciter",
         "image": "sel (8) sur la langue (7)",
         "maxim": "",
         "note": "salé, émouvoir, inciter",
@@ -759,15 +759,16 @@ const hecto = {
     },
     "88": {
         "hecto": "88",
-        "verb": "arrêter",
-        "image": "tenir (8) ferme (8)",
+        "verb": "finir",
+        "image": "tenir (8) calme (8)",
         "maxim": "",
-        "note": "arrêter, bloquer, mener à terme et recommencer, porte, chien",
+        "note": "arrêter, bloquer, mener à terme et recommencer, porte, chien, main",
         "yijing": 52
     },
     "89": {
         "hecto": "89",
         "verb": "progresser",
+        "image": "degré (8) surmonté (9)",
         "maxim": "",
         "note": "graduellement, arbre sur la montagne",
         "yijing": 53
@@ -777,23 +778,23 @@ const hecto = {
     "90": {
         "hecto": "90",
         "verb": "culpabiliser",
-        "image": "devoir (9) vain (0)",
+        "image": "pression (9) inutile (0)",
         "maxim": "",
         "note": "",
         "yijing":""
     },
     "91": {
         "hecto": "91",
-        "verb": "aménager",
-        "image": "endiguer (9) l’eau (1)",
+        "verb": "endiguer",
+        "image": "contenir (9) l’eau (1)",
         "maxim": "",
         "note": "puits",
         "yijing": 48
     },
     "92": {
         "hecto": "92",
-        "verb": "instituer",
-        "image": "vase (9) contenant un feu (2)",
+        "verb": "fonder",
+        "image": "contenir (9) un feu (2)",
         "maxim": "",
         "note": "chaudron, instituer",
         "yijing": 50
@@ -808,7 +809,7 @@ const hecto = {
     },
     "94": {
         "hecto": "94",
-        "verb": "Récolter",
+        "verb": "récolter",
         "image": "mesure (9) de grains (4)",
         "maxim": "",
         "note": "grandir, croître, louche",
@@ -825,7 +826,7 @@ const hecto = {
     "96": {
         "hecto": "96",
         "verb": "persévérer",
-        "image": "devoir (9) en marche (6)",
+        "image": "s’obliger (9) à démarrer (6)",
         "maxim": "",
         "note": "endurer, persévérer, cœur | course du soleil",
         "yijing": 32
