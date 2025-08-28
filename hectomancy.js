@@ -288,7 +288,7 @@ const hecto = {
     "30": {
         "hecto": "30",
         "verb": "invoquer",
-        "image": "pouvoir (3) vide (0)",
+        "image": "ascendant (3) vide (0)",
         "maxim": "",
         "note": "",
         "yijing":""
@@ -312,7 +312,7 @@ const hecto = {
     "33": {
         "hecto": "33",
         "verb": "créer",
-        "image": "élan (3) du ciel (3)",
+        "image": "élan (3) céleste (3)",
         "maxim": "",
         "note": "",
         "yijing": 1
@@ -352,7 +352,7 @@ const hecto = {
     "38": {
         "hecto": "38",
         "verb": "brider",
-        "image": "pouvoir (3) attaché (8)",
+        "image": "pouvoir (3) lié (8)",
         "maxim": "",
         "note": "",
         "yijing": 26
@@ -441,10 +441,10 @@ const hecto = {
     },
     "49": {
         "hecto": "49",
-        "verb": "guetter",
-        "image": "plaine (4), un portique (9)",
+        "verb": "surveiller",
+        "image": "sur la plaine (4), un portique (9)",
         "maxim": "",
-        "note": "porte, temple",
+        "note": "porte, temple, belvédère, prendre modèle, voir de haut",
         "yijing": 20
     },
 
@@ -540,7 +540,7 @@ const hecto = {
     "61": {
         "hecto": "61",
         "verb": "germer",
-        "image": "début (6) du cours (1)",
+        "image": "début (6) de la vie (1)",
         "maxim": "",
         "note": "",
         "yijing": 3
@@ -548,7 +548,7 @@ const hecto = {
     "62": {
         "hecto": "62",
         "verb": "punir",
-        "image": "intention (6) brûlée (2)",
+        "image": "naturel (6) brûlé (2)",
         "maxim": "", 
         "note": "festoyer, mordre et unir, peine",
         "yijing": 21
@@ -685,8 +685,8 @@ const hecto = {
     },
     "79": {
         "hecto": "79",
-        "verb": "conseiller",
-        "image": "parole (7) juste (9)",
+        "verb": "exprimer",
+        "image": "goût (7) juste (9)",
         "maxim": "quand la parole naturelle tombe juste, comme une musique",
         "note": "vérité intérieure, juste confiance, centre, croire?",
         "yijing": 61
@@ -743,10 +743,10 @@ const hecto = {
     },
     "86": {
         "hecto": "86",
-        "verb": "manquer",
-        "image": "pierre (8) qui roule (6)",
+        "verb": "refouler",
+        "image": "retenir (8) l’envie (6)",
         "maxim": "",
-        "note": "excès de petit, moins que, cf 97",
+        "note": "excès de petit, moins que, cf 97, refouler, réfréner",
         "yijing": 62
     },
     "87": {
@@ -825,18 +825,18 @@ const hecto = {
     },
     "96": {
         "hecto": "96",
-        "verb": "persévérer",
-        "image": "s’obliger (9) à démarrer (6)",
+        "verb": "endurer",
+        "image": "forcer (9) à vouloir (6)",
         "maxim": "",
         "note": "endurer, persévérer, cœur | course du soleil",
         "yijing": 32
     },
     "97": {
         "hecto": "97",
-        "verb": "outrepasser",
-        "image": "règle (9) moquée (7)",
+        "verb": "transgresser",
+        "image": "devoir (9) rire (7)",
         "maxim": "",
-        "note": "transgresser outrepasser, grande expérience (aspect), cf 86",
+        "note": "transgresser outrepasser, grande expérience (aspect), excès de grand, cf 86",
         "yijing": 28
     },
     "98": {
