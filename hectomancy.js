@@ -630,7 +630,7 @@ const hecto = {
     "72": {
         "hecto": "72",
         "verb": "disputer",
-        "image": "séparer (7) les relations (2)",
+        "image": "diviser (7) le foyer (2)",
         "maxim": "",
         "note": "",
         "yijing": 38
@@ -645,10 +645,10 @@ const hecto = {
     },
     "74": {
         "hecto": "74",
-        "verb": "expliquer",
+        "verb": "approcher",
         "image": "parler (7) aux petits (4)",
         "maxim": "",
-        "note": "condescendre, regarer de petites choses",
+        "note": "condescendre, regarer de petites choses, approcher, expliquer?",
         "yijing": 19
     }, 
     "75": {
@@ -662,23 +662,23 @@ const hecto = {
     "76": {
         "hecto": "76",
         "verb": "marier",
-        "image": "plaisir (7) initial (6)",
+        "image": "plaisir (7) brutal (6)",
         "maxim": "",
         "note": "retour de la petite sœur, concubine, mariage raté",
         "yijing": 54
     },
     "77": {
         "hecto": "77",
-        "verb": "rire",
+        "verb": "échanger",
         "image": "réjouir (7) et moquer (7)",
         "maxim": "",
-        "note": "",
+        "note": "exchange, add, against, and convert, marais",
         "yijing": 58
     },
     "78": {
         "hecto": "78",
-        "verb": "devoir",
-        "image": "parole (7) arrêtée (8)",
+        "verb": "perdre",
+        "image": "ouverture (7) bloquée (8)",
         "maxim": "",
         "note": "débit (% crédit 69), dette, devoir, diminuer",
         "yijing": 41
@@ -711,18 +711,18 @@ const hecto = {
     },
     "82": {
         "hecto": "82",
-        "verb": "camper",
-        "image": "entre les pierres (8), feu (2)",
+        "verb": "voyager",
+        "image": "sur la montagne (8), foyer (2)",
         "maxim": "",
         "note": "camp, hôtel",
         "yijing": 56
     },
     "83": {
         "hecto": "83",
-        "verb": "disparaître",
-        "image": "rouler (8) air (3)",
+        "verb": "reculer",
+        "image": "refuser (8) l’engagement (3)",
         "maxim": "",
-        "note": "fuir, retraite, reculer ; pied bouclier",
+        "note": "fuir, retraite, reculer ; pied bouclier, disparaître",
         "yijing": 33
     },
     "84": {
@@ -801,10 +801,10 @@ const hecto = {
     },
     "93": {
         "hecto": "93",
-        "verb": "rencontrer",
-        "image": "vase (9) et cheval (3)",
+        "verb": "coupler",
+        "image": "contenir (9) la force (3)",
         "maxim": "",
-        "note": "copuler",
+        "note": "copuler, rencontrer",
         "yijing": 44
     },
     "94": {
