@@ -139,24 +139,24 @@ const hecto = {
     },
     "12": {
         "hecto": "12",
-        "verb": "précéder",
-        "image": "eau (1) brûlante (2)",
+        "verb": "prévoir",
+        "image": "fleuve (1) à traverser (2)",
         "maxim": "",
         "note": "",
         "yijing": 64,
     },
     "13": {
         "hecto": "13",
-        "verb": "contester",
-        "image": "plainte (1) élevée (3)",
+        "verb": "accuser",
+        "image": "oreille (1) du pouvoir (3)",
         "maxim": "",
-        "note": "plaider, accuser",
+        "note": "plaider, accuser, contester",
         "yijing": 6
     },
     "14": {
         "hecto": "14",
         "verb": "commander",
-        "image": "emmener (1) la foule (4)",
+        "image": "emmener (1) l’armée (4)",
         "maxim": "",
         "note": "armée",
         "yijing": 7
@@ -172,33 +172,33 @@ const hecto = {
     "16": {
         "hecto": "16",
         "verb": "affranchir",
-        "image": "cours (1) secoué (6)",
+        "image": "fil (1) dénoué (6)",
         "maxim": "",
-        "note": "",
+        "note": "affranchir, libérer, démonter, démêler",
         "yijing": 40
     },
     "17": {
         "hecto": "17",
-        "verb": "accabler",
-        "image": "noyer (1) les sens (7)",
+        "verb": "épuiser",
+        "image": "flots (1) vidés (7)",
         "maxim": "",
-        "note": "épuiser, étouffer, opprimer % 91 (puits, aménager)",
+        "note": "épuiser, étouffer, opprimer % 91 (puits, aménager), emmêler",
         "yijing": 47
     },
     "18": {
         "hecto": "18",
-        "verb": "bourgeonner",
-        "image": "fil (1) noué (8)",
+        "verb": "discipliner",
+        "image": "fleuve (1) arrêté (8)",
         "maxim": "",
-        "note": "bourgeonner, ignorer, batifoler, porc sous l’herbe ? jeune fou,  opposé à , chasser le porc, courage, folâtrer",
+        "note": "sanglier dans un filet et plante grimpante : couvrir, bourgeonner, ignorer, batifoler, jeune fou, folâtrer",
         "yijing": 4
     },
     "19": {
         "hecto": "19",
-        "verb": "déborder",
-        "image": "flots (1) hors digues (9)",
+        "verb": "diffuser",
+        "image": "flots (1) éparpillés (9)",
         "maxim": "",
-        "note": "",
+        "note": "disperser, dissoudre, déborder, dissiper, disparaître, jaillir",
         "yijing": 59
     },
 
@@ -213,10 +213,10 @@ const hecto = {
     },
     "21": {
         "hecto": "21",
-        "verb": "succéder",
-        "image": "foyer (2) humide (1)",
+        "verb": "accomplir",
+        "image": "traversée (2) du fleuve (1)",
         "maxim": "",
-        "note": "après",
+        "note": "après la traversée du fleuve",
         "yijing": 63
     },
     "22": {
@@ -224,13 +224,13 @@ const hecto = {
         "verb": "briller",
         "image": "soleil (2) lumineux (2)",
         "maxim": "",
-        "note": "lumière",
+        "note": "lumière, phœnix dans un filet, auréole?",
         "yijing": 30
     },
     "23": {
         "hecto": "23",
-        "verb": "accorder",
-        "image": "relier (2) les forces (3)",
+        "verb": "assembler",
+        "image": "réunir (2) les grands (3)",
         "maxim": "",
         "note": "associer, coopérer, vase et couvercle ajusté",
         "yijing": 13
@@ -240,7 +240,7 @@ const hecto = {
         "verb": "occulter",
         "image": "lumière (2) enterrée (4)",
         "maxim": "",
-        "note": "",
+        "note": "phœnix abbatu d’une flèche",
         "yijing": 36
     },
     "25": {
@@ -256,21 +256,21 @@ const hecto = {
         "verb": "foisonner",
         "image": "le soleil (2) veut (6)",
         "maxim": "",
-        "note": "fertile, luxuriant, abondant…",
+        "note": "? fertile, luxuriant, abondant… Prodiges",
         "yijing": 55
     },
     "27": {
         "hecto": "27",
-        "verb": "réformer",
-        "image": "relier (2) les sens (7)",
+        "verb": "tanner",
+        "image": "étendre (2) la peau (7)",
         "maxim": "",
         "note": "muer, cuir, décortiquer",
         "yijing": 49
     },
     "28": {
         "hecto": "28",
-        "verb": "composer",
-        "image": "relier (2) les choses (8)",
+        "verb": "orner",
+        "image": "feu (2) de pierres (8)",
         "maxim": "",
         "note": "beauté, coquillage",
         "yijing": 22
@@ -278,9 +278,9 @@ const hecto = {
     "29": {
         "hecto": "29",
         "verb": "demeurer",
-        "image": "foyer (2) couvert (9)",
+        "image": "foyer (2) contenu (9)",
         "maxim": "",
-        "note": "famille , clan, sacrifice, héritage, perpétuer",
+        "note": "famille , clan, sacrifice, héritage, perpétuer, habiter",
         "yijing": 37
     },
     
@@ -312,7 +312,7 @@ const hecto = {
     "33": {
         "hecto": "33",
         "verb": "créer",
-        "image": "élan (3) céleste (3)",
+        "image": "pouvoir (3) céleste (3)",
         "maxim": "",
         "note": "sec; commençons par une offrande, divination bénéfique",
         "yijing": 1
@@ -338,31 +338,31 @@ const hecto = {
         "verb": "forcer",
         "image": "pouvoir (3) violent (6)",
         "maxim": "",
-        "note": "",
+        "note": "bélier bloqué, l’homme intègre réussit par la ruse plutôt que la force",
         "yijing": 34
     },
     "37": {
         "hecto": "37",
-        "verb": "rectifier",
-        "image": "pouvoir (3) sensé (7)",
+        "verb": "distinguer",
+        "image": "pouvoir (3) du sens (7)",
         "maxim": "",
-        "note": "sym-bole, bâton fendu contractuel",
+        "note": "sym-bole, bâton fendu contractuel, déterminer, distinguer",
         "yijing": 43
     },
     "38": {
         "hecto": "38",
-        "verb": "brider",
-        "image": "pouvoir (3) lié (8)",
+        "verb": "conserver",
+        "image": "pouvoir (3) du passé (8)",
         "maxim": "",
-        "note": "",
+        "note": "gros bétail, éducation des grands",
         "yijing": 26
     },
     "39": {
         "hecto": "39",
-        "verb": "éduquer",
-        "image": "pouvoir (3) régulier (9)",
+        "verb": "règlementer",
+        "image": "pouvoir (3) des lois (9)",
         "maxim": "",
-        "note": "",
+        "note": "petit bétail, domestication des petits",
         "yijing": 9
     },
 
@@ -637,7 +637,7 @@ const hecto = {
     },
     "73": {
         "hecto": "73",
-        "verb": "marcher",
+        "verb": "conduire",
         "image": "sens (7) du ciel (3)",
         "maxim": "",
         "note": "réaliser la parole, mettre en œuvre, marche rituelle, chercher, trouver",
