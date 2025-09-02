@@ -147,10 +147,10 @@ const hecto = {
     },
     "13": {
         "hecto": "13",
-        "verb": "accuser",
-        "image": "oreille (1) du pouvoir (3)",
+        "verb": "quereller",
+        "image": "? oreille (1) du pouvoir (3)",
         "maxim": "",
-        "note": "plaider, accuser, contester",
+        "note": "plaider, accuser, contester, dispute, embrouille, 訟 parole + commun, public, duc, juge",
         "yijing": 6
     },
     "14": {
@@ -214,7 +214,7 @@ const hecto = {
     "21": {
         "hecto": "21",
         "verb": "accomplir",
-        "image": "traversée (2) du fleuve (1)",
+        "image": "relier (2) le fleuve (1)",
         "maxim": "",
         "note": "après la traversée du fleuve",
         "yijing": 63
@@ -224,13 +224,13 @@ const hecto = {
         "verb": "briller",
         "image": "soleil (2) lumineux (2)",
         "maxim": "",
-        "note": "lumière, phœnix dans un filet, auréole?",
+        "note": "lumière, phœnix dans un filet, auréole?, joindre, focaliser, foyer, concentrer, attirer",
         "yijing": 30
     },
     "23": {
         "hecto": "23",
         "verb": "assembler",
-        "image": "réunir (2) les grands (3)",
+        "image": "joindre (2) les grands (3)",
         "maxim": "",
         "note": "associer, coopérer, vase et couvercle ajusté",
         "yijing": 13
@@ -238,7 +238,7 @@ const hecto = {
     "24": {
         "hecto": "24",
         "verb": "occulter",
-        "image": "lumière (2) enterrée (4)",
+        "image": "soleil (2) à terre (4)",
         "maxim": "",
         "note": "phœnix abbatu d’une flèche",
         "yijing": 36
@@ -296,7 +296,7 @@ const hecto = {
     "31": {
         "hecto": "31",
         "verb": "espérer",
-        "image": "ciel (3) nuageux (1)",
+        "image": "ciel (3) pluvieux (1)",
         "maxim": "",
         "note": "avoir faim que le blé pousse, offrande à la pluie, espérer, attendre",
         "yijing": 5
@@ -320,9 +320,9 @@ const hecto = {
     "34": {
         "hecto": "34",
         "verb": "redistribuer",
-        "image": "pouvoir (3) généreux (4)",
+        "image": "grands (3) en bas (4)",
         "maxim": "",
-        "note": "paix, prospérité",
+        "note": "paix, prospérité, arrivée des grands, imprégner, propager, parfum envahissant, pervading",
         "yijing": 11
     },
     "35": {
@@ -393,10 +393,10 @@ const hecto = {
     },
     "43": {
         "hecto": "43",
-        "verb": "contribuer",
-        "image": "richesses (4) en haut (3)",
+        "verb": "corrompre",
+        "image": "petits (4) en haut (3)",
         "maxim": "",
-        "note": "",
+        "note": "arrivée des petits, négation ou voleurs, personnes égoistes, taxer",
         "yijing": 12
     },
     "44": {
@@ -539,8 +539,8 @@ const hecto = {
     },
     "61": {
         "hecto": "61",
-        "verb": "? préparer",
-        "image": "? départ (6) de la vie (1)",
+        "verb": "coloniser",
+        "image": "passer (6) le fleuve (1)",
         "maxim": "",
         "note": "germer, stationner des troupes, difficulté initiale, rassemblement",
         "yijing": 3
@@ -548,7 +548,7 @@ const hecto = {
     "62": {
         "hecto": "62",
         "verb": "punir",
-        "image": "nature (6) brûlée (2)",
+        "image": "violence (6) brûlée (2)",
         "maxim": "", 
         "note": "festoyer, mordre et unir, peine, torture",
         "yijing": 21
@@ -638,17 +638,17 @@ const hecto = {
     "73": {
         "hecto": "73",
         "verb": "conduire",
-        "image": "sens (7) du ciel (3)",
+        "image": "s’ouvrir (7) au sens (3)",
         "maxim": "",
-        "note": "réaliser la parole, mettre en œuvre, marche rituelle, chercher, trouver",
+        "note": "réaliser la parole, mettre en œuvre, marche rituelle, chercher, trouver, guider, diriger",
         "yijing": 10
     },
     "74": {
         "hecto": "74",
         "verb": "approcher",
-        "image": "parler (7) aux petits (4)",
+        "image": "s’ouvrir (7) aux ancêtres (4)",
         "maxim": "",
-        "note": "condescendre, regarer de petites choses, approcher, expliquer?",
+        "note": "condescendre, regarder de petites choses, approcher, expliquer?, assiéger, pleurer au deuil",
         "yijing": 19
     }, 
     "75": {
@@ -670,9 +670,9 @@ const hecto = {
     "77": {
         "hecto": "77",
         "verb": "échanger",
-        "image": "réjouir (7) et moquer (7)",
+        "image": "don (7) contre don (7)",
         "maxim": "",
-        "note": "exchange, add, against, and convert, ouvrir, marais",
+        "note": "exchange, add, against, and convert, ouvrir, marais, don contre don, palabrer",
         "yijing": 58
     },
     "78": {
@@ -704,23 +704,23 @@ const hecto = {
     "81": {
         "hecto": "81",
         "verb": "entraver",
-        "image": "barrer (8) la route (1)",
+        "image": "barrer (8) le fleuve (1)",
         "maxim": "",
         "note": "entrave, boîter, obstruction",
         "yijing": 39
     },
     "82": {
         "hecto": "82",
-        "verb": "vagabonder",
-        "image": "sur la montagne (8), foyer (2)",
+        "verb": "voyager",
+        "image": "vers la montagne (8), foyer (2)",
         "maxim": "",
-        "note": "camp, hôtel, voyager, vagabond",
+        "note": "camp, hôtel, voyager, vagabond, expédition militaire",
         "yijing": 56
     },
     "83": {
         "hecto": "83",
         "verb": "reculer",
-        "image": "retourner (8) la force (3)",
+        "image": "tenir (8) en force (3)",
         "maxim": "",
         "note": "fuir, retraite, reculer ; pied bouclier, disparaître",
         "yijing": 33
@@ -744,7 +744,7 @@ const hecto = {
     "86": {
         "hecto": "86",
         "verb": "refouler",
-        "image": "retenir (8) l’envie (6)",
+        "image": "tenir (8) l’envie (6)",
         "maxim": "",
         "note": "excès de petit, moins que, cf 97, refouler, réfréner",
         "yijing": 62
@@ -794,23 +794,23 @@ const hecto = {
     "92": {
         "hecto": "92",
         "verb": "fonder",
-        "image": "contenir (9) un foyer (2)",
+        "image": "dater (9) le foyer (2)",
         "maxim": "",
         "note": "chaudron, instituer, tripode, deviner, présager, prophétiser, divination",
         "yijing": 50
     },
     "93": {
         "hecto": "93",
-        "verb": "coupler",
-        "image": "contenir (9) la force (3)",
+        "verb": "rencontrer",
+        "image": "dater (9) la force (3)",
         "maxim": "",
-        "note": "copuler, rencontrer",
+        "note": "copuler, rencontrer, coupler",
         "yijing": 44
     },
     "94": {
         "hecto": "94",
         "verb": "récolter",
-        "image": "mesure (9) de grains (4)",
+        "image": "dater (9) la moisson (4)",
         "maxim": "",
         "note": "grandir, croître, louche",
         "yijing": 46
@@ -826,7 +826,7 @@ const hecto = {
     "96": {
         "hecto": "96",
         "verb": "endurer",
-        "image": "pression (9) de la volonté (6)",
+        "image": "presser (9) la volonté (6)",
         "maxim": "",
         "note": "endurer, persévérer, cœur | course du soleil",
         "yijing": 32
@@ -841,10 +841,10 @@ const hecto = {
     },
     "98": {
         "hecto": "98",
-        "verb": "démêler",
-        "image": "ordonner (9) les nœuds (8)",
+        "verb": "empoisonner",
+        "image": "? transmettre (9) un poids (8)",
         "maxim": "",
-        "note": "sorcellerie, désinfecter, ranger les affaires des parents",
+        "note": "sorcellerie, désinfecter, ranger les affaires des parents, maladie sexuelle, malédiction, infecter",
         "yijing": 18
     },
     "99": {
@@ -852,7 +852,7 @@ const hecto = {
         "verb": "complaire",
         "image": "formes (9) respectées (9)",
         "maxim": "",
-        "note": "sceau, table avec commensaux à genoux",
+        "note": "sceau, table avec commensaux à genoux, s’agenouiller devant l’autel, calculer, dater",
         "yijing": 57
     },
 
