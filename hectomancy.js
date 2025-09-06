@@ -156,7 +156,7 @@ const hecto = {
     "14": {
         "hecto": "14",
         "verb": "commander",
-        "image": "emmener (1) l’armée (4)",
+        "image": "emmener (1) les masses (4)",
         "maxim": "",
         "note": "armée",
         "yijing": 7
@@ -172,15 +172,15 @@ const hecto = {
     "16": {
         "hecto": "16",
         "verb": "affranchir",
-        "image": "fil (1) dénoué (6)",
+        "image": "fatalité (1) secouée (6)",
         "maxim": "",
         "note": "affranchir, libérer, démonter, démêler",
         "yijing": 40
     },
     "17": {
         "hecto": "17",
-        "verb": "épuiser",
-        "image": "flots (1) vidés (7)",
+        "verb": "vider",
+        "image": "fleuve (1), embouchure (7)",
         "maxim": "",
         "note": "épuiser, étouffer, opprimer % 91 (puits, aménager), emmêler",
         "yijing": 47
@@ -237,10 +237,10 @@ const hecto = {
     },
     "24": {
         "hecto": "24",
-        "verb": "occulter",
-        "image": "soleil (2) à terre (4)",
+        "verb": "vulgariser",
+        "image": "lumières (2) pour les masses (4)",
         "maxim": "",
-        "note": "phœnix abbatu d’une flèche",
+        "note": "phœnix abbatu d’une flèche, occulter",
         "yijing": 36
     },
     "25": {
@@ -254,17 +254,17 @@ const hecto = {
     "26": {
         "hecto": "26",
         "verb": "foisonner",
-        "image": "le soleil (2) veut (6)",
+        "image": "extension (2) de la nature (6)",
         "maxim": "",
-        "note": "? fertile, luxuriant, abondant… Prodiges",
+        "note": "fertile, luxuriant, abondant… Prodiges. Chaume de maison",
         "yijing": 55
     },
     "27": {
         "hecto": "27",
-        "verb": "tanner",
-        "image": "étendre (2) la peau (7)",
+        "verb": "changer",
+        "image": "éclairer (2) le consentement (7)",
         "maxim": "",
-        "note": "muer, cuir, décortiquer",
+        "note": "muer, cuir, décortiquer, “fire” quelqu’un, moment opportun",
         "yijing": 49
     },
     "28": {
@@ -335,18 +335,18 @@ const hecto = {
     },
     "36": {
         "hecto": "36",
-        "verb": "forcer",
-        "image": "pouvoir (3) violent (6)",
+        "verb": "maîtriser",
+        "image": "pouvoir (3) naturel (6)",
         "maxim": "",
-        "note": "bélier bloqué, l’homme intègre réussit par la ruse plutôt que la force",
+        "note": "bélier bloqué, l’homme intègre réussit par la ruse plutôt que la force, 壯 grand talent ou compétence",
         "yijing": 34
     },
     "37": {
         "hecto": "37",
-        "verb": "distinguer",
-        "image": "pouvoir (3) du sens (7)",
+        "verb": "juger",
+        "image": "le pouvoir (3) tranche (7)",
         "maxim": "",
-        "note": "sym-bole, bâton fendu contractuel, déterminer, distinguer",
+        "note": "sym-bole, bâton fendu contractuel, déterminer, distinguer, résolution",
         "yijing": 43
     },
     "38": {
@@ -359,8 +359,8 @@ const hecto = {
     },
     "39": {
         "hecto": "39",
-        "verb": "règlementer",
-        "image": "pouvoir (3) des lois (9)",
+        "verb": "policer",
+        "image": "pouvoir (3) des mœurs (9)",
         "maxim": "",
         "note": "petit bétail, domestication des petits",
         "yijing": 9
@@ -401,7 +401,7 @@ const hecto = {
     },
     "44": {
         "hecto": "44",
-        "verb": "accepter",
+        "verb": "conformer",
         "image": "terre (4) réceptive (4)",
         "maxim": "",
         "note": "réceptif, terre, champ",
@@ -417,18 +417,18 @@ const hecto = {
     },
     "46": {
         "hecto": "46",
-        "verb": "concéder",
-        "image": "terre (4) donnée (6)",
+        "verb": "mobiliser",
+        "image": "les masses (4) démarrent (6)",
         "maxim": "",
-        "note": "parier, investir, ville?, éléphant-image, imaginer, enthousiasme",
+        "note": "parier, investir, ville?, concéder un fief, éléphant-image, imaginer, enthousiasme ; 予 payer 象 un éléphant",
         "yijing": 16
     },
     "47": {
         "hecto": "47",
-        "verb": "rassembler",
+        "verb": "convoquer",
         "image": "foule (4) joyeuse (7)",
         "maxim": "",
-        "note": "assembler pour un sacrifice, collectionner, champ moissonner",
+        "note": "assembler pour un sacrifice, collectionner, champ moissonner, masser",
         "yijing": 45
     },
     "48": {
@@ -548,7 +548,7 @@ const hecto = {
     "62": {
         "hecto": "62",
         "verb": "punir",
-        "image": "violence (6) brûlée (2)",
+        "image": "nature (6) écartelée (2)",
         "maxim": "", 
         "note": "festoyer, mordre et unir, peine, torture",
         "yijing": 21
@@ -588,7 +588,7 @@ const hecto = {
     "67": {
         "hecto": "67",
         "verb": "poursuivre",
-        "image": "vouloir (6) le plaisir (7)",
+        "image": "vouloir (6) accepter (7)",
         "maxim": "",
         "note": "sacrifice des captifs,  隋 boucher",
         "yijing": 17
@@ -621,8 +621,8 @@ const hecto = {
     },
     "71": {
         "hecto": "71",
-        "verb": "articuler",
-        "image": "ponctuer (7) un flux (1)",
+        "verb": "rythmer",
+        "image": "diviser (7) le flux (1)",
         "maxim": "",
         "note": "rythmer, articuler, ponctuer, mesurer, cadencer, charnière",
         "yijing": 60
@@ -645,8 +645,8 @@ const hecto = {
     },
     "74": {
         "hecto": "74",
-        "verb": "approcher",
-        "image": "s’ouvrir (7) aux ancêtres (4)",
+        "verb": "visiter",
+        "image": "ouvrir (7) le champ (4)",
         "maxim": "",
         "note": "condescendre, regarder de petites choses, approcher, expliquer?, assiéger, pleurer au deuil",
         "yijing": 19
@@ -661,10 +661,10 @@ const hecto = {
     },
     "76": {
         "hecto": "76",
-        "verb": "marier",
-        "image": "plaisir (7) brutal (6)",
+        "verb": "intégrer",
+        "image": "consentir (7) à l’élan (6)",
         "maxim": "",
-        "note": "retour de la petite sœur, concubine, mariage raté",
+        "note": "retour de la petite sœur, concubine, mariage raté, 歸 se livrer 妹 femme pas encore",
         "yijing": 54
     },
     "77": {
@@ -744,7 +744,7 @@ const hecto = {
     "86": {
         "hecto": "86",
         "verb": "refouler",
-        "image": "tenir (8) l’envie (6)",
+        "image": "tenir (8) sa nature (6)",
         "maxim": "",
         "note": "excès de petit, moins que, cf 97, refouler, réfréner",
         "yijing": 62
@@ -826,7 +826,7 @@ const hecto = {
     "96": {
         "hecto": "96",
         "verb": "endurer",
-        "image": "presser (9) la volonté (6)",
+        "image": "presser (9) sa nature (6)",
         "maxim": "",
         "note": "endurer, persévérer, cœur | course du soleil",
         "yijing": 32

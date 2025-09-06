@@ -23,8 +23,19 @@ body {
     font-style: normal;
     font-size: 12px;
 }
+
+.win {
+    display: flex;
+    justify-content: center;
+}
+
+.win form {
+    overflow: auto;
+    max-height: 100vh;
+}
+
 .main {
-    height: 95vh;
+    height: 100vh;
     flex-shrink: 0;
 }
 
@@ -46,7 +57,7 @@ body {
 }
 
 figure.hecto {
-    height: 32vh;
+    height: 33.3vh;
     margin: 0;
     padding: 0 0.5rem 0 0.5rem;
     display: flex;
@@ -110,6 +121,12 @@ figure.hecto.modal {
     display: none;
 }
 
+form {
+    text-align: center;
+}
+button {
+    font-family: monospace;
+}
 
 @page {
     size: A4;
@@ -194,12 +211,46 @@ figure.hecto.modal {
     <body>
         <div class="win">
             <form name="choose">
-                <select name="vue">
-                    <option value="ten">Dizaines</option>
-                    <option value="unit">Unités</option>
-                    <option value=""></option>
-                </select>
-                <input name="page" id="page" type="range"  min="0" max="9" step="1" />
+                <div>
+                    <button type="button" name="set" value="1*">1*</button>
+                    <button type="button" name="set" value="*1">*1</button>
+                </div>
+                <div>
+                    <button type="button" name="set" value="2*">2*</button>
+                    <button type="button" name="set" value="*2">*2</button>
+                </div>
+                <div>
+                    <button type="button" name="set" value="3*">3*</button>
+                    <button type="button" name="set" value="*3">*3</button>
+                </div>
+                <div>
+                    <button type="button" name="set" value="4*">4*</button>
+                    <button type="button" name="set" value="*4">*4</button>
+                </div>
+                <div>
+                    <button type="button" name="set" value="5*">5*</button>
+                    <button type="button" name="set" value="*5">*5</button>
+                </div>
+                <div>
+                    <button type="button" name="set" value="6*">6*</button>
+                    <button type="button" name="set" value="*6">*6</button>
+                </div>
+                <div>
+                    <button type="button" name="set" value="7*">7*</button>
+                    <button type="button" name="set" value="*7">*7</button>
+                </div>
+                <div>
+                    <button type="button" name="set" value="8*">8*</button>
+                    <button type="button" name="set" value="*8">*8</button>
+                </div>
+                <div>
+                    <button type="button" name="set" value="9*">9*</button>
+                    <button type="button" name="set" value="*9">*9</button>
+                </div>
+                <div>
+                    <button type="button" name="set" value="0*">0*</button>
+                    <button type="button" name="set" value="*0">*0</button>
+                </div>
             </form>
             <main id="main" class="page main">
                 <div class="row">
@@ -302,8 +353,6 @@ figure.hecto.modal {
         <script>
 (function () {
 const form = document.forms['choose'];
-form.page.focus();
-
 function display(id, n)
 {
     const no = ('' + n).padStart(2, '0');
@@ -335,53 +384,45 @@ for (let i = 0, len = ids.length; i < len; i++) {
     }, true);
 }
 
-form.update = function() {
-    form.page.focus();
-    const vue = form.vue.value;
-    const page = form.page.value;
-    const url = new URL(window.location);    
-    url.search = new URLSearchParams(new FormData(form));
-    window.history.pushState({}, '', url);
-
-    if (!vue) {
+function show(pat)
+{
+    const chars = pat.split("");
+    if (chars[0] == '*' && /^[0-9]$/.test(chars[1])) {
+        const start = chars[1] % 10;
+        for (let i = 0, len = ids.length; i < len; i++) {
+            const id = ids[i];
+            display(ids[i], ( (i + 1) *10) + start);
+        }
+    }
+    else if (/^[0-9]$/.test(chars[0]) && chars[1] == '*') {
+        const start = 10 * Math.floor(chars[0] % 10);
+        for (let i = 0, len = ids.length; i < len; i++) {
+            display(ids[i], start + i + 1);
+        }
+    }
+    else {
         const lim = Math.min(ids.length, news.length);
         for (let i = 0; i < lim; i++) {
             const id = ids[i];
             display(ids[i], news[i]);
         }
     }
-    else if (vue == "unit") {
-        const start = page % 10;
-        for (let i = 0, len = ids.length; i < len; i++) {
-            const id = ids[i];
-            display(ids[i], ( (i + 1) *10) + start);
-        }
-    }
-    else {
-        const start = 10 * Math.floor(page % 10);
-        for (let i = 0, len = ids.length; i < len; i++) {
-            display(ids[i], start + i + 1);
-        }
-    }
-};
+
+}
+
+const hash = window.location.hash.slice(1);
+show(hash);
 
 
-// upadate on load
-const urlPars = new URLSearchParams(window.location.search);
-form.vue.value = urlPars.get("vue");
-form.page.value = urlPars.get("page");
-form.update();
-// 
-form.addEventListener("submit", function(event) {
-    form.preventDefault();
-    form.update();
-}, true);
-form.vue.addEventListener("change", function(event) {
-    form.update();
-}, true);
-form.page.addEventListener("change", function(event) {
-    form.update();
-}, true);
+const buttons = form.querySelectorAll('button');
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    history.pushState(null, null, "#" + button.value);
+    show(button.value);
+  });
+});
+
+
 
 })();
         </script>
