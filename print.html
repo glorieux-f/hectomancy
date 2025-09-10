@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Hectomancie</title>
+    <script src="hectomancy.js">//</script>
+  </head>
+  <body>
+     <div id="container"></div>
+  </body>
+  <script>
+    const container = document.getElementById("container");
+
+    // Loop through each record
+    Object.values(hecto).forEach(record => {
+      const formula = record.formula.replace(/ \(\d\)/g, "");
+      const line = document.createElement("p");
+      let txt = `${record.key}. ${record.verb} : ${formula}.`;
+      if (record.hexagram) txt += ' ' + record.hexagram;
+      line.textContent = txt;
+      container.appendChild(line);
+    });
+  </script>
+</html>
