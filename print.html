@@ -12,13 +12,16 @@
     const container = document.getElementById("container");
 
     // Loop through each record
-    Object.values(hecto).forEach(record => {
-      const formula = record.formula.replace(/ \(\d\)/g, "");
-      const line = document.createElement("p");
+    for (const key of Object.keys(hecto).sort()) {
+      const record = hecto[key];
+      let formula = record.formula;
+      formula = formula.replace(/ \(\d\)/g, "");
+      const line = document.createElement("div");
       let txt = `${record.key}. ${record.verb} : ${formula}.`;
       if (record.hexagram) txt += ' ' + record.hexagram;
-      line.textContent = txt;
+      if (record.hexagram) line.textContent = 'k' + key + '. ' + record.hexagram;
+      else line.textContent = 'k' + key + '. ?';
       container.appendChild(line);
-    });
+    }
   </script>
 </html>

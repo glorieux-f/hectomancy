@@ -301,75 +301,63 @@ const deca = [
 ];
 const hecto = {    
     "00": {
-        "key": "00",
         "verb": "annuler",
         "formula": "remettre (0) à zéro (0)",
         "note": "",
     },
     "01": {
-        "key": "01",
         "verb": "assourdir",
         "formula": "sans (0) entendre (1)",
         "note": "assourdir, sans bruit, liquider",
     },
     "02": {
-        "key": "02",
         "verb": "aveugler",
         "formula": "sans (0) lumière (2)",
         "note": "sans voir, aveugler",
     },
     "03": {
-        "key": "03",
         "verb": "ruminer",
         "formula": "user (0) l’idée (3)",
         "note": "",
     },
     "04": {
-        "key": "04",
         "verb": "déposséder",
         "formula": "sans (0) avoir (4)",
-        "note": "rebuild clean, rebaser",
+        "note": "rebaser",
     },
     "05": {
-        "key": "05",
         "verb": "déserter",
         "formula": "sans (0) humanité (5)",
         "note": "recentrer",
     },
     "06": {
-        "key": "06",
         "verb": "relancer",
         "formula": "annuler (0) l’impulsion (6)",
         "note": "désamorcer, fatiguer, relancer",
     },
     "07": {
-        "key": "07",
         "verb": "refermer",
         "formula": "sans (0) joie (7)",
         "note": "refermer, taire",
     },
     "08": {
-        "key": "08",
         "verb": "abandonner",
         "formula": "perdre (0) les limites (8)",
         "note": "",
     },
     "09": {
-        "key": "09",
         "verb": "réformer",
         "formula": "restaurer (0) l’esprit (9)",
         "note": "",
     },
 
     "10": {
-        "key": "10",
         "verb": "laver",
         "formula": "flux (1) qui restaure (0)",
         "note": "",
         "yijing": ""
     },
     "11": {
-        "key": "11",
         "verb": "sombrer",
         "formula": "abîme (1) et courant (1)",
         "note": "chute, tomber, herbes sauvages, friche, naviguer",
@@ -377,7 +365,6 @@ const hecto = {
         "hexagram": "䷜"
     },
     "12": {
-        "key": "12",
         "verb": "achever",
         "formula": "fleuve (1) à traverser (2)",
         "note": "prévoir, corriger pour l’achèvement",
@@ -385,7 +372,6 @@ const hecto = {
         "hexagram": "䷿"
     },
     "13": {
-        "key": "13",
         "verb": "contester",
         "formula": "fond (1) à juger (3)",
         "note": "plaider, accuser, contester, dispute, embrouille, 訟 parole + commun, public, duc, juge",
@@ -393,7 +379,6 @@ const hecto = {
         "hexagram": "䷅"
     },
     "14": {
-        "key": "14",
         "verb": "commander",
         "formula": "aligner (1) les rangs (4)",
         "note": "armée",
@@ -401,13 +386,11 @@ const hecto = {
         "hexagram": "䷆"
     },
     "15": {
-        "key": "15",
         "verb": "naviguer",
         "formula": "flux (1) accompagné (5)",
         "note": ""
     },
     "16": {
-        "key": "16",
         "verb": "libérer",
         "formula": "fatalité (1) secouée (6)",
         "note": "affranchir, libérer, démonter, démêler",
@@ -415,7 +398,6 @@ const hecto = {
         "hexagram": "䷧"
     },
     "17": {
-        "key": "17",
         "verb": "épuiser",
         "formula": "le fond (1) est ouvert (7)",
         "note": "épuiser, étouffer, opprimer % 91 (puits, abreuver), emmêler",
@@ -423,7 +405,6 @@ const hecto = {
         "hexagram": "䷮"
     },
     "18": {
-        "key": "18",
         "verb": "discipliner",
         "formula": "folie (1) cadrée (8)",
         "note": "sanglier dans un filet et plante grimpante : couvrir, bourgeonner, ignorer, batifoler, jeune fou, folâtrer",
@@ -431,7 +412,6 @@ const hecto = {
         "hexagram": "䷃"
     },
     "19": {
-        "key": "19",
         "verb": "disperser",
         "formula": "eaux (1) soufflées (9)",
         "note": "disperser, dissoudre, déborder, dissiper, disparaître, jaillir, dissoudre les amas",
@@ -441,13 +421,11 @@ const hecto = {
 
 
     "20": {
-        "key": "20",
         "verb": "rompre",
         "formula": "lien (2) annulé (0)",
         "note": "élaguer",
     },
     "21": {
-        "key": "21",
         "verb": "arriver",
         "formula": "rallier (2) le fleuve (1)",
         "note": "après la traversée du fleuve, tempérer, éclairer les profondeurs",
@@ -455,7 +433,6 @@ const hecto = {
         "hexagram": "䷾"
     },
     "22": {
-        "key": "22",
         "verb": "éclairer",
         "formula": "soleil (2) lumineux (2)",
         "note": "lumière, phœnix dans un filet, loriot, joindre, focaliser, foyer, concentrer, attirer, briller",
@@ -463,7 +440,6 @@ const hecto = {
         "hexagram": "䷝"
     },
     "23": {
-        "key": "23",
         "verb": "assembler",
         "formula": "joindre (2) les grands (3)",
         "note": "associer, coopérer, vase et couvercle ajusté",
@@ -471,7 +447,6 @@ const hecto = {
         "hexagram": "䷌"
     },
     "24": {
-        "key": "24",
         "verb": "blesser",
         "formula": "feu (2) dans la chair (4)",
         "note": "phœnix abbatu d’une flèche, occulter, vulgariser, exposition punitive, blessure (feu sous la chair)",
@@ -479,13 +454,11 @@ const hecto = {
         "hexagram": "䷣"
     },
     "25": {
-        "key": "25",
         "verb": "débattre",
         "formula": "confronter (2) les cœurs (5)",
         "note": "",
     },
     "26": {
-        "key": "26",
         "verb": "foisonner",
         "formula": "extension (2) en herbe (6)",
         "note": "fertile, luxuriant, abondant… Prodiges. Chaume de maison, allumer, déclencher. Plein",
@@ -493,7 +466,6 @@ const hecto = {
         "hexagram": "䷶"
     },
     "27": {
-        "key": "27",
         "verb": "changer",
         "formula": "brûler (2) la peau (7)",
         "note": "muer, cuir, décortiquer, “fire” quelqu’un, moment opportun",
@@ -501,7 +473,6 @@ const hecto = {
         "hexagram": "䷰"
     },
     "28": {
-        "key": "28",
         "verb": "styliser",
         "formula": "révéler (2) les bords (8)",
         "note": "beauté, coquillage, beauté par la coupe",
@@ -509,7 +480,6 @@ const hecto = {
         "hexagram": "䷕"
     },
     "29": {
-        "key": "29",
         "verb": "perpétuer",
         "formula": "foyer (2) sous le toit (9)",
         "note": "? famille , clan, sacrifice, héritage, perpétuer, habiter, clarté partagée, demeurer",
@@ -519,13 +489,11 @@ const hecto = {
     
 
     "30": {
-        "key": "30",
         "verb": "blasphémer",
         "formula": "supérieur (3) nié (0)",
         "note": "",
     },
     "31": {
-        "key": "31",
         "verb": "prévoir",
         "formula": "idée (3) en germe (1)",
         "note": "avoir faim que le blé pousse, offrande à la pluie, espérer, attendre, préparer",
@@ -533,7 +501,6 @@ const hecto = {
         "hexagram": "䷄"
     },
     "32": {
-        "key": "32",
         "verb": "donner",
         "formula": "pouvoir (3) riche (2)",
         "note": "il y a, fortune, grand réalisé, advenir, ",
@@ -541,7 +508,6 @@ const hecto = {
         "hexagram": "䷍"
     },
     "33": {
-        "key": "33",
         "verb": "créer",
         "formula": "axes (3) alignés (3)",
         "note": "sec; commençons par une offrande, divination bénéfique",
@@ -549,7 +515,6 @@ const hecto = {
         "hexagram": "䷀"
     },
     "34": {
-        "key": "34",
         "verb": "prospérer",
         "formula": "pouvoir (3) aux masses (4)",
         "note": "paix, prospérité, arrivée des grands, imprégner, propager, parfum envahissant, pervading",
@@ -557,13 +522,11 @@ const hecto = {
         "hexagram": "䷊"
     },
     "35": {
-        "key": "35",
         "verb": "penser",
         "formula": "idée (3) humaine (5)",
         "note": "",
     },
     "36": {
-        "key": "36",
         "verb": "maîtriser",
         "formula": "pouvoir (3) naturel (6)",
         "note": "bélier bloqué, l’homme intègre réussit par la ruse plutôt que la force, 壯 grand talent ou compétence",
@@ -571,7 +534,6 @@ const hecto = {
         "hexagram": "䷡"
     },
     "37": {
-        "key": "37",
         "verb": "proclamer",
         "formula": "la direction (3) tranche (7)",
         "note": "sym-bole, bâton fendu contractuel, déterminer, distinguer, résolution",
@@ -579,7 +541,6 @@ const hecto = {
         "hexagram": "䷪"
     },
     "38": {
-        "key": "38",
         "verb": "hériter",
         "formula": "pouvoir (3) du passé (8)",
         "note": "gros bétail, éducation des grands, conserver",
@@ -587,7 +548,6 @@ const hecto = {
         "hexagram": "䷙"
     },
     "39": {
-        "key": "39",
         "verb": "policer",
         "formula": "pouvoir (3) des mœurs (9)",
         "note": "petit bétail, domestication des petits",
@@ -597,13 +557,11 @@ const hecto = {
 
 
     "40": {
-        "key": "40",
         "verb": "peser",
         "formula": "masse (4) vaine (0)",
         "note": "démonter",
     },
     "41": {
-        "key": "41",
         "verb": "participer",
         "formula": "ressources (4) communes (1)",
         "note": "比 2 humains retournés, comparer (cf. 从 suivre), champ innondé, égaliser",
@@ -611,7 +569,6 @@ const hecto = {
         "hexagram": "䷇"
     },
     "42": {
-        "key": "42",
         "verb": "promouvoir",
         "formula": "porter (4) à la lumière (2)",
         "note": "lever du soleil, développer, arriver à la lumière, course du soleil, un oiseau ne recule pas, promouvoir",
@@ -619,7 +576,6 @@ const hecto = {
         "hexagram": "䷢"
     },
     "43": {
-        "key": "43",
         "verb": "stagner",
         "formula": "capital (4) au pouvoir (3)",
         "note": "arrivée des petits, négation ou voleurs, personnes égoistes, taxer",
@@ -627,7 +583,6 @@ const hecto = {
         "hexagram": "䷋"
     },
     "44": {
-        "key": "44",
         "verb": "recevoir",
         "formula": "terre (4) malléable (4)",
         "note": "réceptif, terre, champ, disponible, former, porter, accueillir",
@@ -635,13 +590,11 @@ const hecto = {
         "hexagram": "䷁"
     },
     "45": {
-        "key": "45",
         "verb": "aménager",
         "formula": "moyens (4) pour les gens (5)",
         "note": "",
     },
     "46": {
-        "key": "46",
         "verb": "mobiliser",
         "formula": "les masses (4) tonnent (6)",
         "note": "parier, investir, concéder un fief, éléphant-image, imaginer, enthousiasme ; 予 payer 象 un éléphant, tambour",
@@ -649,7 +602,6 @@ const hecto = {
         "hexagram": "䷏"
     },
     "47": {
-        "key": "47",
         "verb": "convier",
         "formula": "foule (4) invitée (7)",
         "note": "assembler pour un sacrifice, collectionner, champ moissonner, masser, faire affluer les contributions",
@@ -657,7 +609,6 @@ const hecto = {
         "hexagram": "䷬"
     },
     "48": {
-        "key": "48",
         "verb": "dépouiller",
         "formula": "les couches (4) s’écaillent (8)",
         "note": "user, élaguer, dépouiller, écorcher, vache coupée",
@@ -665,7 +616,6 @@ const hecto = {
         "hexagram": "䷖"
     },
     "49": {
-        "key": "49",
         "verb": "observer",
         "formula": "concret (4) mesuré (9)",
         "note": "look up, chercher, admirer, contempler, porte, temple, belvédère, prendre modèle, voir de haut, surveiller",
@@ -674,74 +624,62 @@ const hecto = {
     },
 
     "50": {
-        "key": "50",
         "verb": "vanter",
         "formula": "personne (5) vaine (0)",
         "note": "",
     },
     "51": {
-        "key": "51",
         "verb": "pleurer",
         "formula": "cœur (5) qui coule (1)",
         "note": "",
     },
     "52": {
-        "key": "52",
         "verb": "hésiter",
         "formula": "cœur (5) tiraillé (2)",
         "note": "",
     },
     "53": {
-        "key": "53",
         "verb": "aspirer",
         "formula": "aimer (5) l’idéal (3)",
         "note": "",
     },
     "54": {
-        "key": "54",
         "verb": "cultiver",
         "formula": "gens (5) de terre (4)",
         "note": "",
     },
     "55": {
-        "key": "55",
         "verb": "humaniser",
         "formula": "personne (5) humaine (5)",
         "note": "",
     },
     "56": {
-        "key": "56",
         "verb": "combattre",
         "formula": "cœur (5) impulsif (6)",
         "note": "",
     },
     "57": {
-        "key": "57",
         "verb": "avouer",
         "formula": "cœur (5) qui parle (7)",
         "note": "",
     },
     "58": {
-        "key": "58",
         "verb": "protéger",
         "formula": "le cœur (5) a ses limites (8)",
         "note": "interdire, borner, sauvegarder",
     },
     "59": {
-        "key": "59",
         "verb": "juger",
         "formula": "personne (5) formelle (9)",
         "note": "",
     },
 
     "60": {
-        "key": "60",
         "verb": "tâtonner",
         "formula": "départs (6) ratés (0)",
         "note": "relâcher",
     },
     "61": {
-        "key": "61",
         "verb": "naître",
         "formula": "démarrer (6) dans la difficulté (1)",
         "note": "germer, stationner des troupes, difficulté initiale, rassemblement",
@@ -749,7 +687,6 @@ const hecto = {
         "hexagram": "䷂"
     },
     "62": {
-        "key": "62",
         "verb": "punir",
         "formula": "colère (6) éclairée (2)",
         "maxim": "", 
@@ -758,7 +695,6 @@ const hecto = {
         "hexagram": "䷔"
     },
     "63": {
-        "key": "63",
         "verb": "étonner",
         "formula": "naturel (6) droit (3)",
         "note": "sans folie, innocent, inatendu, colère du ciel",
@@ -766,7 +702,6 @@ const hecto = {
         "hexagram": "䷘"
     },
     "64": {
-        "key": "64",
         "verb": "retourner",
         "formula": "partir (6) du bas (4)",
         "note": "revenir, demi-tour, mort",
@@ -774,13 +709,11 @@ const hecto = {
         "hexagram": "䷗"
     },
     "65": {
-        "key": "65",
         "verb": "encourager",
         "formula": "impulsion (6) humaine (5)",
         "note": "",
     },
     "66": {
-        "key": "66",
         "verb": "réveiller",
         "formula": "choc (6) initial (6)",
         "note": "ébranlement, réveiller, impulsion initiale, colère, printemps, naissance, cascade, alerte",
@@ -788,7 +721,6 @@ const hecto = {
         "hexagram": "䷲"
     },
     "67": {
-        "key": "67",
         "verb": "suivre",
         "formula": "vouloir (6) accepter (7)",
         "note": "sacrifice des captifs,  隋 boucher, harmoniser, accorder, push-pull, suivre l’appel",
@@ -796,7 +728,6 @@ const hecto = {
         "hexagram": "䷐"
     },
     "68": {
-        "key": "68",
         "verb": "rassasier",
         "formula": "désirs (6) satisfaits (8)",
         "note": "mâchoire de divination, appétit satisfait",
@@ -804,7 +735,6 @@ const hecto = {
         "hexagram": "䷚"
     },
     "69": {
-        "key": "69",
         "verb": "gagner",
         "formula": "vouloir (6) diffuser (9)",
         "note": "crédit (% débit, 78), augmenter, gagner, donner?, générosité noble, rançon",
@@ -814,13 +744,11 @@ const hecto = {
 
 
     "70": {
-        "key": "70",
         "verb": "parier",
         "formula": "demander (7) l’improbable (0)",
         "note": "",
     },
     "71": {
-        "key": "71",
         "verb": "rythmer",
         "formula": "ponctuer (7) le flux (1)",
         "note": "rythmer, articuler, ponctuer, mesurer, cadencer, charnière",
@@ -828,7 +756,6 @@ const hecto = {
         "hexagram": "䷻"
     },
     "72": {
-        "key": "72",
         "verb": "disputer",
         "formula": "diviser (7) le foyer (2)",
         "note": "",
@@ -836,7 +763,6 @@ const hecto = {
         "hexagram": "䷥"
     },
     "73": {
-        "key": "73",
         "verb": "marcher",
         "formula": "ouvrir (7) la voie (3)",
         "note": "réaliser la parole, mettre en œuvre, marche rituelle, chercher, trouver, guider, diriger",
@@ -844,7 +770,6 @@ const hecto = {
         "hexagram": "䷉"
     },
     "74": {
-        "key": "74",
         "verb": "approcher",
         "formula": "s’ouvrir (7) au bas (4)",
         "note": "condescendre, regarder de petites choses, approcher, expliquer, assiéger, pleurer au deuil, visiter",
@@ -852,13 +777,11 @@ const hecto = {
         "hexagram": "䷒"
     }, 
     "75": {
-        "key": "75",
         "verb": "accueillir",
         "formula": "ouvrir (7) le cœur (5)",
         "note": "",
     },
     "76": {
-        "key": "76",
         "verb": "intégrer",
         "formula": "accepter (7) l’imprévu (6)",
         "note": "retour de la petite sœur, concubine, mariage raté, 歸 se livrer 妹 femme pas encore",
@@ -866,7 +789,6 @@ const hecto = {
         "hexagram": "䷵"
     },
     "77": {
-        "key": "77",
         "verb": "échanger",
         "formula": "inviter (7) et consentir (7)",
         "note": "ouvrir, agréer, parler, exchange, add, against, and convert, ouvrir, marais, don contre don, palabrer, satisfaction mutuelle",
@@ -874,7 +796,6 @@ const hecto = {
         "hexagram": "䷹"
     },
     "78": {
-        "key": "78",
         "verb": "perdre",
         "formula": "demandes (7) bloquées (8)",
         "maxim": "Moins mais mieux",
@@ -883,7 +804,6 @@ const hecto = {
         "hexagram": "䷨"
     },
     "79": {
-        "key": "79",
         "verb": "intérioriser",
         "formula": "accepter (7) ce qui convient (9)",
         "note": "vérité intérieure, juste confiance, centre, croire",
@@ -893,13 +813,11 @@ const hecto = {
     
 
     "80": {
-        "key": "80",
         "verb": "sidérer",
         "formula": "arrêté (8) sur rien (0)",
         "note": "",
     },
     "81": {
-        "key": "81",
         "verb": "entraver",
         "formula": "freins (8) et dangers (1)",
         "note": "entrave, boîter, obstruction, chercher la passe plutôt que forcer, contourner",
@@ -907,7 +825,6 @@ const hecto = {
         "hexagram": "䷦"
     },
     "82": {
-        "key": "82",
         "verb": "voyager",
         "formula": "aux frontières (8), foyer (2)",
         "note": "camp, hôtel, voyager, vagabond, expédition militaire, voyager en bordure, vivre en hôte",
@@ -915,7 +832,6 @@ const hecto = {
         "hexagram": "䷷"
     },
     "83": {
-        "key": "83",
         "verb": "reculer",
         "formula": "tenir (8) en force (3)",
         "note": "fuir, retraite, reculer ; pied bouclier, disparaître",
@@ -923,7 +839,6 @@ const hecto = {
         "hexagram": "䷠"
     },
     "84": {
-        "key": "84",
         "verb": "modérer",
         "formula": "tenir (8) bas (4)",
         "note": "humilité, modestie (% 46), niveler, humilier, modérer",
@@ -931,13 +846,11 @@ const hecto = {
         "hexagram": "䷎"
     },
     "85": {
-        "key": "85",
         "verb": "habiter",
         "formula": "pierre (8) humaine (5)",
         "note": "",
     },
     "86": {
-        "key": "86",
         "verb": "canaliser",
         "formula": "borner (8) le flux (6)",
         "note": "excès de petit, moins que, cf 97, refouler, réfréner",
@@ -945,7 +858,6 @@ const hecto = {
         "hexagram": "䷽"
     },
     "87": {
-        "key": "87",
         "verb": "séduire",
         "formula": "retenue (8) et sentiment (7)",
         "note": "salé, émouvoir, inciter, cf. 96 persévérer, endurer, influencer par présence calme, influence réciproque",
@@ -953,7 +865,6 @@ const hecto = {
         "hexagram": "䷞"
     },
     "88": {
-        "key": "88",
         "verb": "calmer",
         "formula": "tenir (8) tranquille (8)",
         "note": "couper, arrêter, bloquer, mener à terme et recommencer, porte, chien, main, nœud, pause, borne, consolidation",
@@ -961,7 +872,6 @@ const hecto = {
         "hexagram": "䷳"
     },
     "89": {
-        "key": "89",
         "verb": "progresser",
         "formula": "patiente (8) pression (9)",
         "note": "graduellement, arbre sur la montagne, infiltrer, progresser, mûrir",
@@ -971,13 +881,11 @@ const hecto = {
 
 
     "90": {
-        "key": "90",
         "verb": "culpabiliser",
         "formula": "pression (9) vaine (0)",
         "note": "",
     },
     "91": {
-        "key": "91",
         "verb": "abreuver",
         "formula": "diffuser (9) l’eau (1)",
         "note": "puits commun, fontaine publique, puiser, ressourcer",
@@ -985,7 +893,6 @@ const hecto = {
         "hexagram": "䷯"
     },
     "92": {
-        "key": "92",
         "verb": "consacrer",
         "formula": "souffler (9) sur la flamme (2)",
         "note": "chaudron, instituer, tripode, deviner, présager, prophétiser, divination, repas, faire d’un support un foyer de sens",
@@ -993,7 +900,6 @@ const hecto = {
         "hexagram": "䷱"
     },
     "93": {
-        "key": "93",
         "verb": "rencontrer",
         "formula": "infléchir (9) la direction (3)",
         "note": "copuler, rencontrer, coupler",
@@ -1001,7 +907,6 @@ const hecto = {
         "hexagram": "䷫"
     },
     "94": {
-        "key": "94",
         "verb": "croître",
         "formula": "le souffle (9) de la terre (4)",
         "note": "grandir, croître, louche, dater la moisson, monter par imprégnation",
@@ -1009,13 +914,11 @@ const hecto = {
         "hexagram": "䷭"
     },
     "95": {
-        "key": "95",
         "verb": "obliger",
         "formula": "presser (9) une personne (5)",
         "note": "",
     },
     "96": {
-        "key": "96",
         "verb": "endurer",
         "formula": "le souffle (9) accélère (6)",
         "note": "endurer, persévérer, cœur | course du soleil, routine synchronized to pulses",
@@ -1023,7 +926,6 @@ const hecto = {
         "hexagram": "䷟"
     },
     "97": {
-        "key": "97",
         "verb": "surcharger",
         "formula": "pression (9) à l’acceptation (7)",
         "note": "transgresser outrepasser, masse critique, grande expérience (aspect), excès de grand, cf 86",
@@ -1031,7 +933,6 @@ const hecto = {
         "hexagram": "䷛"
     },
     "98": {
-        "key": "98",
         "verb": "aérer",
         "formula": "air (9) confiné (8)",
         "note": "sorcellerie, désinfecter, ranger les affaires des parents, maladie sexuelle, malédiction, infecter; quelque chose pourrit à l'intérieur, corriger, corriger en ré-imprégnant",
@@ -1039,7 +940,6 @@ const hecto = {
         "hexagram": "䷑"
     },
     "99": {
-        "key": "99",
         "verb": "conformer",
         "formula": "formes (9) respectées (9)",
         "note": "sceau, table avec commensaux à genoux, s’agenouiller devant l’autel, calculer, dater, complaire",
