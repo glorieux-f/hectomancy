@@ -332,7 +332,7 @@ const hecto = {
     },
     "06": {
         "verb": "relancer",
-        "formula": "annuler (0) l’impulsion (6)",
+        "formula": "faux (0) départ (6)",
         "note": "désamorcer, fatiguer, relancer",
     },
     "07": {
@@ -353,12 +353,12 @@ const hecto = {
 
     "10": {
         "verb": "laver",
-        "formula": "flux (1) qui restaure (0)",
+        "formula": "flux (1) qui annule (0)",
         "note": "",
         "yijing": ""
     },
     "11": {
-        "verb": "sombrer",
+        "verb": "couler",
         "formula": "abîme (1) et courant (1)",
         "note": "chute, tomber, herbes sauvages, friche, naviguer",
         "yijing": 29,
@@ -490,7 +490,7 @@ const hecto = {
 
     "30": {
         "verb": "blasphémer",
-        "formula": "supérieur (3) nié (0)",
+        "formula": "puissance (3) niée (0)",
         "note": "",
     },
     "31": {
@@ -625,7 +625,7 @@ const hecto = {
 
     "50": {
         "verb": "vanter",
-        "formula": "personne (5) vaine (0)",
+        "formula": "gens (5) vains (0)",
         "note": "",
     },
     "51": {
@@ -634,8 +634,8 @@ const hecto = {
         "note": "",
     },
     "52": {
-        "verb": "hésiter",
-        "formula": "cœur (5) tiraillé (2)",
+        "verb": "tromper",
+        "formula": "cœur (5) double (2)",
         "note": "",
     },
     "53": {
@@ -655,16 +655,16 @@ const hecto = {
     },
     "56": {
         "verb": "combattre",
-        "formula": "cœur (5) impulsif (6)",
+        "formula": "gens (5) impulsifs (6)",
         "note": "",
     },
     "57": {
-        "verb": "avouer",
-        "formula": "cœur (5) qui parle (7)",
+        "verb": "confier",
+        "formula": "cœur (5) qui se donne (7)",
         "note": "",
     },
     "58": {
-        "verb": "protéger",
+        "verb": "repousser",
         "formula": "le cœur (5) a ses limites (8)",
         "note": "interdire, borner, sauvegarder",
     },
@@ -675,9 +675,9 @@ const hecto = {
     },
 
     "60": {
-        "verb": "tâtonner",
+        "verb": "hésiter",
         "formula": "départs (6) ratés (0)",
-        "note": "relâcher",
+        "note": "",
     },
     "61": {
         "verb": "naître",
@@ -814,7 +814,7 @@ const hecto = {
 
     "80": {
         "verb": "sidérer",
-        "formula": "arrêté (8) sur rien (0)",
+        "formula": "arrêté (8) dans le vide (0)",
         "note": "",
     },
     "81": {
