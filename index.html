@@ -15,8 +15,8 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: black;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 body {
     font-family: "Open Sans", sans-serif;
@@ -41,20 +41,15 @@ body {
 }
 
 .page {
-    /*
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    */
+}
+
+#main.horizontal img {
+    transform: rotate(-90deg);
 }
 
 .row {
     display: flex;
     justify-content: center;
-}
-
-#main.horizontal img {
-    transform: rotate(-90deg);
 }
 
 figure.hecto {
@@ -63,7 +58,6 @@ figure.hecto {
     padding: 0 0.5rem 0 0.5rem;
     display: flex;
     align-items: center;
-    background-color: #000;
 }
 
 figure.hecto {
@@ -168,9 +162,29 @@ button {
         justify-content: space-between;
     }
 
-    figure.hecto {
-        border: 1px solid #ccc;
+    /* print borders */
+
+    .page > .row:first-child {
+        border-top: 0.5px solid transparent;
     }
+
+    .row {
+        border-bottom: 0.5px solid transparent;
+    }
+
+    .row > figure:first-child {
+        border-left: 0.5px solid transparent;
+    }
+
+    .row > figure {
+        border-right: 0.5px solid transparent;
+    }
+
+    figure.hecto,
+    .main .row {
+        border-color: #888 !important;
+    }
+
 
     figure.hecto img {
         width: 2.3in;
@@ -181,18 +195,14 @@ button {
         position: relative;
     }
 
-    figure.hecto figcaption {
-        position: absolute;
-        bottom: 4mm;
-    }
 
     figure.hecto > h4 {
-        padding-top: 0.2in;
+        padding-top: 0.25in;
         font-size: 5.5mm;
-        font-weight: 100;
+        font-weight: 500;
     }
     figure.hecto > p {
-        padding-bottom: 0.1in;
+        padding-bottom: 0.25in;
     }
     figure.back figcaption {
         text-align: center;

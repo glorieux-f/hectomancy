@@ -373,7 +373,7 @@ const hecto = {
     },
     "13": {
         "verb": "contester",
-        "formula": "fond (1) à juger (3)",
+        "formula": "troubler (1) le pouvoir (3)",
         "note": "plaider, accuser, contester, dispute, embrouille, 訟 parole + commun, public, duc, juge",
         "yijing": 6,
         "hexagram": "䷅"
@@ -386,9 +386,9 @@ const hecto = {
         "hexagram": "䷆"
     },
     "15": {
-        "verb": "naviguer",
-        "formula": "flux (1) accompagné (5)",
-        "note": ""
+        "verb": "flouer",
+        "formula": "emporter (1) les gens (5)",
+        "note": "tromper"
     },
     "16": {
         "verb": "libérer",
@@ -399,7 +399,7 @@ const hecto = {
     },
     "17": {
         "verb": "épuiser",
-        "formula": "le fond (1) est ouvert (7)",
+        "formula": "à fond (1) ouvert (7)",
         "note": "épuiser, étouffer, opprimer % 91 (puits, abreuver), emmêler",
         "yijing": 47,
         "hexagram": "䷮"
@@ -412,8 +412,8 @@ const hecto = {
         "hexagram": "䷃"
     },
     "19": {
-        "verb": "disperser",
-        "formula": "eaux (1) soufflées (9)",
+        "verb": "diluer",
+        "formula": "l’eau (1) diffuse (9)",
         "note": "disperser, dissoudre, déborder, dissiper, disparaître, jaillir, dissoudre les amas",
         "yijing": 59,
         "hexagram": "䷺"
@@ -435,7 +435,7 @@ const hecto = {
     "22": {
         "verb": "éclairer",
         "formula": "soleil (2) lumineux (2)",
-        "note": "lumière, phœnix dans un filet, loriot, joindre, focaliser, foyer, concentrer, attirer, briller",
+        "note": "riche, lumière, phœnix dans un filet, loriot, joindre, focaliser, foyer, concentrer, attirer, briller 離",
         "yijing": 30,
         "hexagram": "䷝"
     },
@@ -448,13 +448,13 @@ const hecto = {
     },
     "24": {
         "verb": "blesser",
-        "formula": "feu (2) dans la chair (4)",
+        "formula": "feu (2) en chair (4)",
         "note": "phœnix abbatu d’une flèche, occulter, vulgariser, exposition punitive, blessure (feu sous la chair)",
         "yijing": 36,
         "hexagram": "䷣"
     },
     "25": {
-        "verb": "débattre",
+        "verb": "dialoguer",
         "formula": "confronter (2) les cœurs (5)",
         "note": "",
     },
@@ -466,8 +466,8 @@ const hecto = {
         "hexagram": "䷶"
     },
     "27": {
-        "verb": "changer",
-        "formula": "brûler (2) la peau (7)",
+        "verb": "expliquer",
+        "formula": "clarifier (2) le message (7)",
         "note": "muer, cuir, décortiquer, “fire” quelqu’un, moment opportun",
         "yijing": 49,
         "hexagram": "䷰"
@@ -480,9 +480,9 @@ const hecto = {
         "hexagram": "䷕"
     },
     "29": {
-        "verb": "perpétuer",
-        "formula": "foyer (2) sous le toit (9)",
-        "note": "? famille , clan, sacrifice, héritage, perpétuer, habiter, clarté partagée, demeurer",
+        "verb": "familiariser",
+        "formula": "foyer (2) harmonieux (9)",
+        "note": "? famille , clan, sacrifice, héritage, perpétuer, habiter, clarté partagée, demeurer 家人",
         "yijing": 37,
         "hexagram": "䷤"
     },
@@ -509,7 +509,7 @@ const hecto = {
     },
     "33": {
         "verb": "créer",
-        "formula": "axes (3) alignés (3)",
+        "formula": "directions (3) alignées (3)",
         "note": "sec; commençons par une offrande, divination bénéfique",
         "yijing": 1,
         "hexagram": "䷀"
@@ -522,8 +522,8 @@ const hecto = {
         "hexagram": "䷊"
     },
     "35": {
-        "verb": "penser",
-        "formula": "idée (3) humaine (5)",
+        "verb": "inspirer",
+        "formula": "direction (3) incarnée (5)",
         "note": "",
     },
     "36": {
@@ -583,7 +583,7 @@ const hecto = {
         "hexagram": "䷋"
     },
     "44": {
-        "verb": "recevoir",
+        "verb": "supporter",
         "formula": "terre (4) malléable (4)",
         "note": "réceptif, terre, champ, disponible, former, porter, accueillir",
         "yijing": 2,
@@ -634,7 +634,7 @@ const hecto = {
         "note": "",
     },
     "52": {
-        "verb": "tromper",
+        "verb": "hésiter",
         "formula": "cœur (5) double (2)",
         "note": "",
     },
@@ -645,8 +645,8 @@ const hecto = {
     },
     "54": {
         "verb": "cultiver",
-        "formula": "gens (5) de terre (4)",
-        "note": "",
+        "formula": "gens (5) de terrain (4)",
+        "note": "cœur en chair: incarner, ",
     },
     "55": {
         "verb": "humaniser",
@@ -655,7 +655,7 @@ const hecto = {
     },
     "56": {
         "verb": "combattre",
-        "formula": "gens (5) impulsifs (6)",
+        "formula": "gens (5) de colère (6)",
         "note": "",
     },
     "57": {
@@ -664,18 +664,18 @@ const hecto = {
         "note": "",
     },
     "58": {
-        "verb": "repousser",
-        "formula": "le cœur (5) a ses limites (8)",
+        "verb": "habiter",
+        "formula": "humaniser (5) le cadre (8)",
         "note": "interdire, borner, sauvegarder",
     },
     "59": {
         "verb": "juger",
-        "formula": "personne (5) formelle (9)",
+        "formula": "gens (5) de formes (9)",
         "note": "",
     },
 
     "60": {
-        "verb": "hésiter",
+        "verb": "trébucher",
         "formula": "départs (6) ratés (0)",
         "note": "",
     },
@@ -730,7 +730,7 @@ const hecto = {
     "68": {
         "verb": "rassasier",
         "formula": "désirs (6) satisfaits (8)",
-        "note": "mâchoire de divination, appétit satisfait",
+        "note": "mâchoire de divination, appétit satisfait, se projeter dans le cadre",
         "yijing": 27,
         "hexagram": "䷚"
     },
@@ -771,7 +771,7 @@ const hecto = {
     },
     "74": {
         "verb": "approcher",
-        "formula": "s’ouvrir (7) au bas (4)",
+        "formula": "s’ouvrir (7) au terrain (4)",
         "note": "condescendre, regarder de petites choses, approcher, expliquer, assiéger, pleurer au deuil, visiter",
         "yijing": 19,
         "hexagram": "䷒"
@@ -791,7 +791,7 @@ const hecto = {
     "77": {
         "verb": "échanger",
         "formula": "inviter (7) et consentir (7)",
-        "note": "ouvrir, agréer, parler, exchange, add, against, and convert, ouvrir, marais, don contre don, palabrer, satisfaction mutuelle",
+        "note": "ouvrir, agréer, parler, exchange, add, against, and convert, ouvrir, marais, don contre don, palabrer, satisfaction mutuelle, défouler",
         "yijing": 58,
         "hexagram": "䷹"
     },
@@ -846,8 +846,8 @@ const hecto = {
         "hexagram": "䷎"
     },
     "85": {
-        "verb": "habiter",
-        "formula": "pierre (8) humaine (5)",
+        "verb": "repousser",
+        "formula": "les frontières (8) du cœur (5)",
         "note": "",
     },
     "86": {
@@ -894,7 +894,7 @@ const hecto = {
     },
     "92": {
         "verb": "consacrer",
-        "formula": "souffler (9) sur la flamme (2)",
+        "formula": "souffler (9) sur le foyer (2)",
         "note": "chaudron, instituer, tripode, deviner, présager, prophétiser, divination, repas, faire d’un support un foyer de sens",
         "yijing": 50,
         "hexagram": "䷱"
@@ -915,7 +915,7 @@ const hecto = {
     },
     "95": {
         "verb": "obliger",
-        "formula": "presser (9) une personne (5)",
+        "formula": "presser (9) les gens (5)",
         "note": "",
     },
     "96": {
@@ -927,7 +927,7 @@ const hecto = {
     },
     "97": {
         "verb": "surcharger",
-        "formula": "pression (9) à l’acceptation (7)",
+        "formula": "presser (9) l’accord (7)",
         "note": "transgresser outrepasser, masse critique, grande expérience (aspect), excès de grand, cf 86",
         "yijing": 28,
         "hexagram": "䷛"
@@ -942,7 +942,7 @@ const hecto = {
     "99": {
         "verb": "conformer",
         "formula": "formes (9) respectées (9)",
-        "note": "sceau, table avec commensaux à genoux, s’agenouiller devant l’autel, calculer, dater, complaire",
+        "note": "sceau, table avec commensaux à genoux, s’agenouiller devant l’autel, calculer, dater, complaire, céder, 巽",
         "yijing": 57,
         "hexagram": "䷸"
     },
