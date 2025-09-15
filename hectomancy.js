@@ -1,4 +1,4 @@
-const news = ["00", "00", "00", "00", "00", "00", "00", "00", "00"];
+const news = ["28", "27", "22", "00", "00", "00", "00", "00", "00"];
 
 // 1 : eau, oreille, élastique, tristesse, traversant
 // 2 : tortue, dur, coque, graine, casque, arme
@@ -315,22 +315,22 @@ const hecto = {
     },
     "01": {
         "verb": "assourdir",
-        "formula": "sans (0) entendre (1)",
+        "formula": "sans (0) bruit (1)",
         "note": "assourdir, sans bruit, liquider",
     },
     "02": {
-        "verb": "cacher",
-        "formula": "sans (0) lumière (2)",
-        "note": "sans voir, aveugler, cacher",
+        "verb": "aveugler",
+        "formula": "éteindre (0) la lumière (2)",
+        "note": "sans voir, aveugler, cacher, lumière noire",
     },
     "03": {
-        "verb": "ruminer",
-        "formula": "user (0) l’idée (3)",
+        "verb": "détrôner",
+        "formula": "vider (0) le pouvoir (3)",
         "note": "",
     },
     "04": {
-        "verb": "déposséder",
-        "formula": "sans (0) avoir (4)",
+        "verb": "exiler",
+        "formula": "sans (0) terre (4)",
         "note": "rebaser",
     },
     "05": {
@@ -345,30 +345,30 @@ const hecto = {
     },
     "07": {
         "verb": "taire",
-        "formula": "sans (0) joie (7)",
-        "note": "refermer, taire",
+        "formula": "sans (0) voix (7)",
+        "note": "refermer, taire, annoncer, afficher",
     },
     "08": {
-        "verb": "abandonner",
-        "formula": "perdre (0) les limites (8)",
+        "verb": "réserver",
+        "formula": "espace (0) clôturé (8)",
         "note": "laisser",
     },
     "09": {
-        "verb": "réformer",
-        "formula": "restaurer (0) l’esprit (9)",
-        "note": "",
+        "verb": "tramer",
+        "formula": "nouvelles (0) lignes (9)",
+        "note": "accorder, sans vent",
     },
 
     "10": {
-        "verb": "purifier",
-        "formula": "bain (1) de renouveau (0)",
+        "verb": "aller",
+        "formula": "cours (1) libre (0)",
         "note": "",
         "yijing": ""
     },
     "11": {
         "verb": "sombrer",
         "formula": "abîme (1) et courant (1)",
-        "note": "répétition, chute, tomber, herbes sauvages, friche, naviguer",
+        "note": "répétition, chute, tomber, herbes sauvages, friche, naviguer, sonder, jauger, baliser, assainir, drainer",
         "yijing": 29,
         "hexagram": "䷜"
     },
@@ -429,9 +429,9 @@ const hecto = {
 
 
     "20": {
-        "verb": "rompre",
-        "formula": "lien (2) renouvelé (0)",
-        "note": "élaguer",
+        "verb": "voir",
+        "formula": "éclairer (2) l’indistinct (0)",
+        "note": "",
     },
     "21": {
         "verb": "arriver",
@@ -441,7 +441,7 @@ const hecto = {
         "hexagram": "䷾"
     },
     "22": {
-        "verb": "éclairer",
+        "verb": "briller",
         "formula": "la vérité (2) réunit (2)",
         "note": "riche, lumière, phœnix dans un filet, loriot, joindre, focaliser, foyer, concentrer, attirer, briller 離",
         "yijing": 30,
@@ -474,15 +474,15 @@ const hecto = {
         "hexagram": "䷶"
     },
     "27": {
-        "verb": "expliquer",
-        "formula": "clarifier (2) le message (7)",
+        "verb": "réformer",
+        "formula": "la vérité (2) révélée (7)",
         "note": "réformer, mandater, muer, cuir, décortiquer, “fire” quelqu’un, moment opportun, changer, transformer",
         "yijing": 49,
         "hexagram": "䷰"
     },
     "28": {
         "verb": "styliser",
-        "formula": "révéler (2) la structure (8)",
+        "formula": "révéler (2) les arrêtes (8)",
         "note": "élégance, polir, beauté, coquillage, beauté par la coupe",
         "yijing": 22,
         "hexagram": "䷕"
@@ -498,9 +498,9 @@ const hecto = {
     
 
     "30": {
-        "verb": "oublier",
-        "formula": "pouvoir (3) annulé (0)",
-        "note": "",
+        "verb": "pouvoir",
+        "formula": "énergie (3) potentielle (0)",
+        "note": "pouvoir du vide : axe, tendre à faire ceci",
     },
     "31": {
         "verb": "prévoir",
@@ -552,7 +552,7 @@ const hecto = {
     "38": {
         "verb": "apprendre",
         "formula": "esprit (3) des lois (8)",
-        "note": "gros bétail, éducation des grands, conserver, stocker",
+        "note": "gros bétail, éducation des grands, conserver, stocker, retenir par la foeme",
         "yijing": 26,
         "hexagram": "䷙"
     },
@@ -566,9 +566,9 @@ const hecto = {
 
 
     "40": {
-        "verb": "peser",
-        "formula": "masse (4) vaine (0)",
-        "note": "démonter",
+        "verb": "avoir",
+        "formula": "masse (4) latente (0)",
+        "note": "",
     },
     "41": {
         "verb": "partager",
@@ -618,8 +618,8 @@ const hecto = {
         "hexagram": "䷬"
     },
     "48": {
-        "verb": "dépouiller",
-        "formula": "les couches (4) s’écaillent (8)",
+        "verb": "user",
+        "formula": "poussières (4) de pierres (8)",
         "note": "érosion, perte, user, élaguer, dépouiller, écorcher, vache coupée",
         "yijing": 23,
         "hexagram": "䷖"
@@ -627,14 +627,14 @@ const hecto = {
     "49": {
         "verb": "admirer",
         "formula": "la foule (4) et le modèle (9)",
-        "note": "l’ordre s’appuie sur les modèles et non la compulsion, look up, chercher, admirer, contempler, porte, temple, belvédère, prendre modèle, voir de haut, surveiller, inspection des régions, diffuser l’instruction",
+        "note": "épiphanie, manifestation, l’ordre s’appuie sur les modèles et non la compulsion, look up, chercher, admirer, contempler, porte, temple, belvédère, prendre modèle, voir de haut, surveiller, inspection des régions, diffuser l’instruction",
         "yijing": 20,
         "hexagram": "䷓"
     },
 
     "50": {
-        "verb": "vanter",
-        "formula": "gens (5) vains (0)",
+        "verb": "être",
+        "formula": "centre (5) vide (0)",
         "note": "",
     },
     "51": {
@@ -684,8 +684,8 @@ const hecto = {
     },
 
     "60": {
-        "verb": "trébucher",
-        "formula": "départs (6) ratés (0)",
+        "verb": "vouloir",
+        "formula": "désir (6) illimité (0)",
         "note": "",
     },
     "61": {
@@ -753,9 +753,9 @@ const hecto = {
 
 
     "70": {
-        "verb": "parier",
-        "formula": "demander (7) l’improbable (0)",
-        "note": "",
+        "verb": "dire",
+        "formula": "parler (7) à personne (0)",
+        "note": "puissance de la parole pure, au commencent était le verbe",
     },
     "71": {
         "verb": "mesurer",
@@ -822,13 +822,13 @@ const hecto = {
     
 
     "80": {
-        "verb": "sidérer",
-        "formula": "arrêté (8) dans le vide (0)",
+        "verb": "devoir",
+        "formula": "détermination (8) sans objet (0)",
         "note": "",
     },
     "81": {
-        "verb": "contourner",
-        "formula": "arrêts (8) et hasards (1)",
+        "verb": "dévier",
+        "formula": "récifs (8) et courants (1)",
         "note": "aider, entrave, boîter, obstruction, chercher la passe plutôt que forcer, contourner, entraver",
         "yijing": 39,
         "hexagram": "䷦"
@@ -849,7 +849,7 @@ const hecto = {
     },
     "84": {
         "verb": "aplanir",
-        "formula": "tenir (8) le terrain (4)",
+        "formula": "profil (8) bas (4)",
         "note": "humilité, modestie (% 46), niveler, humilier, modérer",
         "yijing": 15,
         "hexagram": "䷎"
@@ -860,8 +860,8 @@ const hecto = {
         "note": "",
     },
     "86": {
-        "verb": "contenir",
-        "formula": "arrêter (8) les élans (6)",
+        "verb": "préciser",
+        "formula": "arrêter (8) les intentions (6)",
         "note": "excès de petit, moins que, cf 97, refouler, réfréner, canaliser",
         "yijing": 62,
         "hexagram": "䷽"
@@ -890,13 +890,13 @@ const hecto = {
 
 
     "90": {
-        "verb": "culpabiliser",
-        "formula": "pression (9) vaine (0)",
+        "verb": "falloir",
+        "formula": "pression (9) anonyme (0)",
         "note": "",
     },
     "91": {
-        "verb": "abreuver",
-        "formula": "diffuser (9) l’eau (1)",
+        "verb": "puiser",
+        "formula": "pénétrer (9) vers l’eau (1)",
         "note": "puits commun, fontaine publique, puiser, ressourcer",
         "yijing": 48,
         "hexagram": "䷯"
@@ -904,7 +904,7 @@ const hecto = {
     "92": {
         "verb": "consacrer",
         "formula": "souffler (9) sur le feu (2)",
-        "note": "chaudron, instituer, tripode, deviner, présager, prophétiser, divination, repas, faire d’un support un foyer de sens",
+        "note": "chaudron, cuisiner, instituer, tripode, deviner, présager, prophétiser, divination, repas, faire d’un support un foyer de sens",
         "yijing": 50,
         "hexagram": "䷱"
     },
@@ -916,8 +916,8 @@ const hecto = {
         "hexagram": "䷫"
     },
     "94": {
-        "verb": "croître",
-        "formula": "le souffle (9) de la terre (4)",
+        "verb": "enraciner",
+        "formula": "pénétrer (9) la terre (4)",
         "note": "grandir, croître, louche, dater la moisson, monter par imprégnation",
         "yijing": 46,
         "hexagram": "䷭"
