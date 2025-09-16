@@ -1,4 +1,6 @@
-const news = ["28", "27", "22", "00", "00", "00", "00", "00", "00"];
+
+// const news = ["00", "11", "14", "15", "16", "19", "32", "40", "42"];
+const news = ["44", "50", "65", "70", "82", "", "", "", "", ""];
 
 // 1 : eau, oreille, élastique, tristesse, traversant
 // 2 : tortue, dur, coque, graine, casque, arme
@@ -381,7 +383,7 @@ const hecto = {
     },
     "13": {
         "verb": "contester",
-        "formula": "troubler (1) le pouvoir (3)",
+        "formula": "troubler (1) la ligne (3)",
         "note": "plaider, accuser, contester, dispute, embrouille, 訟 parole + commun, public, duc, juge",
         "yijing": 6,
         "hexagram": "䷅"
@@ -510,7 +512,7 @@ const hecto = {
         "hexagram": "䷄"
     },
     "32": {
-        "verb": "advenir",
+        "verb": "abonder",
         "formula": "initiative (3) de la fortune (2)",
         "note": "avoir, il y a, fortune, grand réalisé, advenir, donner? chance, au ciel une étoile, fortune, généreux",
         "yijing": 14,
@@ -533,7 +535,7 @@ const hecto = {
     "35": {
         "verb": "incarner",
         "formula": "le sens (3) en personne (5)",
-        "note": "",
+        "note": "sens propre",
     },
     "36": {
         "verb": "maîtriser",
@@ -567,7 +569,7 @@ const hecto = {
 
     "40": {
         "verb": "avoir",
-        "formula": "masse (4) latente (0)",
+        "formula": "moyens (4) latents (0)",
         "note": "",
     },
     "41": {
@@ -579,7 +581,7 @@ const hecto = {
     },
     "42": {
         "verb": "promouvoir",
-        "formula": "porter (4) à la lumière (2)",
+        "formula": "porter (4) à la connaissance (2)",
         "note": "lever du soleil, développer, arriver à la lumière, course du soleil, un oiseau ne recule pas, promouvoir",
         "yijing": 35,
         "hexagram": "䷢"
