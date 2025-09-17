@@ -1,0 +1,189 @@
+<!doctype html>
+<meta charset="utf-8" />
+<title>Git Image Versions – Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root { --w: 160px; --gap: 12px; font: 14px/1.45 system-ui, Segoe UI, Roboto, sans-serif; }
+  body { margin: 16px; }
+  form { grid-template-columns: 1fr 1fr; gap: 8px 12px; margin-bottom: 16px; }
+  form > label { display: contents; }
+  form > label > span { align-self: center; color: #444; }
+  input, button { padding: 8px; }
+  .row { display: contents; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(var(--w), 1fr)); gap: var(--gap); }
+  figure { border: 1px solid #ddd; border-radius: 8px; padding: 8px; margin: 0; background: #fafafa; display: flex; flex-direction: column; }
+  img { width: 100%; height: auto; display: block; border-radius: 4px; background: #eee; }
+  figcaption { margin-top: 6px; font-size: 12px; color: #333; }
+  .muted { color: #777; }
+  .bar { display:flex; gap:8px; align-items:center; margin: 8px 0 16px; }
+  .warn { color:#a33; font-weight:600; }
+</style>
+
+<form id="cfg">
+  <label class="row">
+    <span>Numéro, 00–99</span>
+    <input id="no"
+      name="no"
+      type="text"
+      value="00"
+      size="2"
+      inputmode="numeric"
+      autocomplete="one-time-code"
+      pattern="^\d{2}$"
+      minlength="2"
+      maxlength="2"
+      placeholder="00"/>
+  </label>
+  <button>Versions</button>
+</form>
+
+<div class="bar">
+  <div id="status" class="muted">Idle.</div>
+  <div id="rate" class="muted"></div>
+</div>
+
+<div id="grid" class="grid"></div>
+
+<script>
+(async function () {
+  // Load from URL params if provided
+  const params = new URLSearchParams(location.search);
+  const $ = sel => document.querySelector(sel);
+  const form = $("#cfg");
+  form.no.value  = params.get("no")  || form.no.value  || "";
+  const status = $("#status"), rate = $("#rate"), grid = $("#grid");
+
+  const cacheKey = (o,r,p,ref) => `vers:${o}/${r}:${ref || 'HEAD'}:${p}`;
+  const headers = (token) => token ? { "Authorization": `Bearer ${token}`, "Accept": "application/vnd.github+json" }
+                                   : { "Accept": "application/vnd.github+json" };
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    grid.innerHTML = "";
+    rate.textContent = "";
+    const owner = "glorieux-f";
+    const repo  = "hectomancy";
+    const ref   = ""; // default branch if empty
+    const no = form.no.value.trim();
+    let   path  = "hecto" + form.no.value.trim() + ".jpg";
+    const token = ""; // ?
+
+    if (!owner || !repo || !path) { alert("Owner, repo, and path are required."); return; }
+
+    // Try cache
+    const ck = cacheKey(owner, repo, path, ref);
+    let cached = localStorage.getItem(ck);
+    if (cached) {
+      try {
+        const data = JSON.parse(cached);
+        render(data, owner, repo);
+        status.textContent = `Loaded ${data.length} versions from cache.`;
+      } catch {}
+    }
+
+    try {
+      status.textContent = "Fetching commit history (following renames if any)…";
+
+      const all = [];
+      let untilISO = null;
+      let curPath = path;
+
+      while (true) {
+        const batch = await listCommits(owner, repo, ref, curPath, untilISO, token);
+        if (batch.items.length === 0) break;
+
+        // Attach path-as-of-commit
+        for (const c of batch.items) all.push({ sha: c.sha, date: c.commit.author?.date || c.commit.committer?.date, path: curPath });
+
+        // Inspect the OLDEST commit in this batch to see if it introduced a rename
+        const oldest = batch.items[batch.items.length - 1];
+        const det = await getCommit(owner, repo, oldest.sha, token);
+        // Find the file entry for curPath in that commit
+        const f = (det.files || []).find(f => f.filename === curPath);
+        if (f && f.status === "renamed" && f.previous_filename) {
+          // Continue before this commit, switch path to the previous name
+          const t = new Date(oldest.commit.author?.date || oldest.commit.committer?.date);
+          untilISO = new Date(t.getTime() - 1000).toISOString();
+          curPath = f.previous_filename;
+          continue;
+        }
+        // No rename at history boundary -> stop
+        break;
+      }
+
+      // Sort by date ascending, de-dupe by sha
+      const seen = new Set();
+      const out = all
+        .filter(x => { if (seen.has(x.sha)) return false; seen.add(x.sha); return true; })
+        .sort((a,b) => new Date(a.date) - new Date(b.date));
+
+      // Persist cache
+      localStorage.setItem(ck, JSON.stringify(out));
+      render(out, owner, repo);
+
+      status.textContent = `Found ${out.length} revisions for "${path}"`;
+      rate.textContent = `Note: unauthenticated calls = 60 req/h; add a token to raise to 5,000 req/h.`;
+    } catch (err) {
+      console.error(err);
+      status.innerHTML = `<span class="warn">Error:</span> ${err.message || err}`;
+    }
+  });
+
+  function render(list, owner, repo) {
+    grid.innerHTML = "";
+    for (const v of list) {
+      const raw = `https://raw.githubusercontent.com/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/${v.sha}/${v.path.split('/').map(encodeURIComponent).join('/')}`;
+      const commitUrl = `https://github.com/${owner}/${repo}/commit/${v.sha}`;
+      const fig = document.createElement("figure");
+      const img = document.createElement("img");
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.src = raw;
+      img.alt = `${v.path} @ ${v.sha.substring(0,7)} (${v.date})`;
+      const cap = document.createElement("figcaption");
+      cap.innerHTML = `<div>${v.path.split('/').pop()}</div>
+        <div class="muted">${new Date(v.date).toISOString().split('T')[0]} — 
+        <a href="${commitUrl}" target="_blank" rel="noopener">${v.sha.substring(0,7)}</a></div>`;
+      fig.appendChild(img);
+      fig.appendChild(cap);
+      grid.appendChild(fig);
+    }
+  }
+
+  async function listCommits(owner, repo, ref, path, untilISO, token) {
+    // Page through results for commits that touched `path`
+    const base = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/commits`;
+    let url = new URL(base);
+    if (path) url.searchParams.set("path", path);
+    if (ref)  url.searchParams.set("sha", ref);
+    url.searchParams.set("per_page", "100");
+    if (untilISO) url.searchParams.set("until", untilISO);
+
+    const items = [];
+    let next = url.toString();
+    while (next) {
+      const res = await fetch(next, { headers: headers(token) });
+      if (!res.ok) throw new Error(`Commits: ${res.status} ${res.statusText}`);
+      const page = await res.json();
+      items.push(...page);
+      // Parse Link header for pagination
+      const link = res.headers.get("Link");
+      next = null;
+      if (link) {
+        const m = link.split(",").map(s => s.trim()).find(s => s.endsWith('rel="next"'));
+        if (m) next = m.substring(m.indexOf("<")+1, m.indexOf(">"));
+      }
+      // Defensive: stop if nothing more
+      if (!next) break;
+    }
+    return { items };
+  }
+
+  async function getCommit(owner, repo, sha, token) {
+    const url = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/commits/${sha}`;
+    const res = await fetch(url, { headers: headers(token) });
+    if (!res.ok) throw new Error(`Commit ${sha}: ${res.status} ${res.statusText}`);
+    return res.json();
+  }
+})();
+</script>

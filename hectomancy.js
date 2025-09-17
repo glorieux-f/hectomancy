@@ -1,6 +1,7 @@
 
-// const news = ["00", "11", "14", "15", "16", "19", "32", "40", "42"];
-const news = ["44", "50", "65", "70", "82", "", "", "", "", ""];
+// const news = ["", "", "", "", "", "", "", "", ""];
+// const news = ["61", "86", "66", "16", "", "", "", "", ""];
+const news = ["09", "17", "19", "25", "37", "43", "54", "60", "66"];
 
 // 1 : eau, oreille, élastique, tristesse, traversant
 // 2 : tortue, dur, coque, graine, casque, arme
@@ -402,7 +403,7 @@ const hecto = {
     },
     "16": {
         "verb": "libérer",
-        "formula": "le pieu (1) secoué (6)",
+        "formula": "abcès (1) crevé (6)",
         "note": "release, affranchir, libérer, démonter, démêler",
         "yijing": 40,
         "hexagram": "䷧"
@@ -692,7 +693,7 @@ const hecto = {
     },
     "61": {
         "verb": "naître",
-        "formula": "démarrer (6) dans la difficulté (1)",
+        "formula": "sortir (6) difficilement (1)",
         "note": "germer, stationner des troupes, difficulté initiale, rassemblement",
         "yijing": 3,
         "hexagram": "䷂"
@@ -726,8 +727,8 @@ const hecto = {
     },
     "66": {
         "verb": "réveiller",
-        "formula": "choc (6) initial (6)",
-        "note": "sortir, ébranlement, réveiller, impulsion initiale, colère, printemps, naissance, cascade, alerte, heurter, frapper",
+        "formula": "impulsion (6) initiale (6)",
+        "note": "sortir, lancer, ébranlement, réveiller, impulsion initiale, colère, printemps, naissance, cascade, alerte, heurter, frapper",
         "yijing": 51,
         "hexagram": "䷲"
     },
@@ -863,7 +864,7 @@ const hecto = {
     },
     "86": {
         "verb": "préciser",
-        "formula": "arrêter (8) les intentions (6)",
+        "formula": "arrêter (8) de lancer (6)",
         "note": "excès de petit, moins que, cf 97, refouler, réfréner, canaliser",
         "yijing": 62,
         "hexagram": "䷽"
