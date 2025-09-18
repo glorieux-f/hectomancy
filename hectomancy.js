@@ -1,7 +1,8 @@
 
 // const news = ["", "", "", "", "", "", "", "", ""];
-// const news = ["61", "86", "66", "16", "", "", "", "", ""];
-const news = ["09", "17", "19", "25", "37", "43", "54", "60", "66"];
+// const news = ["", "", "", "", "", "", "", "80", "88"];
+const news = ["16", "17", "58", "61", "79", "81", "82", "86", "88"];
+
 
 // 1 : eau, oreille, élastique, tristesse, traversant
 // 2 : tortue, dur, coque, graine, casque, arme
@@ -410,8 +411,8 @@ const hecto = {
     },
     "17": {
         "verb": "vider",
-        "formula": "à fond (1) ouvert (7)",
-        "note": "approfondir?, épuiser, étouffer, opprimer % 91 (puits, abreuver), emmêler,approfondir, obstruction",
+        "formula": "fond (1) percé (7)",
+        "note": "épuiser, étouffer, opprimer % 91 (puits, abreuver), emmêler, approfondir, obstruction",
         "yijing": 47,
         "hexagram": "䷮"
     },
@@ -762,7 +763,7 @@ const hecto = {
     },
     "71": {
         "verb": "mesurer",
-        "formula": "ponctuer (7) la ligne (1)",
+        "formula": "articuler (7) le flux (1)",
         "note": "rythmer, articuler, ponctuer, mesurer, cadencer, charnière",
         "yijing": 60,
         "hexagram": "䷻"
@@ -864,7 +865,7 @@ const hecto = {
     },
     "86": {
         "verb": "préciser",
-        "formula": "arrêter (8) de lancer (6)",
+        "formula": "contrôle (8) du lancer (6)",
         "note": "excès de petit, moins que, cf 97, refouler, réfréner, canaliser",
         "yijing": 62,
         "hexagram": "䷽"
@@ -877,7 +878,7 @@ const hecto = {
         "hexagram": "䷞"
     },
     "88": {
-        "verb": "fermer",
+        "verb": "nouer",
         "formula": "tenir (8) et finir (8)",
         "note": "couper, arrêter, bloquer, mener à terme et recommencer, porte, chien, main, nœud, pause, borne, consolidation",
         "yijing": 52,
