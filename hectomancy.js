@@ -1,7 +1,12 @@
 
-// const news = ["", "", "", "", "", "", "", "", ""];
-// const news = ["", "", "", "", "", "", "", "80", "88"];
-const news = ["16", "17", "58", "61", "79", "81", "82", "86", "88"];
+const news = [
+  "99", "90", "92",
+  "43", "34", "01",
+  "", "", "",
+  "", "", "",
+  "", "", "",
+];
+
 
 
 // 1 : eau, oreille, élastique, tristesse, traversant
@@ -370,16 +375,16 @@ const hecto = {
         "yijing": ""
     },
     "11": {
-        "verb": "sombrer",
-        "formula": "abîme (1) et courant (1)",
+        "verb": "couler",
+        "formula": "failles (1) et courants (1)",
         "note": "répétition, chute, tomber, herbes sauvages, friche, naviguer, sonder, jauger, baliser, assainir, drainer",
         "yijing": 29,
         "hexagram": "䷜"
     },
     "12": {
-        "verb": "espérer",
-        "formula": "le temps (1) point (2)",
-        "note": "achever, prévoir, corriger pour l’achèvement",
+        "verb": "parfaire",
+        "formula": "du flou (1) à l’évidence (2)",
+        "note": "achever, espérer, prévoir, corriger pour l’achèvement, pas encore",
         "yijing": 64,
         "hexagram": "䷿"
     },
@@ -410,9 +415,9 @@ const hecto = {
         "hexagram": "䷧"
     },
     "17": {
-        "verb": "vider",
-        "formula": "fond (1) percé (7)",
-        "note": "épuiser, étouffer, opprimer % 91 (puits, abreuver), emmêler, approfondir, obstruction",
+        "verb": "coincer",
+        "formula": "flèche (1) en coin (7)",
+        "note": "coincer, cible, épuiser, étouffer, opprimer % 91 (puits, abreuver), emmêler, approfondir, obstruction",
         "yijing": 47,
         "hexagram": "䷮"
     },
@@ -439,13 +444,13 @@ const hecto = {
     },
     "21": {
         "verb": "arriver",
-        "formula": "est venu (2) le temps (1)",
-        "note": "après la traversée du fleuve, tempérer, éclairer les profondeurs",
+        "formula": "la lumière (2) fait des ombres (1)",
+        "note": "après la traversée du fleuve, tempérer, éclairer les profondeurs, désenchanter",
         "yijing": 63,
         "hexagram": "䷾"
     },
     "22": {
-        "verb": "briller",
+        "verb": "éclairer",
         "formula": "la vérité (2) réunit (2)",
         "note": "riche, lumière, phœnix dans un filet, loriot, joindre, focaliser, foyer, concentrer, attirer, briller 離",
         "yijing": 30,
@@ -485,9 +490,9 @@ const hecto = {
         "hexagram": "䷰"
     },
     "28": {
-        "verb": "styliser",
-        "formula": "révéler (2) les arrêtes (8)",
-        "note": "élégance, polir, beauté, coquillage, beauté par la coupe",
+        "verb": "habiller",
+        "formula": "révéler (2) par la coupe (8)",
+        "note": "styliser, élégance, polir, beauté, coquillage, beauté par la coupe",
         "yijing": 22,
         "hexagram": "䷕"
     },
@@ -521,16 +526,16 @@ const hecto = {
         "hexagram": "䷍"
     },
     "33": {
-        "verb": "inventer",
-        "formula": "puissance (3) des idées (3)",
-        "note": "sec; commençons par une offrande, divination bénéfique, agir, tourner, créer",
+        "verb": "orienter",
+        "formula": "idée (3) ferme (3)",
+        "note": "imaginer, conférer le mandat, animer, activer, orienter, sec; commençons par une offrande, divination bénéfique, agir, tourner, créer, inventer",
         "yijing": 1,
         "hexagram": "䷀"
     },
     "34": {
-        "verb": "prospérer",
-        "formula": "pouvoir (3) aux masses (4)",
-        "note": "paix, prospérité, arrivée des grands, imprégner, propager, parfum envahissant, pervading",
+        "verb": "apaiser",
+        "formula": "créer (3) l’aisance (4)",
+        "note": "paix, prospérité, arrivée des grands, imprégner, propager, parfum envahissant, pervading, ease, aisance",
         "yijing": 11,
         "hexagram": "䷊"
     },
@@ -542,7 +547,7 @@ const hecto = {
     "36": {
         "verb": "maîtriser",
         "formula": "pouvoir (3) spontané (6)",
-        "note": "bélier bloqué, l’homme intègre réussit par la ruse plutôt que la force, 壯 grand talent ou compétence",
+        "note": "bélier bloqué, l’homme intègre réussit par la ruse plutôt que la force, 壯 grand talent ou compétence, puissance en expansion",
         "yijing": 34,
         "hexagram": "䷡"
     },
@@ -576,8 +581,8 @@ const hecto = {
     },
     "41": {
         "verb": "partager",
-        "formula": "ressources (4) égales (1)",
-        "note": "比 2 humains retournés, comparer (cf. 从 suivre), champ innondé, égaliser, participer",
+        "formula": "parts (4) en commun (1)",
+        "note": "rallier à un centre, 比 2 humains retournés, comparer (cf. 从 suivre), champ innondé, égaliser, participer",
         "yijing": 8,
         "hexagram": "䷇"
     },
@@ -589,15 +594,15 @@ const hecto = {
         "hexagram": "䷢"
     },
     "43": {
-        "verb": "stagner",
-        "formula": "capital (4) au pouvoir (3)",
-        "note": "arrivée des petits, négation ou voleurs, personnes égoistes, taxer",
+        "verb": "cloisonner",
+        "formula": "le bas tombe (4), le haut monte (3)",
+        "note": "clore, suspendre, cloisonner, refuser, désordonner, arrivée des petits, négation ou voleurs, otherwise, personnes égoistes, taxer",
         "yijing": 12,
         "hexagram": "䷋"
     },
     "44": {
         "verb": "supporter",
-        "formula": "terre (4) malléable (4)",
+        "formula": "terre (4) souple (4)",
         "note": "réceptif, terre, champ, disponible, former, porter, accueillir",
         "yijing": 2,
         "hexagram": "䷁"
@@ -728,8 +733,8 @@ const hecto = {
     },
     "66": {
         "verb": "réveiller",
-        "formula": "impulsion (6) initiale (6)",
-        "note": "sortir, lancer, ébranlement, réveiller, impulsion initiale, colère, printemps, naissance, cascade, alerte, heurter, frapper",
+        "formula": "choc (6) initial (6)",
+        "note": "déclencher, sortir, lancer, ébranlement, réveiller, impulsion initiale, colère, printemps, naissance, cascade, alerte, heurter, frapper",
         "yijing": 51,
         "hexagram": "䷲"
     },
@@ -748,7 +753,7 @@ const hecto = {
         "hexagram": "䷚"
     },
     "69": {
-        "verb": "investir",
+        "verb": "accroître",
         "formula": "potentiel (6) multiplié (9)",
         "note": "crédit (% débit, 78), augmenter, gagner, donner?, générosité noble, rançon, ajouter, apprendre du bon, réallouer du mou au levier",
         "yijing": 42,
@@ -763,8 +768,8 @@ const hecto = {
     },
     "71": {
         "verb": "mesurer",
-        "formula": "articuler (7) le flux (1)",
-        "note": "rythmer, articuler, ponctuer, mesurer, cadencer, charnière",
+        "formula": "marquer (7) le flux (1)",
+        "note": "節, rythmer, articuler, ponctuer, mesurer, cadencer, charnière",
         "yijing": 60,
         "hexagram": "䷻"
     },
@@ -795,8 +800,8 @@ const hecto = {
         "note": "",
     },
     "76": {
-        "verb": "intégrer",
-        "formula": "assimiler (7) l’imprévu (6)",
+        "verb": "adjoindre",
+        "formula": "admettre (7) l’imprévu (6)",
         "note": "retour de la petite sœur, concubine, mariage raté, 歸 se livrer 妹 femme pas encore",
         "yijing": 54,
         "hexagram": "䷵"
@@ -804,7 +809,7 @@ const hecto = {
     "77": {
         "verb": "aimer",
         "formula": "inviter (7) et consentir (7)",
-        "note": "amitié, ouvrir, agréer, parler, exchange, add, against, and convert, ouvrir, marais, don contre don, palabrer, satisfaction mutuelle, défouler, étudier et discuter avec des amis",
+        "note": "départager, amitié, ouvrir, agréer, parler, exchange, add, against, and convert, ouvrir, marais, don contre don, palabrer, satisfaction mutuelle, défouler, étudier et discuter avec des amis",
         "yijing": 58,
         "hexagram": "䷹"
     },
@@ -906,9 +911,9 @@ const hecto = {
         "hexagram": "䷯"
     },
     "92": {
-        "verb": "consacrer",
-        "formula": "souffler (9) sur le feu (2)",
-        "note": "chaudron, cuisiner, instituer, tripode, deviner, présager, prophétiser, divination, repas, faire d’un support un foyer de sens",
+        "verb": "raffiner",
+        "formula": "esprit (9) de feu (2)",
+        "note": "assimiler en transformant, chaudron, cuisiner, instituer, tripode, deviner, présager, prophétiser, divination, repas, faire d’un support un foyer de sens",
         "yijing": 50,
         "hexagram": "䷱"
     },
@@ -933,8 +938,8 @@ const hecto = {
     },
     "96": {
         "verb": "endurer",
-        "formula": "le souffle (9) accélère (6)",
-        "note": "endurer, persévérer, cœur | course du soleil, routine synchronized to pulses",
+        "formula": "souffle (9) rapide (6)",
+        "note": "endurer, persévérer, cœur | course du soleil, routine synchronized to pulses, durée, constance",
         "yijing": 32,
         "hexagram": "䷟"
     },
@@ -954,8 +959,8 @@ const hecto = {
     },
     "99": {
         "verb": "convenir",
-        "formula": "formes (9) ajustées (9)",
-        "note": "entrer, conformer, mouler, sceau, table avec commensaux à genoux, s’agenouiller devant l’autel, calculer, dater, complaire, céder, 巽",
+        "formula": "s’ajuster (9) à l’esprit (9)",
+        "note": "diriger la trajectoire?, entrer, conformer, mouler, sceau, table avec commensaux à genoux, s’agenouiller devant l’autel, calculer, dater, complaire, céder, 巽",
         "yijing": 57,
         "hexagram": "䷸"
     },
