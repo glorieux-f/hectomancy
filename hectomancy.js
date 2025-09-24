@@ -1,10 +1,17 @@
 
 const news = [
-  "99", "90", "92",
-  "43", "34", "01",
-  "", "", "",
-  "", "", "",
-  "", "", "",
+    "05", 
+    "13", 
+    "33", 
+    "38",
+    "39", 
+    "53", 
+    "57",
+    "59",
+    "70",
+    "72",
+    "75", 
+    "92", 
 ];
 
 
@@ -353,8 +360,8 @@ const hecto = {
         "note": "désamorcer, fatiguer, relancer",
     },
     "07": {
-        "verb": "taire",
-        "formula": "sans (0) voix (7)",
+        "verb": "dire",
+        "formula": "le rien (0) parle (7)",
         "note": "refermer, taire, annoncer, afficher",
     },
     "08": {
@@ -390,7 +397,7 @@ const hecto = {
     },
     "13": {
         "verb": "contester",
-        "formula": "troubler (1) la ligne (3)",
+        "formula": "troubler (1) la direction (3)",
         "note": "plaider, accuser, contester, dispute, embrouille, 訟 parole + commun, public, duc, juge",
         "yijing": 6,
         "hexagram": "䷅"
@@ -430,7 +437,7 @@ const hecto = {
     },
     "19": {
         "verb": "dissoudre",
-        "formula": "l’eau (1) multiplie (9)",
+        "formula": "l’eau (1) diffuse (9)",
         "note": "disperser, dissoudre, déborder, dissiper, disparaître, jaillir, dissoudre les amas, enseigner",
         "yijing": 59,
         "hexagram": "䷺"
@@ -527,8 +534,8 @@ const hecto = {
     },
     "33": {
         "verb": "orienter",
-        "formula": "idée (3) ferme (3)",
-        "note": "imaginer, conférer le mandat, animer, activer, orienter, sec; commençons par une offrande, divination bénéfique, agir, tourner, créer, inventer",
+        "formula": "acte (3) du sens (3)",
+        "note": "animer, orienter, imaginer, conférer le mandat, animer, activer, orienter, sec; commençons par une offrande, divination bénéfique, agir, tourner, créer, inventer",
         "yijing": 1,
         "hexagram": "䷀"
     },
@@ -561,13 +568,13 @@ const hecto = {
     "38": {
         "verb": "apprendre",
         "formula": "esprit (3) des lois (8)",
-        "note": "gros bétail, éducation des grands, conserver, stocker, retenir par la foeme",
+        "note": "gros bétail, éducation des grands, conserver, stocker, retenir par la forme",
         "yijing": 26,
         "hexagram": "䷙"
     },
     "39": {
-        "verb": "policer",
-        "formula": "pouvoir (3) des mœurs (9)",
+        "verb": "accoutumer",
+        "formula": "pouvoir (3) des coutumes (9)",
         "note": "petit bétail, domestication des petits",
         "yijing": 9,
         "hexagram": "䷈"
@@ -602,7 +609,7 @@ const hecto = {
     },
     "44": {
         "verb": "supporter",
-        "formula": "terre (4) souple (4)",
+        "formula": "matière (4) riche (4)",
         "note": "réceptif, terre, champ, disponible, former, porter, accueillir",
         "yijing": 2,
         "hexagram": "䷁"
@@ -677,9 +684,9 @@ const hecto = {
         "note": "",
     },
     "57": {
-        "verb": "réjouir",
-        "formula": "cœur (5) qui ouvre (7)",
-        "note": "",
+        "verb": "confier",
+        "formula": "cœur (5) ouvert (7)",
+        "note": "% 75 réjouir",
     },
     "58": {
         "verb": "habiter",
@@ -688,7 +695,7 @@ const hecto = {
     },
     "59": {
         "verb": "tempérer",
-        "formula": "recentrer (5) l’influence (9)",
+        "formula": "recentrer (5) les impressions (9)",
         "note": "recentrer ; accorder (les parties) ; susciter l’assentiment",
     },
 
@@ -762,8 +769,8 @@ const hecto = {
 
 
     "70": {
-        "verb": "dire",
-        "formula": "parler (7) à personne (0)",
+        "verb": "parler",
+        "formula": "dire (7) du rien (0)",
         "note": "puissance de la parole pure, au commencent était le verbe",
     },
     "71": {
@@ -775,14 +782,14 @@ const hecto = {
     },
     "72": {
         "verb": "diverger",
-        "formula": "ouvrir (7) le foyer (2)",
-        "note": "diffraction",
+        "formula": "croyances (7) clivées (2)",
+        "note": "diffraction, se voir sans se regarder",
         "yijing": 38,
         "hexagram": "䷥"
     },
     "73": {
-        "verb": "inspirer",
-        "formula": "s’ouvrir (7) aux idées (3)",
+        "verb": "appliquer",
+        "formula": "parole (7) en acte (3)",
         "note": "réaliser la parole, mettre en œuvre, marche rituelle, chercher, trouver, guider, diriger",
         "yijing": 10,
         "hexagram": "䷉"
@@ -795,8 +802,8 @@ const hecto = {
         "hexagram": "䷒"
     }, 
     "75": {
-        "verb": "confier",
-        "formula": "ouvrir (7) le cœur (5)",
+        "verb": "réjouir",
+        "formula": "ouvrir (7) les cœurs (5)",
         "note": "",
     },
     "76": {
@@ -883,8 +890,8 @@ const hecto = {
         "hexagram": "䷞"
     },
     "88": {
-        "verb": "nouer",
-        "formula": "tenir (8) et finir (8)",
+        "verb": "achever",
+        "formula": "fini (8) et clos (8)",
         "note": "couper, arrêter, bloquer, mener à terme et recommencer, porte, chien, main, nœud, pause, borne, consolidation",
         "yijing": 52,
         "hexagram": "䷳"
@@ -904,16 +911,16 @@ const hecto = {
         "note": "",
     },
     "91": {
-        "verb": "puiser",
-        "formula": "pénétrer (9) vers l’eau (1)",
+        "verb": "irriguer",
+        "formula": "diffuser (9) l’eau (1)",
         "note": "puits commun, fontaine publique, puiser, ressourcer",
         "yijing": 48,
         "hexagram": "䷯"
     },
     "92": {
-        "verb": "raffiner",
-        "formula": "esprit (9) de feu (2)",
-        "note": "assimiler en transformant, chaudron, cuisiner, instituer, tripode, deviner, présager, prophétiser, divination, repas, faire d’un support un foyer de sens",
+        "verb": "instituer",
+        "formula": "recombiner (9) les distinctions (2)",
+        "note": "instituer, assimiler en transformant, chaudron, cuisiner, tripode, deviner, présager, prophétiser, divination, repas, faire d’un support un foyer de sens",
         "yijing": 50,
         "hexagram": "䷱"
     },
@@ -959,7 +966,7 @@ const hecto = {
     },
     "99": {
         "verb": "convenir",
-        "formula": "s’ajuster (9) à l’esprit (9)",
+        "formula": "se pénétrer (9) des airs (9)",
         "note": "diriger la trajectoire?, entrer, conformer, mouler, sceau, table avec commensaux à genoux, s’agenouiller devant l’autel, calculer, dater, complaire, céder, 巽",
         "yijing": 57,
         "hexagram": "䷸"
