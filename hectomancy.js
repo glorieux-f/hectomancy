@@ -1,17 +1,11 @@
 
 const news = [
     "05", 
-    "13", 
     "33", 
-    "38",
-    "39", 
-    "53", 
-    "57",
-    "59",
-    "70",
     "72",
-    "75", 
     "92", 
+    "95", 
+
 ];
 
 
@@ -567,7 +561,7 @@ const hecto = {
     },
     "38": {
         "verb": "apprendre",
-        "formula": "esprit (3) des lois (8)",
+        "formula": "principe (3) des lois (8)",
         "note": "gros bétail, éducation des grands, conserver, stocker, retenir par la forme",
         "yijing": 26,
         "hexagram": "䷙"
@@ -665,7 +659,7 @@ const hecto = {
     },
     "53": {
         "verb": "aspirer",
-        "formula": "aimer (5) l’idéal (3)",
+        "formula": "gens (5) d’idéal (3)",
         "note": "",
     },
     "54": {

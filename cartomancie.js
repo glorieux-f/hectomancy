@@ -145,7 +145,7 @@ const deck48 = {
   "5♦": {
     "key": "5♦",
     "name": "Dépense",
-    "maxim": "Par l’excès la quantité devient qualité, les moyens ne se subordonnent plus à un but mais imposent leurs lois.",
+    "maxim": "Par l’excès la quantité devient qualité, trop de moyens imposent leurs lois et leurs buts.",
     "note": ""
   },
   "5♣": {
@@ -226,7 +226,7 @@ const deck48 = {
   "8♥": {
     "key": "8♥",
     "name": "Limites",
-    "maxim": "",
+    "maxim": "Le respect n’est pas une barrière mais une limite qui permet de construire.",
     "note": ""
   },
   "8♦": {

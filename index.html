@@ -52,6 +52,10 @@ body {
     justify-content: center;
 }
 
+figure {
+    position: relative;
+}
+
 figure.hecto {
     height: 33.3vh;
     margin: 0;
@@ -165,24 +169,24 @@ button {
     /* print borders */
 
     .page > .row:first-child {
-        border-top: 0.5px solid transparent;
+        border-top: 0.002in solid transparent;
     }
 
     .row {
-        border-bottom: 0.5px solid transparent;
+        border-bottom: 0.002in solid transparent;
     }
 
     .row > figure:first-child {
-        border-left: 0.5px solid transparent;
+        border-left: 0.002in solid transparent;
     }
 
     .row > figure {
-        border-right: 0.5px solid transparent;
+        border-right: 0.002in solid transparent;
     }
 
     figure.back,
     #back .row {
-        border-color: #888 !important;
+        border-color: #aaa !important;
     }
 
 
@@ -212,6 +216,14 @@ button {
         font-style: italic;
         font-weight: 100;
         font-family: Garamond, serif;
+    }
+
+    figure.back time {
+        position: absolute;
+        color: #ccc !important;
+        font-size: 0.08in;
+        right: 0.03in;
+        bottom: 0;
     }
 }
 
@@ -330,34 +342,43 @@ button {
                 <div class="row">
                     <figure class="back">
                         <figcaption>h</figcaption>
+                        <time></time>
                     </figure>
                     <figure class="back">
                         <figcaption>h</figcaption>
+                        <time></time>
                     </figure>
                     <figure class="back">
                         <figcaption>h</figcaption>
-                    </figure>
-                </div>
-                <div class="row">
-                    <figure class="back">
-                        <figcaption>h</figcaption>
-                    </figure>
-                    <figure class="back">
-                        <figcaption>h</figcaption>
-                    </figure>
-                    <figure class="back">
-                        <figcaption>h</figcaption>
+                        <time></time>
                     </figure>
                 </div>
                 <div class="row">
                     <figure class="back">
                         <figcaption>h</figcaption>
+                        <time></time>
                     </figure>
                     <figure class="back">
                         <figcaption>h</figcaption>
+                        <time></time>
                     </figure>
                     <figure class="back">
                         <figcaption>h</figcaption>
+                        <time></time>
+                    </figure>
+                </div>
+                <div class="row">
+                    <figure class="back">
+                        <figcaption>h</figcaption>
+                        <time></time>
+                    </figure>
+                    <figure class="back">
+                        <figcaption>h</figcaption>
+                        <time></time>
+                    </figure>
+                    <figure class="back">
+                        <figcaption>h</figcaption>
+                        <time></time>
                     </figure>
                 </div>
             </aside>
@@ -395,6 +416,13 @@ for (let i = 0, len = ids.length; i < len; i++) {
         figure.classList.toggle("modal");
     }, true);
 }
+// update time to back
+const now = new Date();
+const stamp = now.toISOString().substring(0, 10);
+const times = document.querySelectorAll(".back time");
+times.forEach(function (time) {
+  time.innerText = stamp;
+});
 
 function show(pat)
 {
