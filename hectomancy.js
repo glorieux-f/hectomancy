@@ -1,11 +1,30 @@
 
 const news = [
-    "05", 
-    "33", 
-    "72",
-    "92", 
-    "95", 
+    "05",
+    "25",
+    "33",
 
+    "48",
+    "72",
+    "84",
+
+    "87",
+    "95", 
+    "00",
+// à peindre
+    "11",
+    "27",
+    "29",
+    "55",
+    "77",
+    "79",
+    "86",
+    "92", 
+    "98",
+
+    "00",
+    "00",
+    "00"
 ];
 
 
@@ -376,9 +395,9 @@ const hecto = {
         "yijing": ""
     },
     "11": {
-        "verb": "couler",
+        "verb": "traverser",
         "formula": "failles (1) et courants (1)",
-        "note": "répétition, chute, tomber, herbes sauvages, friche, naviguer, sonder, jauger, baliser, assainir, drainer",
+        "note": "traverser, répétition, chute, tomber, herbes sauvages, friche, naviguer, sonder, jauger, baliser, assainir, drainer",
         "yijing": 29,
         "hexagram": "䷜"
     },
@@ -453,7 +472,7 @@ const hecto = {
     "22": {
         "verb": "éclairer",
         "formula": "la vérité (2) réunit (2)",
-        "note": "riche, lumière, phœnix dans un filet, loriot, joindre, focaliser, foyer, concentrer, attirer, briller 離",
+        "note": "clarifier, riche, lumière, phœnix dans un filet, loriot, joindre, focaliser, foyer, concentrer, attirer, briller 離",
         "yijing": 30,
         "hexagram": "䷝"
     },
@@ -498,8 +517,8 @@ const hecto = {
         "hexagram": "䷕"
     },
     "29": {
-        "verb": "hiérarchiser",
-        "formula": "clarifier (2) les rangs (9)",
+        "verb": "coordonner",
+        "formula": "les distinctions (2) pénètrent (9)",
         "note": "famille , clan, sacrifice, héritage, perpétuer, habiter, clarté partagée, demeurer 家人",
         "yijing": 37,
 
@@ -628,9 +647,9 @@ const hecto = {
         "hexagram": "䷬"
     },
     "48": {
-        "verb": "user",
-        "formula": "poussières (4) de pierres (8)",
-        "note": "érosion, perte, user, élaguer, dépouiller, écorcher, vache coupée",
+        "verb": "araser",
+        "formula": "surface (4) rabotée (8)",
+        "note": "démanteler, érosion, perte, user, élaguer, dépouiller, écorcher, vache coupée",
         "yijing": 23,
         "hexagram": "䷖"
     },
@@ -668,8 +687,8 @@ const hecto = {
         "note": "cœur en chair: incarner, ",
     },
     "55": {
-        "verb": "humaniser",
-        "formula": "personne (5) humaine (5)",
+        "verb": "civiliser",
+        "formula": "humaniser (5) la vie (5)",
         "note": "",
     },
     "56": {
@@ -808,9 +827,9 @@ const hecto = {
         "hexagram": "䷵"
     },
     "77": {
-        "verb": "aimer",
+        "verb": "échanger",
         "formula": "inviter (7) et consentir (7)",
-        "note": "départager, amitié, ouvrir, agréer, parler, exchange, add, against, and convert, ouvrir, marais, don contre don, palabrer, satisfaction mutuelle, défouler, étudier et discuter avec des amis",
+        "note": "accord mutuel par échange explicite, départager, amitié, ouvrir, agréer, parler, exchange, add, against, and convert, ouvrir, marais, don contre don, palabrer, satisfaction mutuelle, défouler, étudier et discuter avec des amis",
         "yijing": 58,
         "hexagram": "䷹"
     },
@@ -818,14 +837,14 @@ const hecto = {
         "verb": "réduire",
         "formula": "demandes (7) bloquées (8)",
         "maxim": "Moins mais mieux",
-        "note": "débit (% crédit 69), dette, devoir, diminuer, retrancher",
+        "note": "optimiser, débit (% crédit 69), dette, devoir, diminuer, retrancher",
         "yijing": 41,
         "hexagram": "䷨"
     },
     "79": {
-        "verb": "intérioriser",
+        "verb": "intégrer",
         "formula": "accepter (7) ce qui convient (9)",
-        "note": "vérité intérieure, juste confiance, centre, croire",
+        "note": "intérioriser, comprendre, intégrer, vérité intérieure, juste confiance, centre, croire",
         "yijing": 61,
         "hexagram": "䷼"
     },
@@ -870,16 +889,16 @@ const hecto = {
         "note": "",
     },
     "86": {
-        "verb": "préciser",
+        "verb": "ajuster",
         "formula": "contrôle (8) du lancer (6)",
-        "note": "excès de petit, moins que, cf 97, refouler, réfréner, canaliser",
+        "note": "ajuster, corriger, affiner, viser?, excès de petit, moins que, cf 97, refouler, réfréner, canaliser",
         "yijing": 62,
         "hexagram": "䷽"
     },
     "87": {
-        "verb": "séduire",
-        "formula": "retenue (8) et sentiment (7)",
-        "note": "courtoisie, politesse, salé, émouvoir, inciter, cf. 96 persévérer, endurer, influencer par présence calme, influence réciproque",
+        "verb": "aimer",
+        "formula": "constance (8) du goût (7)",
+        "note": "séduire, courtoisie, politesse, salé, émouvoir, inciter, cf. 96 persévérer, endurer, influencer par présence calme, influence réciproque, incliner — faire pencher la volonté l’une vers l’autre",
         "yijing": 31,
         "hexagram": "䷞"
     },
@@ -912,9 +931,9 @@ const hecto = {
         "hexagram": "䷯"
     },
     "92": {
-        "verb": "instituer",
-        "formula": "recombiner (9) les distinctions (2)",
-        "note": "instituer, assimiler en transformant, chaudron, cuisiner, tripode, deviner, présager, prophétiser, divination, repas, faire d’un support un foyer de sens",
+        "verb": "habiliter",
+        "formula": "modèle (9) reconnu (2)",
+        "note": "officialiser est l’aboutissement visible d’un travail de “cuisson” et d’“habilitation”, instituer, assimiler en transformant, chaudron, cuisiner, tripode, deviner, présager, prophétiser, divination, repas, faire d’un support un foyer de sens",
         "yijing": 50,
         "hexagram": "䷱"
     },
@@ -952,8 +971,8 @@ const hecto = {
         "hexagram": "䷛"
     },
     "98": {
-        "verb": "aérer",
-        "formula": "air (9) confiné (8)",
+        "verb": "assainir",
+        "formula": "infiltrations (9) arrêtées (8)",
         "note": "sorcellerie, désinfecter, ranger les affaires des parents, maladie sexuelle, malédiction, infecter; quelque chose pourrit à l’intérieur, corriger, corriger en ré-imprégnant",
         "yijing": 18,
         "hexagram": "䷑"
