@@ -1,23 +1,18 @@
 
 const news = [
-    "05",
-    "25",
-    "33",
-
-    "48",
-    "72",
-    "84",
-
-    "87",
-    "95", 
-    "00",
 // à peindre
-    "11",
+    "22",
     "27",
-    "29",
+    "32",
+    "37",
+    "44",
+    "48",
     "55",
+    "62",
+    "72",
     "77",
     "79",
+    "84",
     "86",
     "92", 
     "98",
@@ -403,7 +398,7 @@ const hecto = {
     },
     "12": {
         "verb": "parfaire",
-        "formula": "du flou (1) à l’évidence (2)",
+        "formula": "du trouble (1) à l’évidence (2)",
         "note": "achever, espérer, prévoir, corriger pour l’achèvement, pas encore",
         "yijing": 64,
         "hexagram": "䷿"
@@ -429,7 +424,7 @@ const hecto = {
     },
     "16": {
         "verb": "libérer",
-        "formula": "abcès (1) crevé (6)",
+        "formula": "du trouble (1), sortir (6)",
         "note": "release, affranchir, libérer, démonter, démêler",
         "yijing": 40,
         "hexagram": "䷧"
@@ -464,21 +459,21 @@ const hecto = {
     },
     "21": {
         "verb": "arriver",
-        "formula": "la lumière (2) fait des ombres (1)",
+        "formula": "la lumière (2) a des ombres (1)",
         "note": "après la traversée du fleuve, tempérer, éclairer les profondeurs, désenchanter",
         "yijing": 63,
         "hexagram": "䷾"
     },
     "22": {
         "verb": "éclairer",
-        "formula": "la vérité (2) réunit (2)",
+        "formula": "distinguer (2) et relier (2)",
         "note": "clarifier, riche, lumière, phœnix dans un filet, loriot, joindre, focaliser, foyer, concentrer, attirer, briller 離",
         "yijing": 30,
         "hexagram": "䷝"
     },
     "23": {
-        "verb": "assembler",
-        "formula": "attirer (2) les représentants (3)",
+        "verb": "fédérer",
+        "formula": "s’associer (2) aux autres (3)",
         "note": "associer, coopérer, vase et couvercle ajusté",
         "yijing": 13,
         "hexagram": "䷌"
@@ -504,8 +499,8 @@ const hecto = {
     },
     "27": {
         "verb": "réformer",
-        "formula": "la vérité (2) révélée (7)",
-        "note": "réformer, mandater, muer, cuir, décortiquer, “fire” quelqu’un, moment opportun, changer, transformer",
+        "formula": "la vérité (2) est accepté (7)",
+        "note": "réformer, kairos de la réforme, mandater, muer, cuir, décortiquer, “fire” quelqu’un, moment opportun, changer, transformer",
         "yijing": 49,
         "hexagram": "䷰"
     },
@@ -532,15 +527,15 @@ const hecto = {
         "note": "pouvoir du vide : axe, tendre à faire ceci",
     },
     "31": {
-        "verb": "prévoir",
-        "formula": "idée (3) en germe (1)",
+        "verb": "patienter",
+        "formula": "pouvoir (3) empêché (1)",
         "note": "avoir faim que le blé pousse, offrande à la pluie, espérer, attendre, préparer",
         "yijing": 5,
         "hexagram": "䷄"
     },
     "32": {
-        "verb": "abonder",
-        "formula": "initiative (3) de la fortune (2)",
+        "verb": "faire valoir",
+        "formula": "valeur (3) montrée (2)",
         "note": "avoir, il y a, fortune, grand réalisé, advenir, donner? chance, au ciel une étoile, fortune, généreux",
         "yijing": 14,
         "hexagram": "䷍"
@@ -572,8 +567,8 @@ const hecto = {
         "hexagram": "䷡"
     },
     "37": {
-        "verb": "proclamer",
-        "formula": "direction (3) tranchée (7)",
+        "verb": "trancher",
+        "formula": "direction (3) proclamée (7)",
         "note": "sym-bole, bâton fendu contractuel, déterminer, distinguer, résolution",
         "yijing": 43,
         "hexagram": "䷪"
@@ -621,8 +616,8 @@ const hecto = {
         "hexagram": "䷋"
     },
     "44": {
-        "verb": "supporter",
-        "formula": "matière (4) riche (4)",
+        "verb": "soutenir",
+        "formula": "matière (4) étendue (4)",
         "note": "réceptif, terre, champ, disponible, former, porter, accueillir",
         "yijing": 2,
         "hexagram": "䷁"
@@ -647,8 +642,8 @@ const hecto = {
         "hexagram": "䷬"
     },
     "48": {
-        "verb": "araser",
-        "formula": "surface (4) rabotée (8)",
+        "verb": "dépouiller",
+        "formula": "support (4) mis-à-nu (8)",
         "note": "démanteler, érosion, perte, user, élaguer, dépouiller, écorcher, vache coupée",
         "yijing": 23,
         "hexagram": "䷖"
@@ -726,7 +721,7 @@ const hecto = {
     },
     "62": {
         "verb": "proportionner",
-        "formula": "force (6) juste (2)",
+        "formula": "force (6) éclairée (2)",
         "maxim": "", 
         "note": "festoyer, mordre et unir, peine, torture, exécuter la sentence, mordre dans le problème et statuer, punir",
         "yijing": 21,
@@ -795,7 +790,7 @@ const hecto = {
     },
     "72": {
         "verb": "diverger",
-        "formula": "croyances (7) clivées (2)",
+        "formula": "exprimer (7) sa différence (2)",
         "note": "diffraction, se voir sans se regarder",
         "yijing": 38,
         "hexagram": "䷥"
@@ -877,9 +872,9 @@ const hecto = {
         "hexagram": "䷠"
     },
     "84": {
-        "verb": "aplanir",
+        "verb": "modérer",
         "formula": "profil (8) bas (4)",
-        "note": "humilité, modestie (% 46), niveler, humilier, modérer",
+        "note": "modérer, tempérer, se contenir, égaliser, répartir, humilité, modestie (% 46), niveler, humilier, modérer",
         "yijing": 15,
         "hexagram": "䷎"
     },
