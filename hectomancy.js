@@ -1,17 +1,9 @@
 
 const news = [
-// à peindre
-    "22",
-    "27",
-    "32",
-    "37",
-    "44",
-    "48",
-    "55",
-    "62",
-    "72",
+
     "77",
     "79",
+    "80",
     "84",
     "86",
     "92", 
@@ -595,8 +587,8 @@ const hecto = {
         "note": "",
     },
     "41": {
-        "verb": "partager",
-        "formula": "parts (4) en commun (1)",
+        "verb": "confluer",
+        "formula": "la poussière (4) va au fleuve (1)",
         "note": "rallier à un centre, 比 2 humains retournés, comparer (cf. 从 suivre), champ innondé, égaliser, participer",
         "yijing": 8,
         "hexagram": "䷇"
