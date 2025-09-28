@@ -1,5 +1,13 @@
 
 const news = [
+/*
+    "20",
+    "42",
+    "47",
+
+    "51",
+    "63",
+    "67",
 
     "77",
     "79",
@@ -8,10 +16,13 @@ const news = [
     "86",
     "92", 
     "98",
+*/
 
     "00",
     "00",
-    "00"
+    "00",
+    "00",
+    "00",
 ];
 
 
@@ -459,7 +470,7 @@ const hecto = {
     "22": {
         "verb": "éclairer",
         "formula": "distinguer (2) et relier (2)",
-        "note": "clarifier, riche, lumière, phœnix dans un filet, loriot, joindre, focaliser, foyer, concentrer, attirer, briller 離",
+        "note": "dianoia, clarifier, riche, lumière, phœnix dans un filet, loriot, joindre, focaliser, foyer, concentrer, attirer, briller 離",
         "yijing": 30,
         "hexagram": "䷝"
     },
