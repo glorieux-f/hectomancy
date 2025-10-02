@@ -1,28 +1,12 @@
 
 const news = [
-/*
-    "20",
-    "42",
-    "47",
-
-    "51",
-    "63",
-    "67",
-
-    "77",
-    "79",
-    "80",
-    "84",
-    "86",
-    "92", 
-    "98",
-*/
-
-    "00",
-    "00",
-    "00",
-    "00",
-    "00",
+    "10",
+    "16",
+    "17",
+    "18",
+    "30",
+    "70",
+    "90",
 ];
 
 
@@ -387,7 +371,7 @@ const hecto = {
     },
 
     "10": {
-        "verb": "aller",
+        "verb": "sentir",
         "formula": "cours (1) libre (0)",
         "note": "",
         "yijing": ""
@@ -427,21 +411,21 @@ const hecto = {
     },
     "16": {
         "verb": "libérer",
-        "formula": "du trouble (1), sortir (6)",
+        "formula": "la source (1) sort (6)",
         "note": "release, affranchir, libérer, démonter, démêler",
         "yijing": 40,
         "hexagram": "䷧"
     },
     "17": {
         "verb": "coincer",
-        "formula": "flèche (1) en coin (7)",
+        "formula": "source (1) avalée (7)",
         "note": "coincer, cible, épuiser, étouffer, opprimer % 91 (puits, abreuver), emmêler, approfondir, obstruction",
         "yijing": 47,
         "hexagram": "䷮"
     },
     "18": {
         "verb": "discipliner",
-        "formula": "folie (1) cadrée (8)",
+        "formula": "source (1) cadrée (8)",
         "note": "sanglier dans un filet et plante grimpante : couvrir, bourgeonner, ignorer, batifoler, jeune fou, folâtrer",
         "yijing": 4,
         "hexagram": "䷃"
@@ -525,8 +509,8 @@ const hecto = {
     
 
     "30": {
-        "verb": "pouvoir",
-        "formula": "énergie (3) potentielle (0)",
+        "verb": "être",
+        "formula": "acte (3) pur (0)",
         "note": "pouvoir du vide : axe, tendre à faire ceci",
     },
     "31": {
@@ -780,8 +764,8 @@ const hecto = {
 
 
     "70": {
-        "verb": "parler",
-        "formula": "dire (7) du rien (0)",
+        "verb": "vouloir",
+        "formula": "demande (7) pure (0)",
         "note": "puissance de la parole pure, au commencent était le verbe",
     },
     "71": {
@@ -834,8 +818,7 @@ const hecto = {
     "78": {
         "verb": "réduire",
         "formula": "demandes (7) bloquées (8)",
-        "maxim": "Moins mais mieux",
-        "note": "optimiser, débit (% crédit 69), dette, devoir, diminuer, retrancher",
+        "note": "moins mais mieux, optimiser, débit (% crédit 69), dette, devoir, diminuer, retrancher",
         "yijing": 41,
         "hexagram": "䷨"
     },
@@ -917,8 +900,8 @@ const hecto = {
 
 
     "90": {
-        "verb": "falloir",
-        "formula": "pression (9) anonyme (0)",
+        "verb": "venir",
+        "formula": "il arrive (9) que (0)",
         "note": "",
     },
     "91": {
