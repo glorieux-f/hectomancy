@@ -1,14 +1,40 @@
 
 const news = [
-    "10",
-    "16",
-    "17",
-    "18",
-    "30",
+
+    //
+    "50",
+    "51",
+    "53",
+    "54",
+    "55",
+    "58",
+    "60",
+    "61",
+    "67",
     "70",
+    "71",
+    "76",
+    "78",
+    "79",
+    "80",
+    "82",
     "90",
+    "97",
+    "99",
 ];
 
+/**
+Pourriez vous m’expliquer l’hexagramme 55 :
+
+– Par le caractère de son nom, en cherchant des occurrences dans les textes chinois anciens. N’oubliez pas de traduire les extraits, en montrant dans la traduction comment est traduit ce nom. N’oubliez pas de donner la référence du texte en pinyin.
+– En montrant comment les trigrammes peuvent expliquer le nom. Voyez d’abord s’il y a une analogie possible entre les clés du caractère chinois du noms et les trigrammes. Cherchez ensuite des hexagrammes employant l’un ou l’autre des trigrammes dans un sens similaire. Terminez en contrastant avec l’hexagramme qui inverse les 2 trigrammes.
+– Cherchez enfin 5 verbes français qui pointent au mieux l’énergie propre de cet hexagramme, en vérifiant que ces verbes ne s’appliquent à aucun autre hexagramme.
+
+Merci.
+
+Imaginez un hexagramme avec un neuvième trigramme, signifiant 中 ou 心.
+Avec les caractères chinois que vous connaissez
+*/
 
 
 // 1 : eau, oreille, élastique, tristesse, traversant
@@ -315,7 +341,8 @@ const deca = [
     // ["", "musique", "spectacle", "inspiration", "", "écrire", "", "rêve", "répétition", "idée"],
     // politique
     ["reset", "risques", "interprète", "stratège", "soin", "pivot", "urgence", "négociateur", "contrôle", "routeur"],
-    ["", "peuple", "mœurs", "état", "pays", "société", "guerre", "mythe", "loi", ""]
+    ["", "peuple", "mœurs", "état", "pays", "société", "guerre", "mythe", "loi", ""],
+    ["nul", "dans", "que", "l’", "de", "juste", "vers","avec", "mais", "pour"],
 
 ];
 const hecto = {    
@@ -372,7 +399,7 @@ const hecto = {
 
     "10": {
         "verb": "sentir",
-        "formula": "cours (1) libre (0)",
+        "formula": "humeurs (1) cachées (0)",
         "note": "",
         "yijing": ""
     },
@@ -411,7 +438,7 @@ const hecto = {
     },
     "16": {
         "verb": "libérer",
-        "formula": "la source (1) sort (6)",
+        "formula": "les eaux (1) jaillissent (6)",
         "note": "release, affranchir, libérer, démonter, démêler",
         "yijing": 40,
         "hexagram": "䷧"
@@ -478,9 +505,9 @@ const hecto = {
         "note": "",
     },
     "26": {
-        "verb": "foisonner",
-        "formula": "extension (2) de la friche (6)",
-        "note": "fertile, luxuriant, abondant… Prodiges. Chaume de maison, allumer, déclencher. Plein",
+        "verb": "éblouir",
+        "formula": "lumière (2) blessante (6)",
+        "note": "regorger, éblouir, culminer, foisonner, abonder, fertile, luxuriant, abondant… Prodiges. Chaume de maison, allumer, déclencher. Plein. Son ample du tambour",
         "yijing": 55,
         "hexagram": "䷶"
     },
@@ -521,7 +548,7 @@ const hecto = {
         "hexagram": "䷄"
     },
     "32": {
-        "verb": "faire valoir",
+        "verb": "valoriser",
         "formula": "valeur (3) montrée (2)",
         "note": "avoir, il y a, fortune, grand réalisé, advenir, donner? chance, au ciel une étoile, fortune, généreux",
         "yijing": 14,
@@ -644,8 +671,8 @@ const hecto = {
     },
 
     "50": {
-        "verb": "être",
-        "formula": "centre (5) vide (0)",
+        "verb": "vivre",
+        "formula": "cœur (5) libre (0)",
         "note": "",
     },
     "51": {
@@ -659,12 +686,12 @@ const hecto = {
         "note": "",
     },
     "53": {
-        "verb": "aspirer",
+        "verb": "réfléchir",
         "formula": "gens (5) d’idéal (3)",
         "note": "",
     },
     "54": {
-        "verb": "cultiver",
+        "verb": "travailler",
         "formula": "gens (5) de terrain (4)",
         "note": "cœur en chair: incarner, ",
     },
@@ -695,14 +722,14 @@ const hecto = {
     },
 
     "60": {
-        "verb": "vouloir",
-        "formula": "désir (6) illimité (0)",
+        "verb": "aller",
+        "formula": "se réveiller (6) neuf (0)",
         "note": "",
     },
     "61": {
-        "verb": "naître",
-        "formula": "sortir (6) difficilement (1)",
-        "note": "germer, stationner des troupes, difficulté initiale, rassemblement",
+        "verb": "germer",
+        "formula": "émerger (6) difficilement (1)",
+        "note": "naître, germer, stationner des troupes, difficulté initiale, rassemblement",
         "yijing": 3,
         "hexagram": "䷂"
     },
@@ -741,9 +768,9 @@ const hecto = {
         "hexagram": "䷲"
     },
     "67": {
-        "verb": "suivre",
+        "verb": "convenir",
         "formula": "vouloir (6) accepter (7)",
-        "note": "le sens est l’adhésion à la séquence des signes, sacrifice des captifs,  隋 boucher, harmoniser, accorder, push-pull, suivre l’appel",
+        "note": "suivre, se conformer, le sens est l’adhésion à la séquence des signes, sacrifice des captifs,  隋 boucher, harmoniser, accorder, push-pull, suivre l’appel",
         "yijing": 17,
         "hexagram": "䷐"
     },
@@ -765,7 +792,7 @@ const hecto = {
 
     "70": {
         "verb": "vouloir",
-        "formula": "demande (7) pure (0)",
+        "formula": "demande (7) gratuite (0)",
         "note": "puissance de la parole pure, au commencent était le verbe",
     },
     "71": {
@@ -802,8 +829,8 @@ const hecto = {
         "note": "",
     },
     "76": {
-        "verb": "adjoindre",
-        "formula": "admettre (7) l’imprévu (6)",
+        "verb": "déroger",
+        "formula": "accepter (7) l’imprévu (6)",
         "note": "retour de la petite sœur, concubine, mariage raté, 歸 se livrer 妹 femme pas encore",
         "yijing": 54,
         "hexagram": "䷵"
@@ -823,8 +850,8 @@ const hecto = {
         "hexagram": "䷨"
     },
     "79": {
-        "verb": "intégrer",
-        "formula": "accepter (7) ce qui convient (9)",
+        "verb": "s’accorder",
+        "formula": "intérioriser (7) l’air (9)",
         "note": "intérioriser, comprendre, intégrer, vérité intérieure, juste confiance, centre, croire",
         "yijing": 61,
         "hexagram": "䷼"
@@ -844,9 +871,9 @@ const hecto = {
         "hexagram": "䷦"
     },
     "82": {
-        "verb": "voyager",
-        "formula": "aux frontières (8), un feu (2)",
-        "note": "camp, hôtel, voyager, vagabond, expédition militaire, voyager en bordure, vivre en hôte",
+        "verb": "camper",
+        "formula": "à la frontière (8), un feu (2)",
+        "note": "s’accomoder, camp, hôtel, voyager, vagabond, expédition militaire, voyager en bordure, vivre en hôte",
         "yijing": 56,
         "hexagram": "䷷"
     },
@@ -945,7 +972,7 @@ const hecto = {
         "hexagram": "䷟"
     },
     "97": {
-        "verb": "surcharger",
+        "verb": "excéder",
         "formula": "presser (9) l’accord (7)",
         "note": "transgresser outrepasser, masse critique, grande expérience (aspect), excès de grand, cf 86",
         "yijing": 28,
@@ -959,8 +986,8 @@ const hecto = {
         "hexagram": "䷑"
     },
     "99": {
-        "verb": "convenir",
-        "formula": "se pénétrer (9) des airs (9)",
+        "verb": "s’insinuer",
+        "formula": "infuser (9) et infléchir (9)",
         "note": "diriger la trajectoire?, entrer, conformer, mouler, sceau, table avec commensaux à genoux, s’agenouiller devant l’autel, calculer, dater, complaire, céder, 巽",
         "yijing": 57,
         "hexagram": "䷸"
