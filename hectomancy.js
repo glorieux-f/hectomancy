@@ -1,6 +1,8 @@
 
 const news = [
 
+    "85",
+
 ];
 
 /**
@@ -899,7 +901,7 @@ const hecto = {
     },
     "89": {
         "verb": "progresser",
-        "formula": "patiente (8) pression (9)",
+        "formula": "appui (8) et pénétration (9)",
         "note": "graduellement, arbre sur la montagne, infiltrer, progresser, mûrir",
         "yijing": 53,
         "hexagram": "䷴"
@@ -968,7 +970,7 @@ const hecto = {
     "99": {
         "verb": "s’insinuer",
         "formula": "infuser (9) et infléchir (9)",
-        "note": "diriger la trajectoire?, entrer, conformer, mouler, sceau, table avec commensaux à genoux, s’agenouiller devant l’autel, calculer, dater, complaire, céder, 巽",
+        "note": "s’absorber, diriger la trajectoire?, entrer, conformer, mouler, sceau, table avec commensaux à genoux, s’agenouiller devant l’autel, calculer, dater, complaire, céder, 巽",
         "yijing": 57,
         "hexagram": "䷸"
     },
