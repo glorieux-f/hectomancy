@@ -15,7 +15,7 @@
     for (const key of Object.keys(hecto).sort()) {
       const record = hecto[key];
       let formula = record.formula;
-      formula = formula.replace(/ \(\d\)/g, "");
+      // formula = formula.replace(/ \(\d\)/g, "");
       const line = document.createElement("div");
       let txt = `${key}. <b>${record.verb}</b>, ${formula}.`;
       // if (record.hexagram) txt += ' ' + record.hexagram;
