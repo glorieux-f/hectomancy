@@ -17,9 +17,9 @@
       let formula = record.formula;
       formula = formula.replace(/ \(\d\)/g, "");
       const line = document.createElement("div");
-      let txt = `${key};${record.verb};${formula}`;
+      let txt = `${key}. <b>${record.verb}</b>, ${formula}.`;
       // if (record.hexagram) txt += ' ' + record.hexagram;
-      line.textContent = txt;
+      line.innerHTML = txt;
       container.appendChild(line);
     }
   </script>

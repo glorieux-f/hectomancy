@@ -1,6 +1,7 @@
 
 const news = [
-
+    "28",
+    "50",
     "85",
 
 ];
@@ -502,7 +503,7 @@ const hecto = {
     },
     "28": {
         "verb": "habiller",
-        "formula": "révéler (2) par la coupe (8)",
+        "formula": "révéler (2) la forme (8)",
         "note": "styliser, élégance, polir, beauté, coquillage, beauté par la coupe",
         "yijing": 22,
         "hexagram": "䷕"
@@ -653,9 +654,9 @@ const hecto = {
     },
 
     "50": {
-        "verb": "vivre",
+        "verb": "jouer",
         "formula": "cœur (5) libre (0)",
-        "note": "",
+        "note": "vivre, jouer",
     },
     "51": {
         "verb": "pleurer",
