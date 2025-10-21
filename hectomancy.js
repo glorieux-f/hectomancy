@@ -1,20 +1,7 @@
 
 const news = [
-    "04",
-    "09",
-    "25",
-    "28",
-    "29",
-    "40",
 
-    "50",
-    "52",
-    "58",
-    "59",
-
-    // "60",
-    
-    "85",
+    // "85",
 ];
 
 /**
@@ -49,253 +36,6 @@ crainte, espérance, honte, orgueil, jalousie
 Verbes en suspens : 
 défendre, transfigurer, donner, passer, aller, venir, rendre, ajouter, retrancher, choisir, décider, juger, tenter, chercher, trouver, montrer, éclairer, établir, engager, dégager, risquer, permettre, céder, secourir, éviter, parfaire, corriger, améliorer, compter, interdire, demander, répondre, convenir, conclure, déduire, renforcer, souiller, user, instituer, partager, répartir, tourner
 
-/*
-quadrillage Éthos / Logos / Nomos / Technè
-
-☵ – ☲ : se renfermer ; obscurcir ; censurer ; envaser
-(坎 profondeur sans 離 clarté → repli ; opacité ; secret institutionnel ; dépôt matériel)
-☵ – ☰ : hésiter ; diluer ; déréguler ; dériver
-(坎 sans 乾 direction → indécision ; dilution conceptuelle ; normes flottantes ; dérive des flux)
-☵ – ☷ : se noyer ; dissoudre ; se disperser ; déborder
-(坎 sans 坤 support → submersion ; dissolution des cadres ; désagrégation collective ; excès d’eau)
-☵ – ☳ : s’enliser ; ajourner ; temporiser ; caler
-(坎 sans 震 déclenchement → enlisement ; report discursif ; attentisme collectif ; arrêt mécanique)
-☵ – ☱ : bouder ; taire ; verrouiller ; thésauriser
-(坎 sans 兌 ouverture → bouderie ; rétention d’information ; fermeture des canaux ; accumulation inerte)
-☵ – ☴ : acculer ; fouiller ; surveiller ; sonder
-(坎 sans 巽 consentement → pression sur autrui ; fouille inquisitrice ; contrôle sans accord ; sondage intrusif)
-☵ – ☶ : s’acharner ; saturer ; envahir ; engloutir
-(坎 sans 艮 arrêt → acharnement ; surcharge discursive ; envahissement des espaces ; submersion des objets)
-
-☲ – ☵ : papillonner ; simplifier ; déclassifier ; dessécher
-(離 clarté sans 坎 profondeur → papillonnage ; réductionnisme ; levée prématurée des secrets ; assèchement)
-☲ – ☰ : ergoter ; digresser ; désarticuler ; saturer
-(離 sans 乾 direction → chicane ; dispersion argumentative ; perte d’alignement ; surcharge de détails)
-☲ – ☷ : blesser ; découper ; humilier ; brûler
-(離 sans 坤 support → blessure relationnelle ; découpe froide ; exposition punitive ; brûlure matérielle)
-☲ – ☳ : commenter ; étiqueter ; notifier ; baliser
-(離 sans 震 élan → parole sans action ; nominalisme ; annonces sans suite ; balisage statique)
-☲ – ☱ : sermonner ; dogmatiser ; imposer ; bloquer
-(離 sans 兌 échange → morale univoque ; dogme ; communication à sens unique ; blocage des retours)
-☲ – ☴ : dévoiler ; dénoncer ; publier ; divulguer
-(離 sans 巽 consentement → dévoilement ; dénonciation ; mise en public sans accord ; fuite d’informations)
-☲ – ☶ : éblouir ; exagérer ; saturer ; surexposer
-(離 sans 艮 limite → éblouissement ; hypertrophie des thèses ; overload institutionnel ; surexposition)
-
-☰ – ☵ : présumer ; simplifier ; décréter ; précipiter
-(乾 direction sans 坎 profondeur → présomption ; simplisme doctrinal ; décret hâtif ; précipitation des processus)
-☰ – ☲ : imposer ; brouiller ; trancher ; verrouiller
-(乾 sans 離 clarté → contrainte ; opacité discursive ; décision sans éclairage ; verrouillage technique)
-☰ – ☷ : négliger ; abstraire ; désolidariser ; durcir
-(乾 sans 坤 support → dureté ; abstraction déconnectée ; rupture avec le terrain ; rigidification)
-☰ – ☳ : procrastiner ; planifier ; annoncer ; ajourner
-(乾 sans 震 déclenchement → retard ; plan sans lancement ; annonces sans exécution ; ajournement)
-☰ – ☱ : ordonner ; unifier ; isoler ; exclure
-(乾 sans 兌 ouverture → ordre autoritaire ; unification forcée ; isolement des voix ; exclusion des accès)
-☰ – ☴ : contraindre ; doctriner ; centraliser ; serrer
-(乾 sans 巽 consentement → coercition ; doctrine fermée ; recentralisation ; serrage des mécanismes)
-☰ – ☶ : empiéter ; étendre ; microgérer ; envahir
-(乾 sans 艮 borne → dépassement des limites ; extension indue ; microgestion ; invasion matérielle)
-
-☷ – ☵ : ignorer ; lisser ; minimiser ; colmater
-(坤 support sans 坎 profondeur → déni ; lissage narratif ; sous-estimation du risque ; rustines matérielles)
-☷ – ☲ : brouiller ; confondre ; embrouiller ; opacifier
-(坤 sans 離 clarté → confusion ; amalgame ; désordre collectif ; opacité des interfaces)
-☷ – ☰ : se résigner ; diluer ; temporiser ; disperser
-(坤 sans 乾 direction → résignation ; dilution des cadres ; attentisme ; dispersion des moyens)
-☷ – ☳ : freiner ; amortir ; ajourner ; alourdir
-(坤 sans 震 élan → frein psychique ; amorti conceptuel ; reports organisationnels ; inertie matérielle)
-☷ – ☱ : étouffer ; taire ; bloquer ; couvrir
-(坤 sans 兌 ouverture → étouffement ; silence éditorial ; fermeture des circuits ; couvertures posées)
-☷ – ☴ : couver ; prescrire ; s’ingérer ; envahir
-(坤 sans 巽 consentement → maternage intrusif ; prescription unilatérale ; ingérence ; intrusion matérielle)
-☷ – ☶ : lâcher ; relâcher ; laisser-faire ; s’étaler
-(坤 sans 艮 arrêt → relâchement ; détente normative ; permissivité ; étalement)
-
-☳ – ☵ : s’emballer ; court-circuiter ; bousculer ; casser
-(震 activation sans 坎 profondeur → emportement ; saut d’étapes ; chocs collectifs ; rupture matérielle)
-☳ – ☲ : confondre ; brouiller ; agiter ; brasser
-(震 sans 離 clarté → confusion ; flou argumentatif ; agitation de groupe ; brassage stérile)
-☳ – ☰ : zigzaguer ; disperser ; dérouter ; gaspiller
-(震 sans 乾 direction → errance ; dispersion cognitive ; perte de cap ; gaspillage de ressources)
-☳ – ☷ : heurter ; escamoter ; déstabiliser ; fatiguer
-(震 sans 坤 support → heurt ; étapes escamotées ; perte d’assise ; usure des matériels)
-☳ – ☱ : rudoyer ; asséner ; intimider ; marteler
-(震 sans 兌 ouverture → rudesse ; assertions martiales ; intimidation ; coups répétés)
-☳ – ☴ : forcer ; imposer ; réquisitionner ; enfoncer
-(震 sans 巽 consentement → contrainte ; imposition ; prise autoritaire ; enfoncement des portes)
-☳ – ☶ : exagérer ; escalader ; empiéter ; franchir
-(震 sans 艮 limite → excès ; surenchère ; empiètement ; franchissement de seuils)
-
-☱ – ☵ : papoter ; survoler ; banaliser ; édulcorer
-(兌 ouverture sans 坎 profondeur → bavardage ; superficialité ; trivialisation collective ; édulcoration)
-☱ – ☲ : enjoliver ; flouter ; désinformer ; maquiller
-(兌 sans 離 clarté → enjolivure ; flou rhétorique ; info dévoyée ; maquillage)
-☱ – ☰ : complaire ; relativiser ; céder ; plier
-(兌 sans 乾 direction → complaisance ; relativisme ; concessions excessives ; pliage des pièces)
-☱ – ☷ : promettre ; exagérer ; décevoir ; lâcher
-(兌 sans 坤 support → promesses creuses ; hyperbole ; déception publique ; lâcher en charge)
-☱ – ☳ : distraire ; digresser ; temporiser ; ajourner
-(兌 sans 震 élan → divertissement ; digression ; pause collective ; reports techniques)
-☱ – ☴ : importuner ; manipuler ; harceler ; forcer
-(兌 sans 巽 consentement → sollicitation insistante ; manipulation ; harcèlement ; forçage d’accès)
-☱ – ☶ : divulguer ; déborder ; transgresser ; dépasser
-(兌 sans 艮 borne → indiscrétion ; dépassement discursif ; franchissement des règles ; dépassement de quotas)
-
-☴ – ☵ : éluder ; édulcorer ; esquiver ; arrondir
-(巽 pénétration/consentement sans 坎 profondeur → esquive ; adoucissement ; évitement collectif ; arrondi technique)
-☴ – ☲ : insinuer ; envelopper ; contourner ; brouiller
-(巽 sans 離 clarté → insinuation ; enveloppement rhétorique ; contournement des procédures ; brouillage de signal)
-☴ – ☰ : tergiverser ; relativiser ; négocier ; dériver
-(巽 sans 乾 direction → tergiversation ; relativisme ; tractations sans cap ; dérive des opérations)
-☴ – ☷ : promettre ; sous-estimer ; décevoir ; alléger
-(巽 sans 坤 support → promesse légère ; sous-estimation ; déception collective ; allègement excessif)
-☴ – ☳ : temporiser ; euphémiser ; ajourner ; retarder
-(巽 sans 震 élan → temporisation ; euphémisation ; reports ; retards)
-☴ – ☱ : murmurer ; coder ; intriguer ; chiffrer
-(巽 sans 兌 ouverture → murmure discret ; message codé ; manœuvres de coulisse ; chiffrement/cryptage)
-☴ – ☶ : s’éparpiller ; étendre ; s’enchevêtrer ; déborder
-(巽 sans 艮 borne → dispersion ; extension diffuse ; enchevêtrement ; débordement)
-
-☶ – ☵ : s’endurcir ; nier ; refuser ; bloquer
-(艮 arrêt sans 坎 profondeur → dureté ; négation des risques ; refus collectif ; blocage matériel)
-☶ – ☲ : voiler ; brouiller ; censurer ; étouffer
-(艮 sans 離 clarté → voilement ; brouillage doctrinal ; censure ; étouffoir technique)
-☶ – ☰ : contrarier ; contredire ; obstruer ; brider
-(艮 sans 乾 direction → contrariété ; contradiction de principe ; entraves ; bridage)
-☶ – ☷ : priver ; déshumaniser ; rationner ; assécher
-(艮 sans 坤 support → privation ; déshumanisation ; rationnement ; sécheresse)
-☶ – ☳ : freiner ; inhiber ; paralyser ; éteindre
-(艮 sans 震 élan → freinage ; inhibition ; paralysie collective ; extinction)
-☶ – ☱ : se fermer ; taire ; interdire ; claquemurer
-(艮 sans 兌 ouverture → fermeture ; mutisme ; interdictions ; mise sous cloche)
-☶ – ☴ : verrouiller ; rigidifier ; policer ; sceller
-(艮 sans 巽 consentement → verrouillage ; rigidification normative ; police des accès ; scellement)
-
-
-
-*/
-
-/*
-0 — annuler · origine 
-
-0-1 : effacer pour recommencer vs se lancer, plonger, prendre un risque.
-0-2 : nettoyer le cadre vs poser deux pôles et choisir.
-0-3 : revenir au sans-forme vs introduire un tiers/schème.
-0-4 : annuler les engagements vs s’appuyer sur le terrain/les moyens.
-0-5 : se retirer vs coordonner l’effort pour qu’il reste humain.
-0-6 : couper l’impulsion vs déclencher/mobiliser.
-0-7 : réduire au silence vs ouvrir l’échange explicite.
-0-8 : nettoyer quand on est déjà à l’arrêt vs arrêter, ralentir, discipliner.
-0-9 : abandonner la diffusion vs enraciner et récolter.
-
-1 — flux · profondeur · chenal
-
-1-0 : oser malgré l’incertitude vs réinitialiser les paramètres.
-1-2 : un courant à travers l’opaque vs deux lignes distinctes (complémentaires ou opposées).
-1-3 : pousser dans un seul flux vs dégager un schème tiers.
-1-4 : avancer dans le chenal vs tenir compte du terrain/ressources.
-1-5 : avancer en tête vs articuler comment les humains portent le flux.
-1-6 : plongée continue vs choc initial/impulsion.
-1-7 : intériorité/profondeur vs communication explicite/externe.
-1-8 : traverser vs s’arrêter au seuil.
-1-9 : creuser un passage vs diffuser/enraciner.
-
-2 — dualité · contraste · relation
-
-2-0 : distinguer vs effacer.
-2-1 : deux lignes nettes vs indistinction dans un même courant.
-2-3 : fourche tenue vs tiers extérieur qui réconcilie.
-2-4 : trancher entre options vs composer avec le terrain/les moyens.
-2-5 : choisir des compromis vs répartir les charges pour qu’elles soient soutenables.
-2-6 : décider vs déclencher/mobiliser l’un des choix.
-2-7 : clarifier la différence vs créer de la résonance entre différences.
-2-8 : comparer vs imposer une limite.
-2-9 : décision locale vs pratique partagée/transmise.
-
-3 — triade · schème · médiation
-
-3-0 : donner forme vs revenir au vide.
-3-1 : schème opérant vs flux pur.
-3-2 : tiers de réconciliation vs binaire qui reste ouvert.
-3-4 : armature intelligible vs appui sur terrain/ressources.
-3-5 : cadre d’intelligibilité vs coordination humaine des gestes.
-3-6 : déclencheur conceptuel vs déclencheur énergétique (choc).
-3-7 : re-cadre le sens vs donne de l’air social/visibilité.
-3-8 : forme qui ouvre des prises vs fermeture/discipline.
-3-9 : carte mentale vs héritage et transmission de pratiques.
-
-4 — peuple · terrain · moyens · ressources
-
-4-0 : s’ancrer dans le réel vs tout remettre à zéro.
-4-1 : composer avec le terrain/les moyens vs forcer un flux.
-4-2 : prendre appui sur les ressources vs rester au niveau du choix abstrait.
-4-3 : matérialité et logistique vs schème/triangulation conceptuelle.
-4-5 : moyens/matière vs soutenabilité humaine/coordination.
-4-6 : ressources prêtes vs impulsion à donner.
-4-7 : ancrage local/peuple vs mise en scène/exposition.
-4-8 : terrain souple vs barrières dures.
-4-9 : base matérielle vs diffusion/enracinement des usages.
-
-5 — centre humain · coordination · soin
-
-5-0 : re-calibrer humainement vs effacer la situation.
-5-1 : articuler comment porter le flux vs pousser le flux tel quel.
-5-2 : répartir les charges vs trancher entre pôles.
-5-3 : ajuster corps/attention vs ajuster concepts/schèmes.
-5-4 : humaniser la situation vs chercher/optimiser les moyens.
-5-6 : coordonner les efforts vs augmenter l’impulsion/la cadence.
-5-7 : communication non verbale/proximale (ton, gestes, care) vs communication explicite/externe.
-5-8 : articulation souple du geste vs cadre contraignant.
-5-9 : prendre soin des acteurs vs prendre soin de la transmission.
-
-6 — impulsion · mobilisation · choc
-
-6-0 : démarrer vs remettre à zéro.
-6-1 : choc initial vs plongée dans l’inconnu (flux continu).
-6-2 : pousser un côté vs peser encore les options.
-6-3 : énergie d’attaque vs schème de compréhension.
-6-4 : lancer malgré les moyens imparfaits vs patienter/adapter aux ressources.
-6-5 : impulsion de production vs coordination des personnes.
-6-7 : produire/mobiliser vs annoncer/relier.
-6-8 : démarrer vs arrêter.
-6-9 : faire partir vs faire prendre (essaimage).
-
-7 — ouverture · échange · résonance
-
-7-0 : faire entendre des voix vs silence/effacement.
-7-1 : extérioriser/partager vs approfondir en dedans.
-7-2 : relier des différences vs les aiguiser.
-7-3 : oxygène social vs schème de médiation.
-7-4 : exposition/accès vs terrain/moyens.
-7-5 : communication explicite/externe vs communication non verbale/interne.
-7-6 : communication vs production/mobilisation.
-7-8 : ouvrir les portes vs les fermer.
-7-9 : attirer/faire venir vs confier/faire hériter.
-
-8 — limite · consolidation · discipline
-
-8-0 : arrêt pour protéger vs remettre les paramètres à zéro.
-8-1 : seuil/porte vs chenal/flux.
-8-2 : fixer un bord vs maintenir une fourche.
-8-3 : clôturer/capper vs recomposer par un tiers.
-8-4 : contrainte dure vs optimisation par les moyens/terrain.
-8-5 : prise ferme vs articulation souple.
-8-6 : dire stop vs impulser.
-8-7 : dire « non » vs dire « entrez ».
-8-9 : contenir vs laisser se répandre et s’enraciner.
-
-9 — diffusion · enracinement · récolte
-
-9-0 : consolider/hériter vs effacer.
-9-1 : disséminer en multiples canaux vs un seul chenal.
-9-2 : au-delà du choix : partager la pratique vs choisir encore.
-9-3 : faire circuler le schème vs découvrir/poser le schème.
-9-4 : transmettre et outiller les communautés vs rester au niveau des moyens/terrain.
-9-5 : soins des communautés vs soins des porteurs individuels.
-9-6 : essaimer au-delà de l’impulsion vs rester dans le démarrage.
-9-7 : confier/former vs susciter/annoncer.
-9-8 : imprégner/traverser les limites vs les défendre.*/
 
 /*
 Domain glossaries (quick substitutions)
@@ -347,7 +87,7 @@ const hecto = {
     },
     "01": {
         "verb": "assourdir",
-        "formula": "sans (0) bruit (1)",
+        "formula": "étouffer (0) le son (1)",
         "note": "assourdir, sans bruit, liquider",
     },
     "02": {
@@ -366,9 +106,9 @@ const hecto = {
         "note": "rebaser",
     },
     "05": {
-        "verb": "déserter",
-        "formula": "sans (0) humanité (5)",
-        "note": "recentrer",
+        "verb": "mécaniser",
+        "formula": "remplacer (0) l’humain (5)",
+        "note": "recentrer, déserter dans le sens de faire un désert mais pas partir",
     },
     "06": {
         "verb": "relancer",
@@ -376,18 +116,18 @@ const hecto = {
         "note": "désamorcer, fatiguer, relancer",
     },
     "07": {
-        "verb": "dire",
+        "verb": "bavarder",
         "formula": "le rien (0) parle (7)",
         "note": "refermer, taire, annoncer, afficher",
     },
     "08": {
         "verb": "réserver",
-        "formula": "espace (0) clôturé (8)",
+        "formula": "vide (0) clôturé (8)",
         "note": "laisser",
     },
     "09": {
         "verb": "tramer",
-        "formula": "nouvelles (0) lignes (9)",
+        "formula": "l’espace (0) des lignes (9)", // ??? nouvelles
         "note": "accorder, sans vent",
     },
 
@@ -397,6 +137,7 @@ const hecto = {
         "note": "",
         "yijing": ""
     },
+
     "11": {
         "verb": "traverser",
         "formula": "failles (1) et courants (1)",
@@ -453,7 +194,7 @@ const hecto = {
     },
     "19": {
         "verb": "dissoudre",
-        "formula": "l’eau (1) diffuse (9)",
+        "formula": "l’eau (1) disperse (9)",
         "note": "disperser, dissoudre, déborder, dissiper, disparaître, jaillir, dissoudre les amas, enseigner",
         "yijing": 59,
         "hexagram": "䷺"
@@ -466,8 +207,8 @@ const hecto = {
         "note": "",
     },
     "21": {
-        "verb": "arriver",
-        "formula": "la lumière (2) a des ombres (1)",
+        "verb": "aboutir",
+        "formula": "voir (2) les défauts (1)",
         "note": "après la traversée du fleuve, tempérer, éclairer les profondeurs, désenchanter",
         "yijing": 63,
         "hexagram": "䷾"
@@ -521,7 +262,7 @@ const hecto = {
     },
     "29": {
         "verb": "coordonner",
-        "formula": "les distinctions (2) pénètrent (9)",
+        "formula": "les distinctions (2) se diffusent (9)",
         "note": "famille , clan, sacrifice, héritage, perpétuer, habiter, clarté partagée, demeurer 家人",
         "yijing": 37,
 
@@ -535,22 +276,22 @@ const hecto = {
         "note": "pouvoir du vide : axe, tendre à faire ceci",
     },
     "31": {
-        "verb": "patienter",
-        "formula": "pouvoir (3) empêché (1)",
-        "note": "avoir faim que le blé pousse, offrande à la pluie, espérer, attendre, préparer",
+        "verb": "attendre", 
+        "formula": "pouvoir (3) caché (1)",
+        "note": "avoir faim que le blé pousse, offrande à la pluie, espérer, attendre, patienter, préparer",
         "yijing": 5,
         "hexagram": "䷄"
     },
     "32": {
-        "verb": "valoriser",
-        "formula": "valeur (3) montrée (2)",
+        "verb": "afficher",
+        "formula": "pouvoir (3) manifeste (2)",
         "note": "avoir, il y a, fortune, grand réalisé, advenir, donner? chance, au ciel une étoile, fortune, généreux",
         "yijing": 14,
         "hexagram": "䷍"
     },
     "33": {
         "verb": "orienter",
-        "formula": "acte (3) du sens (3)",
+        "formula": "créer (3) du sens (3)",
         "note": "animer, orienter, imaginer, conférer le mandat, animer, activer, orienter, sec; commençons par une offrande, divination bénéfique, agir, tourner, créer, inventer",
         "yijing": 1,
         "hexagram": "䷀"
@@ -583,14 +324,14 @@ const hecto = {
     },
     "38": {
         "verb": "apprendre",
-        "formula": "principe (3) des lois (8)",
+        "formula": "principe (3) de la tradition (8)",
         "note": "gros bétail, éducation des grands, conserver, stocker, retenir par la forme",
         "yijing": 26,
         "hexagram": "䷙"
     },
     "39": {
         "verb": "accoutumer",
-        "formula": "pouvoir (3) des coutumes (9)",
+        "formula": "pouvoir (3) des usages (9)",
         "note": "petit bétail, domestication des petits",
         "yijing": 9,
         "hexagram": "䷈"
@@ -599,7 +340,7 @@ const hecto = {
 
     "40": {
         "verb": "avoir",
-        "formula": "moyens (4) latents (0)",
+        "formula": "moyens (4) potentiels (0)",
         "note": "",
     },
     "41": {
@@ -617,8 +358,8 @@ const hecto = {
         "hexagram": "䷢"
     },
     "43": {
-        "verb": "cloisonner",
-        "formula": "le bas tombe (4), le haut monte (3)",
+        "verb": "dissocier",
+        "formula": "les pauvres tombent (4), les riches montent (3)",
         "note": "clore, suspendre, cloisonner, refuser, désordonner, arrivée des petits, négation ou voleurs, otherwise, personnes égoistes, taxer",
         "yijing": 12,
         "hexagram": "䷋"
@@ -681,7 +422,7 @@ const hecto = {
     },
     "53": {
         "verb": "réfléchir",
-        "formula": "gens (5) d’idéal (3)",
+        "formula": "gens (5) d’idéaux (3)",
         "note": "",
     },
     "54": {
@@ -692,7 +433,7 @@ const hecto = {
     "55": {
         "verb": "civiliser",
         "formula": "humaniser (5) la vie (5)",
-        "note": "",
+        "note": "policer",
     },
     "56": {
         "verb": "attaquer",
@@ -710,14 +451,14 @@ const hecto = {
         "note": "interdire, borner, sauvegarder",
     },
     "59": {
-        "verb": "tempérer",
-        "formula": "recentrer (5) les impressions (9)",
+        "verb": "adoucir",
+        "formula": "le cœur (5) diffuse (9)",
         "note": "recentrer ; accorder (les parties) ; susciter l’assentiment",
     },
 
     "60": {
         "verb": "aller",
-        "formula": "se réveiller (6) neuf (0)",
+        "formula": "ça va (6) arriver (0)",
         "note": "",
     },
     "61": {
@@ -738,12 +479,12 @@ const hecto = {
     "63": {
         "verb": "étonner",
         "formula": "naturel (6) droit (3)",
-        "note": "sans folie, innocent, inatendu, colère du ciel",
+        "note": "candider, sans folie, innocent, inatendu, colère du ciel",
         "yijing": 25,
         "hexagram": "䷘"
     },
     "64": {
-        "verb": "retourner",
+        "verb": "retourner", 
         "formula": "partir (6) du bas (4)",
         "note": "revenir, demi-tour, mort",
         "yijing": 24,
@@ -771,7 +512,7 @@ const hecto = {
     "68": {
         "verb": "satisfaire",
         "formula": "potentiel (6) abouti (8)",
-        "note": "mâchoire de divination, appétit satisfait, se projeter dans le cadre, rassasier, nourrir, enseigner",
+        "note": "discipline de la bouche ? mâchoire de divination, appétit satisfait, se projeter dans le cadre, rassasier, nourrir, enseigner",
         "yijing": 27,
         "hexagram": "䷚"
     },
@@ -791,7 +532,7 @@ const hecto = {
     },
     "71": {
         "verb": "mesurer",
-        "formula": "marquer (7) le flux (1)",
+        "formula": "marquer (7) le continu (1)",
         "note": "節, rythmer, articuler, ponctuer, mesurer, cadencer, charnière",
         "yijing": 60,
         "hexagram": "䷻"
@@ -819,33 +560,33 @@ const hecto = {
     }, 
     "75": {
         "verb": "réjouir",
-        "formula": "ouvrir (7) les cœurs (5)",
+        "formula": "contenter (7) les cœurs (5)",
         "note": "",
     },
     "76": {
         "verb": "déroger",
-        "formula": "accepter (7) l’imprévu (6)",
-        "note": "retour de la petite sœur, concubine, mariage raté, 歸 se livrer 妹 femme pas encore",
+        "formula": "admettre (7) l’imprévu (6)",
+        "note": "exception à la règle, retour de la petite sœur, concubine, mariage raté, 歸 se livrer 妹 femme pas encore",
         "yijing": 54,
         "hexagram": "䷵"
     },
     "77": {
         "verb": "échanger",
-        "formula": "inviter (7) et consentir (7)",
+        "formula": "donner (7) et accepter (7)",
         "note": "accord mutuel par échange explicite, départager, amitié, ouvrir, agréer, parler, exchange, add, against, and convert, ouvrir, marais, don contre don, palabrer, satisfaction mutuelle, défouler, étudier et discuter avec des amis",
         "yijing": 58,
         "hexagram": "䷹"
     },
     "78": {
-        "verb": "réduire",
-        "formula": "demandes (7) bloquées (8)",
-        "note": "moins mais mieux, optimiser, débit (% crédit 69), dette, devoir, diminuer, retrancher",
+        "verb": "rogner",
+        "formula": "demandes (7) refusées (8)",
+        "note": "réduire, moins mais mieux, optimiser, débit (% crédit 69), dette, devoir, diminuer, retrancher",
         "yijing": 41,
         "hexagram": "䷨"
     },
     "79": {
-        "verb": "s’accorder",
-        "formula": "intérioriser (7) l’air (9)",
+        "verb": "intérioriser",
+        "formula": "s’accorder (7) à un air (9)",
         "note": "intérioriser, comprendre, intégrer, vérité intérieure, juste confiance, centre, croire",
         "yijing": 61,
         "hexagram": "䷼"
@@ -865,15 +606,15 @@ const hecto = {
         "hexagram": "䷦"
     },
     "82": {
-        "verb": "camper",
-        "formula": "à la frontière (8), un feu (2)",
-        "note": "s’accomoder, camp, hôtel, voyager, vagabond, expédition militaire, voyager en bordure, vivre en hôte",
+        "verb": "séjourner",
+        "formula": "à la frontière (8), remarqué (2)",
+        "note": "pose temporaire, squatter, s’accomoder, camp, hôtel, voyager, vagabond, expédition militaire, voyager en bordure, vivre en hôte",
         "yijing": 56,
         "hexagram": "䷷"
     },
     "83": {
         "verb": "reculer",
-        "formula": "rester (8) droit (3)",
+        "formula": "repli (8) stratégique (3)",
         "note": "pureté par la distance, fuir, retraite, reculer ; pied bouclier, disparaître",
         "yijing": 33,
         "hexagram": "䷠"
@@ -892,7 +633,7 @@ const hecto = {
     },
     "86": {
         "verb": "ajuster",
-        "formula": "contrôle (8) du lancer (6)",
+        "formula": "contrôle (8) du tir (6)",
         "note": "ajuster, corriger, affiner, viser?, excès de petit, moins que, cf 97, refouler, réfréner, canaliser",
         "yijing": 62,
         "hexagram": "䷽"
@@ -980,7 +721,7 @@ const hecto = {
         "hexagram": "䷑"
     },
     "99": {
-        "verb": "s’insinuer",
+        "verb": "insinuer",
         "formula": "infuser (9) et infléchir (9)",
         "note": "s’absorber, diriger la trajectoire?, entrer, conformer, mouler, sceau, table avec commensaux à genoux, s’agenouiller devant l’autel, calculer, dater, complaire, céder, 巽",
         "yijing": 57,
