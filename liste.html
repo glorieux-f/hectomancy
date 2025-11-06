@@ -3,7 +3,50 @@
   <head>
     <meta charset="utf-8"/>
     <title>Hectomancie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <script src="hectomancy.js">//</script>
+    <style>
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 12px;
+}
+/* Print: two-column layout */
+@media print {
+  @page {
+    size: A4;
+    margin: 20pt;
+  }
+
+  body {
+    font-size: 11pt;
+    line-height: 1.35;
+    color: #000;
+    background: #fff;
+  }
+
+  #container {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 2rem;
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
+    widows: 2;
+    orphans: 2;
+  }
+
+  #container > div {
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    margin: 0 0 0.35rem 0; /* spacing between lines */
+  }
+}
+    </style>
   </head>
   <body>
      <div id="container"></div>

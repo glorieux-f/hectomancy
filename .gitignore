@@ -2,3 +2,4 @@
 _*.png
 *_autosave_*.sla
 *.docx#
+~$*.docx

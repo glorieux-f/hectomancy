@@ -1,7 +1,9 @@
 
 const news = [
 
-    // "85",
+    "82",
+
+    "85",
 ];
 
 /**
@@ -106,8 +108,8 @@ const hecto = {
         "note": "rebaser",
     },
     "05": {
-        "verb": "mécaniser",
-        "formula": "remplacer (0) l’humain (5)",
+        "verb": "écœurer",
+        "formula": "perdre (0) courage (5)",
         "note": "recentrer, déserter dans le sens de faire un désert mais pas partir",
     },
     "06": {
@@ -179,15 +181,15 @@ const hecto = {
         "hexagram": "䷧"
     },
     "17": {
-        "verb": "coincer",
-        "formula": "source (1) avalée (7)",
-        "note": "coincer, cible, épuiser, étouffer, opprimer % 91 (puits, abreuver), emmêler, approfondir, obstruction",
+        "verb": "paraître",
+        "formula": "le réel (1) sous les conventions (7)",
+        "note": "vider, coincer, cible, épuiser, étouffer, opprimer % 91 (puits, abreuver), emmêler, approfondir, obstruction",
         "yijing": 47,
         "hexagram": "䷮"
     },
     "18": {
-        "verb": "discipliner",
-        "formula": "source (1) cadrée (8)",
+        "verb": "apprendre",
+        "formula": "ignorance (1) formée (8)",
         "note": "sanglier dans un filet et plante grimpante : couvrir, bourgeonner, ignorer, batifoler, jeune fou, folâtrer",
         "yijing": 4,
         "hexagram": "䷃"
@@ -262,7 +264,7 @@ const hecto = {
     },
     "29": {
         "verb": "coordonner",
-        "formula": "les distinctions (2) se diffusent (9)",
+        "formula": "les distinctions (2) diffusent (9)",
         "note": "famille , clan, sacrifice, héritage, perpétuer, habiter, clarté partagée, demeurer 家人",
         "yijing": 37,
 
@@ -310,7 +312,7 @@ const hecto = {
     },
     "36": {
         "verb": "maîtriser",
-        "formula": "pouvoir (3) spontané (6)",
+        "formula": "force (3) naturelle (6)",
         "note": "bélier bloqué, l’homme intègre réussit par la ruse plutôt que la force, 壯 grand talent ou compétence, puissance en expansion",
         "yijing": 34,
         "hexagram": "䷡"
@@ -323,8 +325,8 @@ const hecto = {
         "hexagram": "䷪"
     },
     "38": {
-        "verb": "apprendre",
-        "formula": "principe (3) de la tradition (8)",
+        "verb": "domestiquer",
+        "formula": "cheval (3) enclos (8)",
         "note": "gros bétail, éducation des grands, conserver, stocker, retenir par la forme",
         "yijing": 26,
         "hexagram": "䷙"
@@ -561,7 +563,7 @@ const hecto = {
     "75": {
         "verb": "réjouir",
         "formula": "contenter (7) les cœurs (5)",
-        "note": "",
+        "note": "ouvrir les cœurs ?",
     },
     "76": {
         "verb": "déroger",
@@ -606,9 +608,9 @@ const hecto = {
         "hexagram": "䷦"
     },
     "82": {
-        "verb": "séjourner",
-        "formula": "à la frontière (8), remarqué (2)",
-        "note": "pose temporaire, squatter, s’accomoder, camp, hôtel, voyager, vagabond, expédition militaire, voyager en bordure, vivre en hôte",
+        "verb": "voyager",
+        "formula": "hors de chez soi (8), se faire voir (2)",
+        "note": "séjourner, pause temporaire, squatter, s’accomoder, camp, hôtel, voyager, vagabond, expédition militaire, voyager en bordure, vivre en hôte",
         "yijing": 56,
         "hexagram": "䷷"
     },
