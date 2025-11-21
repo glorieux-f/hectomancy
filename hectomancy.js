@@ -1,8 +1,10 @@
 
 const news = [
 
-    "82",
+    //
+    "58",
 
+    "82",
     "85",
 ];
 
@@ -53,6 +55,7 @@ Management.
 */
 const deca = [
     ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+    ["", "ne", "comme, qui", "le", "juste","de", "avec", "mais", "pour"],
     ["espace", "est", "ouest", "sud", "nord", "ici", "nord-est", "sud-est", "nord-ouest", "sud-ouest"],
     ["néant", "eau", "feu", "ciel", "terre", "centre", "foudre", "lac", "montagne", "vent"],
     ["transparent", "bleu", "rouge", "blanc", "noir", "jaune", "brun", "rose", "gris", "vert" ],
@@ -124,7 +127,7 @@ const hecto = {
     },
     "08": {
         "verb": "réserver",
-        "formula": "vide (0) clôturé (8)",
+        "formula": "espace (0) protégé (8)",
         "note": "laisser",
     },
     "09": {
@@ -429,7 +432,7 @@ const hecto = {
     },
     "54": {
         "verb": "travailler",
-        "formula": "gens (5) de terrain (4)",
+        "formula": "cœur (5) au jardin (4)",
         "note": "cœur en chair: incarner, ",
     },
     "55": {
