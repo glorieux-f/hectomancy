@@ -2,10 +2,13 @@
 const news = [
 
     //
+    "17",
+    "45",
     "58",
-
     "82",
+
     "85",
+
 ];
 
 /**
@@ -185,7 +188,7 @@ const hecto = {
     },
     "17": {
         "verb": "paraître",
-        "formula": "le réel (1) sous les conventions (7)",
+        "formula": "le singulier (1) sous les conventions (7)",
         "note": "vider, coincer, cible, épuiser, étouffer, opprimer % 91 (puits, abreuver), emmêler, approfondir, obstruction",
         "yijing": 47,
         "hexagram": "䷮"
