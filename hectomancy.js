@@ -1,28 +1,7 @@
 
 const news = [
 
-    //
-    "17",
-    "45",
-    "58",
-    "82",
-
-    "85",
-
 ];
-
-/**
-Pourriez vous m’expliquer l’hexagramme 55 :
-
-– Par le caractère de son nom, en cherchant des occurrences dans les textes chinois anciens. N’oubliez pas de traduire les extraits, en montrant dans la traduction comment est traduit ce nom. N’oubliez pas de donner la référence du texte en pinyin.
-– En montrant comment les trigrammes peuvent expliquer le nom. Voyez d’abord s’il y a une analogie possible entre les clés du caractère chinois du noms et les trigrammes. Cherchez ensuite des hexagrammes employant l’un ou l’autre des trigrammes dans un sens similaire. Terminez en contrastant avec l’hexagramme qui inverse les 2 trigrammes.
-– Cherchez enfin 5 verbes français qui pointent au mieux l’énergie propre de cet hexagramme, en vérifiant que ces verbes ne s’appliquent à aucun autre hexagramme.
-
-Merci.
-
-Imaginez un hexagramme avec un neuvième trigramme, signifiant 中 ou 心.
-Avec les caractères chinois que vous connaissez
-*/
 
 
 // 1 : eau, oreille, élastique, tristesse, traversant
@@ -615,7 +594,7 @@ const hecto = {
     },
     "82": {
         "verb": "voyager",
-        "formula": "hors de chez soi (8), se faire voir (2)",
+        "formula": "hors de chez soi (8), remarqué (2)",
         "note": "séjourner, pause temporaire, squatter, s’accomoder, camp, hôtel, voyager, vagabond, expédition militaire, voyager en bordure, vivre en hôte",
         "yijing": 56,
         "hexagram": "䷷"
