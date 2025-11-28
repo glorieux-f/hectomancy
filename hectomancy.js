@@ -1,5 +1,16 @@
 
 const news = [
+    "13",
+    "21",
+    "22",
+
+    "23",
+    "31",
+    "61",
+
+    "66",
+    "71",
+    "73",
 ];
 
 
@@ -140,7 +151,7 @@ const hecto = {
     },
     "13": {
         "verb": "contester",
-        "formula": "troubler (1) la direction (3)",
+        "formula": "le singulier trouble (1) la direction (3)",
         "note": "plaider, accuser, contester, dispute, embrouille, 訟 parole + commun, public, duc, juge",
         "yijing": 6,
         "hexagram": "䷅"
@@ -194,7 +205,7 @@ const hecto = {
     },
     "21": {
         "verb": "aboutir",
-        "formula": "voir (2) les défauts (1)",
+        "formula": "voir (2) le singulier (1)",
         "note": "après la traversée du fleuve, tempérer, éclairer les profondeurs, désenchanter",
         "yijing": 63,
         "hexagram": "䷾"
@@ -208,7 +219,7 @@ const hecto = {
     },
     "23": {
         "verb": "fédérer",
-        "formula": "s’associer (2) aux autres (3)",
+        "formula": "associer (2) l’autre (3)",
         "note": "associer, coopérer, vase et couvercle ajusté",
         "yijing": 13,
         "hexagram": "䷌"
@@ -263,7 +274,7 @@ const hecto = {
     },
     "31": {
         "verb": "attendre", 
-        "formula": "pouvoir (3) caché (1)",
+        "formula": "puisance (3) immergée (1)",
         "note": "avoir faim que le blé pousse, offrande à la pluie, espérer, attendre, patienter, préparer",
         "yijing": 5,
         "hexagram": "䷄"
@@ -449,7 +460,7 @@ const hecto = {
     },
     "61": {
         "verb": "germer",
-        "formula": "émerger (6) difficilement (1)",
+        "formula": "sortir (6) la singularité (1)",
         "note": "naître, germer, stationner des troupes, difficulté initiale, rassemblement",
         "yijing": 3,
         "hexagram": "䷂"
