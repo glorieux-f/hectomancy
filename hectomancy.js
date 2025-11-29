@@ -1,16 +1,16 @@
 
 const news = [
-    "13",
-    "21",
-    "22",
+    "00",
+    "03",
+    "56",
 
-    "23",
-    "31",
-    "61",
+    "64",
+    "68",
+    "69",
 
-    "66",
-    "71",
     "73",
+    "74",
+    "76",
 ];
 
 
@@ -274,7 +274,7 @@ const hecto = {
     },
     "31": {
         "verb": "attendre", 
-        "formula": "puisance (3) immergée (1)",
+        "formula": "puissance (3) immergée (1)",
         "note": "avoir faim que le blé pousse, offrande à la pluie, espérer, attendre, patienter, préparer",
         "yijing": 5,
         "hexagram": "䷄"
