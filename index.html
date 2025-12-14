@@ -234,48 +234,6 @@ button {
     </head>
     <body>
         <div class="win">
-            <form name="choose">
-                <div>
-                    <button type="button" name="set" value="1*">1*</button>
-                    <button type="button" name="set" value="*1">*1</button>
-                </div>
-                <div>
-                    <button type="button" name="set" value="2*">2*</button>
-                    <button type="button" name="set" value="*2">*2</button>
-                </div>
-                <div>
-                    <button type="button" name="set" value="3*">3*</button>
-                    <button type="button" name="set" value="*3">*3</button>
-                </div>
-                <div>
-                    <button type="button" name="set" value="4*">4*</button>
-                    <button type="button" name="set" value="*4">*4</button>
-                </div>
-                <div>
-                    <button type="button" name="set" value="5*">5*</button>
-                    <button type="button" name="set" value="*5">*5</button>
-                </div>
-                <div>
-                    <button type="button" name="set" value="6*">6*</button>
-                    <button type="button" name="set" value="*6">*6</button>
-                </div>
-                <div>
-                    <button type="button" name="set" value="7*">7*</button>
-                    <button type="button" name="set" value="*7">*7</button>
-                </div>
-                <div>
-                    <button type="button" name="set" value="8*">8*</button>
-                    <button type="button" name="set" value="*8">*8</button>
-                </div>
-                <div>
-                    <button type="button" name="set" value="9*">9*</button>
-                    <button type="button" name="set" value="*9">*9</button>
-                </div>
-                <div>
-                    <button type="button" name="set" value="0*">0*</button>
-                    <button type="button" name="set" value="*0">*0</button>
-                </div>
-            </form>
             <main id="main" class="page main">
                 <div class="row">
                     <figure id="figSE" class="hecto">
@@ -424,6 +382,11 @@ times.forEach(function (time) {
   time.innerText = stamp;
 });
 
+for (let i=-1; i<10; i++) {
+    
+    hecto[('' + (i+1)).padStart(2, '0')].index = i;
+}
+
 function show(pat)
 {
     const chars = pat.split("");
@@ -454,13 +417,6 @@ const hash = window.location.hash.slice(1);
 show(hash);
 
 
-const buttons = form.querySelectorAll('button');
-buttons.forEach(button => {
-  button.addEventListener('click', () => {
-    history.pushState(null, null, "#" + button.value);
-    show(button.value);
-  });
-});
 
 
 
