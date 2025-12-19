@@ -1,426 +1,385 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Hectomancy</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-        <style>
-* {
-    box-sizing: border-box;
-}
-html,
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: #fff;
-    color: #000;
-}
-body {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 12px;
-}
 
-.win {
-    display: flex;
-    justify-content: center;
-}
-
-.win form {
-    overflow: auto;
-    max-height: 100vh;
-}
-
-.main {
-    height: 100vh;
-    flex-shrink: 0;
-}
-
-.page {
-}
-
-#main.horizontal img {
-    transform: rotate(-90deg);
-}
-
-.row {
-    display: flex;
-    justify-content: center;
-}
-
-figure {
-    position: relative;
-}
-
-figure.hecto {
-    height: 33.3vh;
-    margin: 0;
-    padding: 0 0.5rem 0 0.5rem;
-    display: flex;
-    align-items: center;
-}
-
-figure.hecto {
-    flex-direction: column;
-}
-
-figure.hecto > h4 {
-    font-size: 16px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    flex-shrink: 0;
-}
-
-figure.hecto > p {
-    font-size: 12px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    flex-shrink: 0;
-}
-
-figure.hecto > img {
-   max-height: calc(32vh - 3.5rem);
-}
-
-
-figure.hecto button {
-    display: none;
-}
-
-figure.hecto.modal button {
-    display: block;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-}
-
-figure.hecto.modal img {
-    max-height: calc(100% - 2rem);
-    max-width: 100%;
-}
-
-
-figure.hecto.modal {
-    position: absolute;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-}
-
-/** card backs */
-#back {
-    display: none;
-}
-
-form {
-    text-align: center;
-}
-button {
-    font-family: monospace;
-}
-
-@page {
-    size: A4;
-    margin: 0;
-}
-
-@media print {
-    html, body {
+<head>
+  <meta charset="utf-8">
+  <title>Hectomancy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
     }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #fff;
+      color: #000;
+    }
+
+    body {
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-size: 12px;
+    }
+
     .win {
-        display: block;
+      display: flex;
+      justify-content: center;
     }
-    .page {
+
+    .rule {
+      width: 5rem;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #fff;
+      padding: 0.5rem;
+      text-align: center;
+      z-index: 20;
+    }
+
+    .rule a {
+      display: block;
+      text-decoration: none;
+      color: #000;
+      font-weight: 600;
+      border: 1px solid transparent;
+    }
+
+    .rule a:hover {
+      border-color: #000;
+    }
+
+
+    #main.horizontal img {
+      transform: rotate(-90deg);
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+    }
+
+    figure {
+      position: relative;
+    }
+
+    figure.card,
+    figure.back {
+      height: 33.3vh;
+      margin: 0;
+      padding: 0 0.5rem 0 0.5rem;
+      display: flex;
+      align-items: center;
+    }
+
+    figure.card {
+      flex-direction: column;
+    }
+
+    figure.card>h4 {
+      font-size: 16px;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      flex-shrink: 0;
+    }
+
+    figure.card>p {
+      font-size: 12px;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      flex-shrink: 0;
+    }
+
+    figure.card>img {
+      max-height: calc(32vh - 3.5rem);
+    }
+
+
+    figure.card button {
+      display: none;
+    }
+
+    figure.card.modal button {
+      display: block;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+    }
+
+    figure.card.modal img {
+      max-height: calc(100% - 2rem);
+      max-width: 100%;
+    }
+
+
+    figure.card.modal {
+      position: absolute;
+      z-index: 10;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100%;
+    }
+
+    figure.back figcaption {
+      text-align: center;
+      margin-left: -0.07em;
+      font-size: 25vh;
+      line-height: 100%;
+      font-style: italic;
+      font-weight: 100;
+      font-family: Garamond, serif;
+    }
+
+    figure.back time {
+      position: absolute;
+      color: #ccc !important;
+      font-size: 1vh;
+      right: 1ex;
+      bottom: 0;
+    }
+
+    .page.back {
+      display: none;
+    }
+
+    form {
+      text-align: center;
+    }
+
+    button {
+      font-family: monospace;
+    }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    @media print {
+
+
+
+      .page {
         margin: 0;
         padding: 1cm 0 0 0;
         width: 210mm;
         height: 297mm;
-    }
-    #aside,
-    form {
+      }
+
+      #aside,
+      form {
         display: none;
-    }
-    #back {
+      }
+
+      .page.back {
         display: block;
-    }
-    #main,
-    #back {
-    }
-    figure.back,
-    figure.hecto {
+      }
+
+
+
+      figure.back,
+      figure.card {
         height: 3.5in;
         width: 2.5in;
-        box-sizing: content-box; /* size without borders */
+        box-sizing: content-box;
+        /* size without borders */
         margin: 0;
         padding: 0;
         display: flexbox;
         flex-direction: column;
         justify-content: space-between;
-    }
+      }
 
-    /* print borders */
+      /* print borders */
 
-    .page > .row:first-child {
+      .page>.row:first-child {
         border-top: 0.002in solid transparent;
-    }
+      }
 
-    .row {
+      .row {
         border-bottom: 0.002in solid transparent;
-    }
+      }
 
-    .row > figure:first-child {
+      .row>figure:first-child {
         border-left: 0.002in solid transparent;
-    }
+      }
 
-    .row > figure {
+      .row>figure {
         border-right: 0.002in solid transparent;
-    }
+      }
 
-    figure.back,
-    #back .row {
+      figure.back,
+      .page.back .row {
         border-color: #aaa !important;
-    }
+      }
 
 
-    figure.hecto img {
+      figure.card img {
         width: 2.3in;
         height: 2.3in;
-    }
+      }
 
-    figure.hecto {
+      figure.card {
         position: relative;
-    }
+      }
 
 
-    figure.hecto > h4 {
+      figure.card>h4 {
         padding-top: 0.25in;
         font-size: 5.5mm;
         font-weight: 500;
-    }
-    figure.hecto > p {
+      }
+
+      figure.card>p {
         padding-bottom: 0.25in;
-    }
-    figure.back figcaption {
-        text-align: center;
+      }
+
+      figure.back figcaption {
         margin-left: -0.07em;
         font-size: 3.5in;
-        line-height: 100%;
-        font-style: italic;
-        font-weight: 100;
-        font-family: Garamond, serif;
-    }
+      }
 
-    figure.back time {
-        position: absolute;
-        color: #ccc !important;
+      figure.back time {
         font-size: 0.08in;
         right: 0.03in;
         bottom: 0;
+      }
     }
-}
+  </style>
+  <script src="hectomancy.js">//</script>
+</head>
 
+<body>
+  <template id="card-tpl">
+    <figure class="card">
+      <h4></h4>
+      <button type="button">×</button>
+      <img />
+      <p></p>
+    </figure>
+  </template>
+  <template id="back-tpl">
+    <figure class="back">
+      <figcaption>h</figcaption>
+      <time></time>
+    </figure>
+  </template>
+  <div class="win">
+    <nav class="rule" id="rule">
+      <a href="#p00">01-09</a>
+      <a href="#p01">11-19</a>
+      <a href="#p02">21-29</a>
+      <a href="#p03">31-39</a>
+      <a href="#p04">41-49</a>
+      <a href="#p05">51-59</a>
+      <a href="#p06">61-69</a>
+      <a href="#p07">71-79</a>
+      <a href="#p08">81-89</a>
+      <a href="#p09">91-99</a>
+      <a href="#p10">[1-9]0</a>
+      <a href="#p11">divers</a>
+    </nav>
+    <div id="pages">
 
+    </div>
+  </div>
+  <script>
+    (function () {
+      const pages = document.getElementById("pages");
+      const form = document.forms['choose'];
+      const cardTpl = document.getElementById("card-tpl");
+      const now = new Date();
+      const stamp = now.toISOString().substring(0, 10);
+      const backTpl = document.getElementById("back-tpl");
 
-        </style>
-        <script src="hectomancy.js">//</script>
-    </head>
-    <body>
-        <div class="win">
-            <main id="main" class="page main">
-                <div class="row">
-                    <figure id="figSE" class="hecto">
-                        <h4></h4>
-                        <button type="button">×</button>
-                        <img src="hecto07.jpg"/>
-                        <p></p>
-                    </figure>
-                    <figure id="figS" class="hecto">
-                        <h4></h4>
-                        <button type="button">×</button>
-                        <img src="hecto03.jpg"/>
-                        <p></p>
-                    </figure>
-                    <figure id="figSW" class="hecto">
-                        <h4></h4>
-                        <button type="button">×</button>
-                        <img src="hecto09.jpg"/>
-                        <p></p>
-                    </figure>
-                </div>
-                <div class="row">
-                    <figure id="figE" class="hecto">
-                        <h4></h4>
-                        <button type="button">×</button>
-                        <img src="hecto01.jpg"/>
-                        <p></p>
-                    </figure>
-                    <figure id="figC" class="hecto">
-                        <h4></h4>
-                        <button type="button">×</button>
-                        <img src="hecto05.jpg"/>
-                        <p></p>
-                    </figure>
-                    <figure id="figW" class="hecto">
-                        <h4></h4>
-                        <button type="button">×</button>
-                        <img src="hecto01.jpg"/>
-                        <p></p>
-                    </figure>
-                </div>
-                <div class="row">
-                    <figure id="figNE" class="hecto">
-                        <h4></h4>
-                        <button type="button">×</button>
-                        <img src="hecto06.jpg"/>
-                        <p></p>
-                    </figure>
-                    <figure id="figN" class="hecto">
-                        <h4></h4>
-                        <button type="button">×</button>
-                        <img src="hecto04.jpg"/>
-                        <p></p>
-                    </figure>
-                    <figure id="figNW" class="hecto">
-                        <h4></h4>
-                        <button type="button">×</button>
-                        <img src="hecto08.jpg"/>
-                        <p></p>
-                    </figure>
-                </div>
-            </main>
-            <aside id="back" class="page">
-                <div class="row">
-                    <figure class="back">
-                        <figcaption>h</figcaption>
-                        <time></time>
-                    </figure>
-                    <figure class="back">
-                        <figcaption>h</figcaption>
-                        <time></time>
-                    </figure>
-                    <figure class="back">
-                        <figcaption>h</figcaption>
-                        <time></time>
-                    </figure>
-                </div>
-                <div class="row">
-                    <figure class="back">
-                        <figcaption>h</figcaption>
-                        <time></time>
-                    </figure>
-                    <figure class="back">
-                        <figcaption>h</figcaption>
-                        <time></time>
-                    </figure>
-                    <figure class="back">
-                        <figcaption>h</figcaption>
-                        <time></time>
-                    </figure>
-                </div>
-                <div class="row">
-                    <figure class="back">
-                        <figcaption>h</figcaption>
-                        <time></time>
-                    </figure>
-                    <figure class="back">
-                        <figcaption>h</figcaption>
-                        <time></time>
-                    </figure>
-                    <figure class="back">
-                        <figcaption>h</figcaption>
-                        <time></time>
-                    </figure>
-                </div>
-            </aside>
-        </div>
-        <script>
-(function () {
-const form = document.forms['choose'];
-function display(id, n)
-{
-    const no = ('' + n).padStart(2, '0');
-    const img = document.querySelector("#" + id + " img");
-    img.src = "hecto" + no + '.jpg';
-    let html = "";
-    html += no;
-    if (hecto[no]["verb"]) html += ', ' + hecto[no]["verb"];
-    document.querySelector("#" + id + " h4").innerHTML = html;
-    document.querySelector("#" + id + " p").innerHTML = hecto[no]["formula"];
-    /*
-    const ten = Math.floor(no / 10); 
-    const unit = no % 10; 
-    for (let i = 0; i < deca.length; i++) {
-        html += "<div class=\"line\">";
-        html += "<span>" + deca[i][ten] + "</span>";
-        html += "<span>" + deca[i][unit] + "</span>";
-        html += "</div>\n"; 
-    }
-    */
-}
+      for (let page = 0; page < 10; page++) {
+        /*
+         * 9 3 7
+         * 1 5 2
+         * 8 4 6
+         */
+        const offset = page * 10;
+        const series = [9, 3, 7, 1, 5, 2, 8, 4, 6];
+        series.forEach((n, i) => {
+          series[i] = n + offset;
+        });
+        const node = front(series);
+        node.id = "p0" + page;
+        pages.appendChild(node);
+        pages.appendChild(back());
+      }
+      let node = front([90, 30, 70, 10, 50, 20, 80, 40, 60]);
+      node.id = "p10";
+      pages.appendChild(node);
+      pages.appendChild(back());
+      node = front(news);
+      node.id = "p11";
+      pages.appendChild(node);
+      pages.appendChild(back());
 
-const ids = ['figE', 'figW', 'figS', 'figN', 'figC', 'figNW', 'figSW', 'figNE', 'figSE'];
-for (let i = 0, len = ids.length; i < len; i++) {
-    const id = ids[i];
-    const figure = document.getElementById(id);
-    figure.addEventListener("click", function(event) {
-        figure.classList.toggle("modal");
-    }, true);
-}
-// update time to back
-const now = new Date();
-const stamp = now.toISOString().substring(0, 10);
-const times = document.querySelectorAll(".back time");
-times.forEach(function (time) {
-  time.innerText = stamp;
-});
-
-for (let i=-1; i<10; i++) {
-    
-    hecto[('' + (i+1)).padStart(2, '0')].index = i;
-}
-
-function show(pat)
-{
-    const chars = pat.split("");
-    if (chars[0] == '*' && /^[0-9]$/.test(chars[1])) {
-        const start = chars[1] % 10;
-        for (let i = 0, len = ids.length; i < len; i++) {
-            const id = ids[i];
-            display(ids[i], ( (i + 1) *10) + start);
+      function front(series) {
+        const page = document.createElement("div");
+        page.className = "page front";
+        for (let row = 0; row < 3; row++) {
+          const rowDiv = document.createElement("div");
+          rowDiv.className = "row";
+          for (let col = 0; col < 3; col++) {
+            const n = series[row * 3 + col];
+            rowDiv.appendChild(card(n));
+          }
+          page.appendChild(rowDiv);
         }
-    }
-    else if (/^[0-9]$/.test(chars[0]) && chars[1] == '*') {
-        const start = 10 * Math.floor(chars[0] % 10);
-        for (let i = 0, len = ids.length; i < len; i++) {
-            display(ids[i], start + i + 1);
+        return page;
+      }
+
+
+      function back() {
+        const page = document.createElement("div");
+        page.className = "page back";
+        for (let row = 0; row < 3; row++) {
+          const rowDiv = document.createElement("div");
+          rowDiv.className = "row";
+          for (let col = 0; col < 3; col++) {
+            const node = backTpl.content.firstElementChild.cloneNode(true);
+            node.querySelector("time").textContent = stamp;
+            rowDiv.appendChild(node);
+          }
+          page.appendChild(rowDiv);
         }
-    }
-    else {
-        const lim = Math.min(ids.length, news.length);
-        for (let i = 0; i < lim; i++) {
-            const id = ids[i];
-            display(ids[i], news[i]);
-        }
-    }
+        return page;
+      }
 
-}
+      function card(n) {
+        const no = ('' + Number(n)).padStart(2, '0');
+        let name = no;
+        if (hecto[no]["verb"]) name += ', ' + hecto[no]["verb"];
+        const node = cardTpl.content.firstElementChild.cloneNode(true);
+        node.querySelector("h4").textContent = name;
+        node.querySelector("p").textContent = hecto[no]["formula"] || "";
+        const img = node.querySelector("img");
+        img.src = "hecto" + no + '.jpg';
+        img.alt = no;
+        node.addEventListener("click", function (event) {
+          node.classList.toggle("modal");
+        }, true);
+        return node;
+      }
 
-const hash = window.location.hash.slice(1);
-show(hash);
 
 
+    })();
+  </script>
+</body>
 
-
-
-})();
-        </script>
-    </body>
 </html>
