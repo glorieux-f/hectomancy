@@ -1,16 +1,29 @@
 
 const news = [
-    "",
-    "",
-    "",
-
-    "",
     "00",
-    "",
+    "07",
 
-    "",
-    "",
-    "",
+    "10",
+    "12",
+    "16",
+
+    "18",
+    "20",
+    "21",
+    "27",
+
+    "09",
+    "23",
+    "29",
+
+    "43",
+    "49",
+    "50",
+
+    "79",
+    "93",
+    "99",
+
 ];
 
 
@@ -114,7 +127,7 @@ const hecto = {
     },
     "07": {
         "verb": "bavarder",
-        "formula": "le rien (0) parle (7)",
+        "formula": "de rien (0), parler (7)",
         "note": "refermer, taire, annoncer, afficher",
     },
     "08": {
@@ -123,15 +136,15 @@ const hecto = {
         "note": "laisser",
     },
     "09": {
-        "verb": "tramer",
-        "formula": "l’espace (0) des lignes (9)", // ??? nouvelles
+        "verb": "libérer",
+        "formula": "sans (0) lignes (9)", // ??? nouvelles
         "note": "accorder, sans vent",
     },
 
     "10": {
-        "verb": "sentir",
-        "formula": "humeurs (1) cachées (0)",
-        "note": "",
+        "verb": "pouvoir",
+        "formula": "potentiel (1) inexprimé (0)",
+        "note": "pas sentir",
         "yijing": ""
     },
 
@@ -143,8 +156,8 @@ const hecto = {
         "hexagram": "䷜"
     },
     "12": {
-        "verb": "parfaire",
-        "formula": "du trouble (1) à l’évidence (2)",
+        "verb": "entreprendre",
+        "formula": "du possible (1) à l’idée (2)",
         "note": "achever, espérer, prévoir, corriger pour l’achèvement, pas encore",
         "yijing": 64,
         "hexagram": "䷿"
@@ -169,7 +182,7 @@ const hecto = {
         "note": "tromper, illusion"
     },
     "16": {
-        "verb": "libérer",
+        "verb": "délier",
         "formula": "les eaux (1) jaillissent (6)",
         "note": "release, affranchir, libérer, démonter, démêler",
         "yijing": 40,
@@ -184,7 +197,7 @@ const hecto = {
     },
     "18": {
         "verb": "apprendre",
-        "formula": "ignorance (1) formée (8)",
+        "formula": "inexpérience (1) formée (8)",
         "note": "sanglier dans un filet et plante grimpante : couvrir, bourgeonner, ignorer, batifoler, jeune fou, folâtrer",
         "yijing": 4,
         "hexagram": "䷃"
@@ -199,13 +212,13 @@ const hecto = {
 
 
     "20": {
-        "verb": "voir",
+        "verb": "savoir",
         "formula": "éclairer (2) l’indistinct (0)",
         "note": "",
     },
     "21": {
-        "verb": "aboutir",
-        "formula": "voir (2) le singulier (1)",
+        "verb": "reposer",
+        "formula": "comprendre (2) l’accompli (1)",
         "note": "après la traversée du fleuve, tempérer, éclairer les profondeurs, désenchanter",
         "yijing": 63,
         "hexagram": "䷾"
@@ -245,7 +258,7 @@ const hecto = {
     },
     "27": {
         "verb": "réformer",
-        "formula": "la vérité (2) est accepté (7)",
+        "formula": "la vérité (2) est acceptée (7)",
         "note": "réformer, kairos de la réforme, mandater, muer, cuir, décortiquer, “fire” quelqu’un, moment opportun, changer, transformer",
         "yijing": 49,
         "hexagram": "䷰"
@@ -274,7 +287,7 @@ const hecto = {
     },
     "31": {
         "verb": "attendre", 
-        "formula": "puissance (3) immergée (1)",
+        "formula": "offrir (3) à la pluie (1)",
         "note": "avoir faim que le blé pousse, offrande à la pluie, espérer, attendre, patienter, préparer",
         "yijing": 5,
         "hexagram": "䷄"
@@ -337,7 +350,7 @@ const hecto = {
 
     "40": {
         "verb": "avoir",
-        "formula": "moyens (4) potentiels (0)",
+        "formula": "moyens (4) sans fins (0)",
         "note": "",
     },
     "41": {
@@ -395,9 +408,9 @@ const hecto = {
         "hexagram": "䷖"
     },
     "49": {
-        "verb": "admirer",
-        "formula": "la foule (4) et le modèle (9)",
-        "note": "épiphanie, manifestation, l’ordre s’appuie sur les modèles et non la compulsion, look up, chercher, admirer, contempler, porte, temple, belvédère, prendre modèle, voir de haut, surveiller, inspection des régions, diffuser l’instruction",
+        "verb": "contempler",
+        "formula": "sur la plaine (4), une porte (9)",
+        "note": "admirer,épiphanie, manifestation, l’ordre s’appuie sur les modèles et non la compulsion, look up, chercher, admirer, contempler, porte, temple, belvédère, prendre modèle, voir de haut, surveiller, inspection des régions, diffuser l’instruction",
         "yijing": 20,
         "hexagram": "䷓"
     },
@@ -408,8 +421,8 @@ const hecto = {
         "note": "vivre, jouer",
     },
     "51": {
-        "verb": "pleurer",
-        "formula": "cœur (5) qui coule (1)",
+        "verb": "sentir",
+        "formula": "le cœur (5) se coule (1)",
         "note": "",
     },
     "52": {
@@ -455,12 +468,12 @@ const hecto = {
 
     "60": {
         "verb": "aller",
-        "formula": "ça va (6) arriver (0)",
+        "formula": "ça va (6) être (0)",
         "note": "",
     },
     "61": {
         "verb": "germer",
-        "formula": "sortir (6) la singularité (1)",
+        "formula": "sortir (6) l’unique (1)",
         "note": "naître, germer, stationner des troupes, difficulté initiale, rassemblement",
         "yijing": 3,
         "hexagram": "䷂"
@@ -507,15 +520,15 @@ const hecto = {
         "hexagram": "䷐"
     },
     "68": {
-        "verb": "satisfaire",
-        "formula": "potentiel (6) abouti (8)",
+        "verb": "nourrir",
+        "formula": "faim (6) à combler (8)",
         "note": "discipline de la bouche ? mâchoire de divination, appétit satisfait, se projeter dans le cadre, rassasier, nourrir, enseigner",
         "yijing": 27,
         "hexagram": "䷚"
     },
     "69": {
-        "verb": "accroître",
-        "formula": "potentiel (6) multiplié (9)",
+        "verb": "augmenter",
+        "formula": "l’élan (6) se diffuse (9)",
         "note": "crédit (% débit, 78), augmenter, gagner, donner?, générosité noble, rançon, ajouter, apprendre du bon, réallouer du mou au levier",
         "yijing": 42,
         "hexagram": "䷩"
@@ -575,7 +588,7 @@ const hecto = {
         "hexagram": "䷹"
     },
     "78": {
-        "verb": "rogner",
+        "verb": "diminuer",
         "formula": "demandes (7) refusées (8)",
         "note": "réduire, moins mais mieux, optimiser, débit (% crédit 69), dette, devoir, diminuer, retrancher",
         "yijing": 41,
@@ -604,7 +617,7 @@ const hecto = {
     },
     "82": {
         "verb": "voyager",
-        "formula": "hors de chez soi (8), remarqué (2)",
+        "formula": "frontières passée (8), remarqué (2)",
         "note": "séjourner, pause temporaire, squatter, s’accomoder, camp, hôtel, voyager, vagabond, expédition militaire, voyager en bordure, vivre en hôte",
         "yijing": 56,
         "hexagram": "䷷"
@@ -643,7 +656,7 @@ const hecto = {
         "hexagram": "䷞"
     },
     "88": {
-        "verb": "achever",
+        "verb": "suspendre",
         "formula": "fini (8) et clos (8)",
         "note": "couper, arrêter, bloquer, mener à terme et recommencer, porte, chien, main, nœud, pause, borne, consolidation",
         "yijing": 52,
@@ -660,7 +673,7 @@ const hecto = {
 
     "90": {
         "verb": "venir",
-        "formula": "il arrive (9) que (0)",
+        "formula": "ça vient (9) de (0)",
         "note": "",
     },
     "91": {
@@ -693,7 +706,7 @@ const hecto = {
     },
     "95": {
         "verb": "influencer",
-        "formula": "conformer (9) les gens (5)",
+        "formula": "conformer (9) les cœurs (5)",
         "note": "",
     },
     "96": {
@@ -706,7 +719,7 @@ const hecto = {
     "97": {
         "verb": "excéder",
         "formula": "presser (9) l’accord (7)",
-        "note": "transgresser outrepasser, masse critique, grande expérience (aspect), excès de grand, cf 86",
+        "note": "transgresser, outrepasser, masse critique, grande expérience (aspect), excès de grand, cf 86",
         "yijing": 28,
         "hexagram": "䷛"
     },

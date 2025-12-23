@@ -34,8 +34,10 @@
       justify-content: center;
     }
 
-    .rule {
-      width: 5rem;
+    .bar {
+      font-size: 2vh;
+      width: 5em;
+      font-weight: 100;
       position: fixed;
       top: 0;
       left: 0;
@@ -45,16 +47,24 @@
       z-index: 20;
     }
 
-    .rule a {
+    @media print {
+      .bar {
+        display: none;
+      }
+    }
+
+    .bar a {
       display: block;
       text-decoration: none;
-      color: #000;
-      font-weight: 600;
+      padding: 0.5ex 0;
+      color: #888;
       border: 1px solid transparent;
     }
 
-    .rule a:hover {
+    .bar a.active,
+    .bar a:hover {
       border-color: #000;
+      color: #000
     }
 
 
@@ -265,7 +275,7 @@
     <figure class="card">
       <h4></h4>
       <button type="button">×</button>
-      <img />
+      <img loading="lazy" decoding="async"/>
       <p></p>
     </figure>
   </template>
@@ -276,19 +286,28 @@
     </figure>
   </template>
   <div class="win">
-    <nav class="rule" id="rule">
-      <a href="#p00">01-09</a>
-      <a href="#p01">11-19</a>
-      <a href="#p02">21-29</a>
-      <a href="#p03">31-39</a>
-      <a href="#p04">41-49</a>
-      <a href="#p05">51-59</a>
-      <a href="#p06">61-69</a>
-      <a href="#p07">71-79</a>
-      <a href="#p08">81-89</a>
-      <a href="#p09">91-99</a>
-      <a href="#p10">[1-9]0</a>
-      <a href="#p11">divers</a>
+    <nav class="bar" id="bar">
+      <a href="#d0">01-09</a>
+      <a href="#d1">11-19</a>
+      <a href="#d2">21-29</a>
+      <a href="#d3">31-39</a>
+      <a href="#d4">41-49</a>
+      <a href="#d5">51-59</a>
+      <a href="#d6">61-69</a>
+      <a href="#d7">71-79</a>
+      <a href="#d8">81-89</a>
+      <a href="#d9">91-99</a>
+      <a href="#u0">[1-9]0</a>
+      <a href="#u1">[1-9]1</a>
+      <a href="#u2">[1-9]2</a>
+      <a href="#u3">[1-9]3</a>
+      <a href="#u4">[1-9]4</a>
+      <a href="#u5">[1-9]5</a>
+      <a href="#u6">[1-9]6</a>
+      <a href="#u7">[1-9]7</a>
+      <a href="#u8">[1-9]8</a>
+      <a href="#u9">[1-9]9</a>
+      <a href="#p0">divers</a>
     </nav>
     <div id="pages">
 
@@ -297,7 +316,6 @@
   <script>
     (function () {
       const pages = document.getElementById("pages");
-      const form = document.forms['choose'];
       const cardTpl = document.getElementById("card-tpl");
       const now = new Date();
       const stamp = now.toISOString().substring(0, 10);
@@ -315,18 +333,75 @@
           series[i] = n + offset;
         });
         const node = front(series);
-        node.id = "p0" + page;
+        node.id = "d" + page;
         pages.appendChild(node);
         pages.appendChild(back());
       }
       let node = front([90, 30, 70, 10, 50, 20, 80, 40, 60]);
-      node.id = "p10";
+      node.id = "u0";
       pages.appendChild(node);
       pages.appendChild(back());
       node = front(news);
-      node.id = "p11";
+      node.id = "p0";
       pages.appendChild(node);
       pages.appendChild(back());
+
+      const bar = document.getElementById("bar");
+      let active = bar.querySelector('a[href^="#"].active') || null;
+
+      bar.addEventListener("click", (e) => {
+        const a = e.target.closest('a[href^="#"]');
+        if (!a || !bar.contains(a)) return;
+
+        if (active === a) return;
+
+        if (active) active.classList.remove("active");
+        a.classList.add("active");
+        active = a;
+      });
+
+      function onRoute(event) {
+        const hash = location.hash.slice(1);
+        if (!hash) return;
+        if (hash == 'p0') {
+          repaint(news);
+        }
+        if (document.getElementById(hash)) return;
+        if (hash[0] === 'u') {
+          const n = Number(hash[1]);
+          unit(n);
+          scrollToId('p0');
+          event.preventDefault();
+          return;
+        }
+      }
+
+      function scrollToId(id) {
+        const el = document.getElementById(id);
+        if (!el) return false;
+        el.scrollIntoView({ block: "start", behavior: "auto" }); // or "smooth"
+        return true;
+      }
+
+window.addEventListener("hashchange", onRoute);
+window.addEventListener("DOMContentLoaded", onRoute); // initial
+
+      function unit(n) {
+        const series = [90, 30, 70, 10, 50, 20, 80, 40, 60];
+        series.forEach((ten, i) => {
+          series[i] = ten + n;
+        });
+        repaint(series);
+      }
+
+      function repaint(series) {
+        const page = document.getElementById("p0");
+        const figures = page.querySelectorAll("figure");
+        figures.forEach((fig, i) => {
+          const n = series[i];
+          card(n, fig);
+        });
+      }
 
       function front(series) {
         const page = document.createElement("div");
@@ -360,11 +435,11 @@
         return page;
       }
 
-      function card(n) {
+      function card(n, node=cardTpl.content.firstElementChild.cloneNode(true)) {
         const no = ('' + Number(n)).padStart(2, '0');
         let name = no;
         if (hecto[no]["verb"]) name += ', ' + hecto[no]["verb"];
-        const node = cardTpl.content.firstElementChild.cloneNode(true);
+        node.id = "hecto" + no;
         node.querySelector("h4").textContent = name;
         node.querySelector("p").textContent = hecto[no]["formula"] || "";
         const img = node.querySelector("img");
