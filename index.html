@@ -438,6 +438,9 @@ window.addEventListener("DOMContentLoaded", onRoute); // initial
       function card(n, node=cardTpl.content.firstElementChild.cloneNode(true)) {
         const no = ('' + Number(n)).padStart(2, '0');
         let name = no;
+        if (!hecto[no]) { // the new ones may be missing
+          return node;
+        }
         if (hecto[no]["verb"]) name += ', ' + hecto[no]["verb"];
         node.id = "hecto" + no;
         node.querySelector("h4").textContent = name;
